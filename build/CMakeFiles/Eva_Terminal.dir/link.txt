@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Eva_Terminal.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Eva_Terminal.dir/objects.a @CMakeFiles\Eva_Terminal.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\Eva_Terminal.dir/objects.a -Wl,--no-whole-archive -o Eva_Terminal.exe -Wl,--out-implib,libEva_Terminal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Eva_Terminal.dir\linkLibs.rsp

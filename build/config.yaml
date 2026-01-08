@@ -1,0 +1,5 @@
+WindowWidth: 600
+WindowHeight: 600
+PointOfView: 90
+MaxDistance: 1000
+ScreenDistance: 0.01

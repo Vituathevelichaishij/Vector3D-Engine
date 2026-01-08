@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Codes/CPP/git/Engine/build/cmake_install.cmake",
+		"D:/Codes/CPP/git/Engine/build/yaml-cpp-0.8.0/cmake_install.cmake",
+		"D:/Codes/CPP/git/Engine/build/yaml-cpp-0.8.0/util/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
