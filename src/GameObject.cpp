@@ -1,16 +1,72 @@
 #include "GameObject.h"
+#include <iostream>
+GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_scene(scene), m_name(){
 
-GameObject::GameObject(YAML::Node const& obj){
     m_name=obj["name"].as<std::string>();
 
 
+    if(obj["mesh"]){
+    
+        m_transform.m_mesh.LoadObjFile(obj["mesh"].as<std::string>());
+    }
+    
+    if(auto transf=obj["transformation"]){
 
-    for(auto const& triangle : obj["mesh"]){
-        auto tri=triangle.as<std::vector<std::vector<float>>>();
-        Vector3D a={tri[0][0],tri[0][1],tri[0][2]};
-        Vector3D b={tri[1][0],tri[1][1],tri[1][2]};
-        Vector3D c={tri[2][0],tri[2][1],tri[2][2]};
-        m_transform.m_mesh.emplace_back(a,b,c);
+        if(transf["size"]){
+            std::vector<float> size=transf["size"].as<std::vector<float>>();
+            m_transform.m_size={size[0],size[1],size[2]};
+        }
+        if(transf["position"]){
+            std::vector<float> position=transf["position"].as<std::vector<float>>();
+            m_transform.m_position={position[0],position[1],position[2]};
+        }
+        if(transf["rotation"]){
+            std::vector<float> rotation=transf["rotation"].as<std::vector<float>>();
+            m_transform.m_rotation={rotation[0],rotation[1],rotation[2]};
+        }
     }
 }
 
+GameObject::GameObject(){}
+
+
+
+
+
+
+
+
+
+
+
+
+
+void GameObject::update(Uint32 dt){
+    for(auto& c:m_components){
+        c.second->update(dt);
+    }
+}
+
+
+
+std::unique_ptr<Component> GameObject::addComponent(std::string const& name, YAML::Node const& data){
+    auto comp = ComponentFactory::init().create(name);
+
+
+    if(!comp) return nullptr;
+    comp->owner=this;
+    comp->init(data);
+    m_components.insert({name,std::move(comp)});
+
+    return comp;
+}
+
+std::unique_ptr<Component> GameObject::addComponent(std::string const& name){
+    auto comp = ComponentFactory::init().create(name);
+    
+    if(!comp) return nullptr;
+    comp->owner=this;
+    m_components.insert({name,std::move(comp)});
+    return comp;
+
+}

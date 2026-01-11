@@ -8,8 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Codes/CPP/git/Engine/build/CMakeFiles/program.dir/Unity/unity_0_cxx.cxx" "CMakeFiles/program.dir/Unity/unity_0_cxx.cxx.obj" "gcc" "CMakeFiles/program.dir/Unity/unity_0_cxx.cxx.obj.d"
-  "D:/Codes/CPP/git/Engine/build/CMakeFiles/program.dir/Unity/unity_1_cxx.cxx" "CMakeFiles/program.dir/Unity/unity_1_cxx.cxx.obj" "gcc" "CMakeFiles/program.dir/Unity/unity_1_cxx.cxx.obj.d"
+  "D:/Codes/CPP/git/Engine/build/bin/components/rotation.cpp" "CMakeFiles/program.dir/bin/components/rotation.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/rotation.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/build/generated_registry.cpp" "CMakeFiles/program.dir/generated_registry.cpp.obj" "gcc" "CMakeFiles/program.dir/generated_registry.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/BasicGeometry.cpp" "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj" "gcc" "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/BasicObjects/Camera.cpp" "CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.obj" "gcc" "CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/BasicObjects/FlatLum.cpp" "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj" "gcc" "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Component.cpp" "CMakeFiles/program.dir/src/Component.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Component.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/ComponentFactory.cpp" "CMakeFiles/program.dir/src/ComponentFactory.cpp.obj" "gcc" "CMakeFiles/program.dir/src/ComponentFactory.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Engine.cpp" "CMakeFiles/program.dir/src/Engine.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Engine.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/GameObject.cpp" "CMakeFiles/program.dir/src/GameObject.cpp.obj" "gcc" "CMakeFiles/program.dir/src/GameObject.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Renderer.cpp" "CMakeFiles/program.dir/src/Renderer.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Renderer.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Scene.cpp" "CMakeFiles/program.dir/src/Scene.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Scene.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Settings.cpp" "CMakeFiles/program.dir/src/Settings.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Settings.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Transform.cpp" "CMakeFiles/program.dir/src/Transform.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Transform.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/Window.cpp" "CMakeFiles/program.dir/src/Window.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Window.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/src/main.cpp" "CMakeFiles/program.dir/src/main.cpp.obj" "gcc" "CMakeFiles/program.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

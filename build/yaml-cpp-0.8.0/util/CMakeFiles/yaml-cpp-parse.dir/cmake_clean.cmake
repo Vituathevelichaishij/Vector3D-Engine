@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/yaml-cpp-parse.dir/Unity/unity_0_cxx.cxx.obj"
-  "CMakeFiles/yaml-cpp-parse.dir/Unity/unity_0_cxx.cxx.obj.d"
+  "CMakeFiles/yaml-cpp-parse.dir/parse.cpp.obj"
+  "CMakeFiles/yaml-cpp-parse.dir/parse.cpp.obj.d"
   "libparse.dll.a"
   "parse.exe"
   "parse.exe.manifest"

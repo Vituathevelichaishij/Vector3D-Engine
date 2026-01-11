@@ -558,53 +558,365 @@ yaml-cpp-read/fast:
 	$(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
-Unity/unity_0_cxx.obj: Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.obj
+bin/components/rotation.obj: bin/components/rotation.cpp.obj
+.PHONY : bin/components/rotation.obj
 
 # target to build an object file
-Unity/unity_0_cxx.cxx.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.cxx.obj
+bin/components/rotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.obj
+.PHONY : bin/components/rotation.cpp.obj
 
-Unity/unity_0_cxx.i: Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.i
+bin/components/rotation.i: bin/components/rotation.cpp.i
+.PHONY : bin/components/rotation.i
 
 # target to preprocess a source file
-Unity/unity_0_cxx.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.cxx.i
+bin/components/rotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.i
+.PHONY : bin/components/rotation.cpp.i
 
-Unity/unity_0_cxx.s: Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.s
+bin/components/rotation.s: bin/components/rotation.cpp.s
+.PHONY : bin/components/rotation.s
 
 # target to generate assembly for a file
-Unity/unity_0_cxx.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.cxx.s
+bin/components/rotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.s
+.PHONY : bin/components/rotation.cpp.s
 
-Unity/unity_1_cxx.obj: Unity/unity_1_cxx.cxx.obj
-.PHONY : Unity/unity_1_cxx.obj
+generated_registry.obj: generated_registry.cpp.obj
+.PHONY : generated_registry.obj
 
 # target to build an object file
-Unity/unity_1_cxx.cxx.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_1_cxx.cxx.obj
-.PHONY : Unity/unity_1_cxx.cxx.obj
+generated_registry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/generated_registry.cpp.obj
+.PHONY : generated_registry.cpp.obj
 
-Unity/unity_1_cxx.i: Unity/unity_1_cxx.cxx.i
-.PHONY : Unity/unity_1_cxx.i
+generated_registry.i: generated_registry.cpp.i
+.PHONY : generated_registry.i
 
 # target to preprocess a source file
-Unity/unity_1_cxx.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_1_cxx.cxx.i
-.PHONY : Unity/unity_1_cxx.cxx.i
+generated_registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/generated_registry.cpp.i
+.PHONY : generated_registry.cpp.i
 
-Unity/unity_1_cxx.s: Unity/unity_1_cxx.cxx.s
-.PHONY : Unity/unity_1_cxx.s
+generated_registry.s: generated_registry.cpp.s
+.PHONY : generated_registry.s
 
 # target to generate assembly for a file
-Unity/unity_1_cxx.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/Unity/unity_1_cxx.cxx.s
-.PHONY : Unity/unity_1_cxx.cxx.s
+generated_registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/generated_registry.cpp.s
+.PHONY : generated_registry.cpp.s
+
+src/BasicGeometry.obj: src/BasicGeometry.cpp.obj
+.PHONY : src/BasicGeometry.obj
+
+# target to build an object file
+src/BasicGeometry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicGeometry.cpp.obj
+.PHONY : src/BasicGeometry.cpp.obj
+
+src/BasicGeometry.i: src/BasicGeometry.cpp.i
+.PHONY : src/BasicGeometry.i
+
+# target to preprocess a source file
+src/BasicGeometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicGeometry.cpp.i
+.PHONY : src/BasicGeometry.cpp.i
+
+src/BasicGeometry.s: src/BasicGeometry.cpp.s
+.PHONY : src/BasicGeometry.s
+
+# target to generate assembly for a file
+src/BasicGeometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicGeometry.cpp.s
+.PHONY : src/BasicGeometry.cpp.s
+
+src/BasicObjects/Camera.obj: src/BasicObjects/Camera.cpp.obj
+.PHONY : src/BasicObjects/Camera.obj
+
+# target to build an object file
+src/BasicObjects/Camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.obj
+.PHONY : src/BasicObjects/Camera.cpp.obj
+
+src/BasicObjects/Camera.i: src/BasicObjects/Camera.cpp.i
+.PHONY : src/BasicObjects/Camera.i
+
+# target to preprocess a source file
+src/BasicObjects/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.i
+.PHONY : src/BasicObjects/Camera.cpp.i
+
+src/BasicObjects/Camera.s: src/BasicObjects/Camera.cpp.s
+.PHONY : src/BasicObjects/Camera.s
+
+# target to generate assembly for a file
+src/BasicObjects/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.s
+.PHONY : src/BasicObjects/Camera.cpp.s
+
+src/BasicObjects/FlatLum.obj: src/BasicObjects/FlatLum.cpp.obj
+.PHONY : src/BasicObjects/FlatLum.obj
+
+# target to build an object file
+src/BasicObjects/FlatLum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj
+.PHONY : src/BasicObjects/FlatLum.cpp.obj
+
+src/BasicObjects/FlatLum.i: src/BasicObjects/FlatLum.cpp.i
+.PHONY : src/BasicObjects/FlatLum.i
+
+# target to preprocess a source file
+src/BasicObjects/FlatLum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.i
+.PHONY : src/BasicObjects/FlatLum.cpp.i
+
+src/BasicObjects/FlatLum.s: src/BasicObjects/FlatLum.cpp.s
+.PHONY : src/BasicObjects/FlatLum.s
+
+# target to generate assembly for a file
+src/BasicObjects/FlatLum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.s
+.PHONY : src/BasicObjects/FlatLum.cpp.s
+
+src/Component.obj: src/Component.cpp.obj
+.PHONY : src/Component.obj
+
+# target to build an object file
+src/Component.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Component.cpp.obj
+.PHONY : src/Component.cpp.obj
+
+src/Component.i: src/Component.cpp.i
+.PHONY : src/Component.i
+
+# target to preprocess a source file
+src/Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Component.cpp.i
+.PHONY : src/Component.cpp.i
+
+src/Component.s: src/Component.cpp.s
+.PHONY : src/Component.s
+
+# target to generate assembly for a file
+src/Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Component.cpp.s
+.PHONY : src/Component.cpp.s
+
+src/ComponentFactory.obj: src/ComponentFactory.cpp.obj
+.PHONY : src/ComponentFactory.obj
+
+# target to build an object file
+src/ComponentFactory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/ComponentFactory.cpp.obj
+.PHONY : src/ComponentFactory.cpp.obj
+
+src/ComponentFactory.i: src/ComponentFactory.cpp.i
+.PHONY : src/ComponentFactory.i
+
+# target to preprocess a source file
+src/ComponentFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/ComponentFactory.cpp.i
+.PHONY : src/ComponentFactory.cpp.i
+
+src/ComponentFactory.s: src/ComponentFactory.cpp.s
+.PHONY : src/ComponentFactory.s
+
+# target to generate assembly for a file
+src/ComponentFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/ComponentFactory.cpp.s
+.PHONY : src/ComponentFactory.cpp.s
+
+src/Engine.obj: src/Engine.cpp.obj
+.PHONY : src/Engine.obj
+
+# target to build an object file
+src/Engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Engine.cpp.obj
+.PHONY : src/Engine.cpp.obj
+
+src/Engine.i: src/Engine.cpp.i
+.PHONY : src/Engine.i
+
+# target to preprocess a source file
+src/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Engine.cpp.i
+.PHONY : src/Engine.cpp.i
+
+src/Engine.s: src/Engine.cpp.s
+.PHONY : src/Engine.s
+
+# target to generate assembly for a file
+src/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Engine.cpp.s
+.PHONY : src/Engine.cpp.s
+
+src/GameObject.obj: src/GameObject.cpp.obj
+.PHONY : src/GameObject.obj
+
+# target to build an object file
+src/GameObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/GameObject.cpp.obj
+.PHONY : src/GameObject.cpp.obj
+
+src/GameObject.i: src/GameObject.cpp.i
+.PHONY : src/GameObject.i
+
+# target to preprocess a source file
+src/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/GameObject.cpp.i
+.PHONY : src/GameObject.cpp.i
+
+src/GameObject.s: src/GameObject.cpp.s
+.PHONY : src/GameObject.s
+
+# target to generate assembly for a file
+src/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/GameObject.cpp.s
+.PHONY : src/GameObject.cpp.s
+
+src/Renderer.obj: src/Renderer.cpp.obj
+.PHONY : src/Renderer.obj
+
+# target to build an object file
+src/Renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Renderer.cpp.obj
+.PHONY : src/Renderer.cpp.obj
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
+src/Scene.obj: src/Scene.cpp.obj
+.PHONY : src/Scene.obj
+
+# target to build an object file
+src/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Scene.cpp.obj
+.PHONY : src/Scene.cpp.obj
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
+
+src/Settings.obj: src/Settings.cpp.obj
+.PHONY : src/Settings.obj
+
+# target to build an object file
+src/Settings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Settings.cpp.obj
+.PHONY : src/Settings.cpp.obj
+
+src/Settings.i: src/Settings.cpp.i
+.PHONY : src/Settings.i
+
+# target to preprocess a source file
+src/Settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Settings.cpp.i
+.PHONY : src/Settings.cpp.i
+
+src/Settings.s: src/Settings.cpp.s
+.PHONY : src/Settings.s
+
+# target to generate assembly for a file
+src/Settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Settings.cpp.s
+.PHONY : src/Settings.cpp.s
+
+src/Transform.obj: src/Transform.cpp.obj
+.PHONY : src/Transform.obj
+
+# target to build an object file
+src/Transform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Transform.cpp.obj
+.PHONY : src/Transform.cpp.obj
+
+src/Transform.i: src/Transform.cpp.i
+.PHONY : src/Transform.i
+
+# target to preprocess a source file
+src/Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Transform.cpp.i
+.PHONY : src/Transform.cpp.i
+
+src/Transform.s: src/Transform.cpp.s
+.PHONY : src/Transform.s
+
+# target to generate assembly for a file
+src/Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Transform.cpp.s
+.PHONY : src/Transform.cpp.s
+
+src/Window.obj: src/Window.cpp.obj
+.PHONY : src/Window.obj
+
+# target to build an object file
+src/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Window.cpp.obj
+.PHONY : src/Window.cpp.obj
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -648,12 +960,51 @@ help:
 	@echo ... yaml-cpp-parse
 	@echo ... yaml-cpp-read
 	@echo ... yaml-cpp-sandbox
-	@echo ... Unity/unity_0_cxx.obj
-	@echo ... Unity/unity_0_cxx.i
-	@echo ... Unity/unity_0_cxx.s
-	@echo ... Unity/unity_1_cxx.obj
-	@echo ... Unity/unity_1_cxx.i
-	@echo ... Unity/unity_1_cxx.s
+	@echo ... bin/components/rotation.obj
+	@echo ... bin/components/rotation.i
+	@echo ... bin/components/rotation.s
+	@echo ... generated_registry.obj
+	@echo ... generated_registry.i
+	@echo ... generated_registry.s
+	@echo ... src/BasicGeometry.obj
+	@echo ... src/BasicGeometry.i
+	@echo ... src/BasicGeometry.s
+	@echo ... src/BasicObjects/Camera.obj
+	@echo ... src/BasicObjects/Camera.i
+	@echo ... src/BasicObjects/Camera.s
+	@echo ... src/BasicObjects/FlatLum.obj
+	@echo ... src/BasicObjects/FlatLum.i
+	@echo ... src/BasicObjects/FlatLum.s
+	@echo ... src/Component.obj
+	@echo ... src/Component.i
+	@echo ... src/Component.s
+	@echo ... src/ComponentFactory.obj
+	@echo ... src/ComponentFactory.i
+	@echo ... src/ComponentFactory.s
+	@echo ... src/Engine.obj
+	@echo ... src/Engine.i
+	@echo ... src/Engine.s
+	@echo ... src/GameObject.obj
+	@echo ... src/GameObject.i
+	@echo ... src/GameObject.s
+	@echo ... src/Renderer.obj
+	@echo ... src/Renderer.i
+	@echo ... src/Renderer.s
+	@echo ... src/Scene.obj
+	@echo ... src/Scene.i
+	@echo ... src/Scene.s
+	@echo ... src/Settings.obj
+	@echo ... src/Settings.i
+	@echo ... src/Settings.s
+	@echo ... src/Transform.obj
+	@echo ... src/Transform.i
+	@echo ... src/Transform.s
+	@echo ... src/Window.obj
+	@echo ... src/Window.i
+	@echo ... src/Window.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

@@ -536,101 +536,749 @@ uninstall/fast:
 	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\uninstall.dir\build.make yaml-cpp-0.8.0/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-Unity/unity_0_cxx.obj: Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.obj
+src/binary.obj: src/binary.cpp.obj
+.PHONY : src/binary.obj
 
 # target to build an object file
-Unity/unity_0_cxx.cxx.obj:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.cxx.obj
+src/binary.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj
+.PHONY : src/binary.cpp.obj
 
-Unity/unity_0_cxx.i: Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.i
+src/binary.i: src/binary.cpp.i
+.PHONY : src/binary.i
 
 # target to preprocess a source file
-Unity/unity_0_cxx.cxx.i:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.cxx.i
+src/binary.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.i
+.PHONY : src/binary.cpp.i
 
-Unity/unity_0_cxx.s: Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.s
+src/binary.s: src/binary.cpp.s
+.PHONY : src/binary.s
 
 # target to generate assembly for a file
-Unity/unity_0_cxx.cxx.s:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.cxx.s
+src/binary.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.s
+.PHONY : src/binary.cpp.s
 
-Unity/unity_1_cxx.obj: Unity/unity_1_cxx.cxx.obj
-.PHONY : Unity/unity_1_cxx.obj
+src/contrib/graphbuilder.obj: src/contrib/graphbuilder.cpp.obj
+.PHONY : src/contrib/graphbuilder.obj
 
 # target to build an object file
-Unity/unity_1_cxx.cxx.obj:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_1_cxx.cxx.obj
-.PHONY : Unity/unity_1_cxx.cxx.obj
+src/contrib/graphbuilder.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj
+.PHONY : src/contrib/graphbuilder.cpp.obj
 
-Unity/unity_1_cxx.i: Unity/unity_1_cxx.cxx.i
-.PHONY : Unity/unity_1_cxx.i
+src/contrib/graphbuilder.i: src/contrib/graphbuilder.cpp.i
+.PHONY : src/contrib/graphbuilder.i
 
 # target to preprocess a source file
-Unity/unity_1_cxx.cxx.i:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_1_cxx.cxx.i
-.PHONY : Unity/unity_1_cxx.cxx.i
+src/contrib/graphbuilder.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i
+.PHONY : src/contrib/graphbuilder.cpp.i
 
-Unity/unity_1_cxx.s: Unity/unity_1_cxx.cxx.s
-.PHONY : Unity/unity_1_cxx.s
+src/contrib/graphbuilder.s: src/contrib/graphbuilder.cpp.s
+.PHONY : src/contrib/graphbuilder.s
 
 # target to generate assembly for a file
-Unity/unity_1_cxx.cxx.s:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_1_cxx.cxx.s
-.PHONY : Unity/unity_1_cxx.cxx.s
+src/contrib/graphbuilder.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s
+.PHONY : src/contrib/graphbuilder.cpp.s
 
-Unity/unity_2_cxx.obj: Unity/unity_2_cxx.cxx.obj
-.PHONY : Unity/unity_2_cxx.obj
+src/contrib/graphbuilderadapter.obj: src/contrib/graphbuilderadapter.cpp.obj
+.PHONY : src/contrib/graphbuilderadapter.obj
 
 # target to build an object file
-Unity/unity_2_cxx.cxx.obj:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_2_cxx.cxx.obj
-.PHONY : Unity/unity_2_cxx.cxx.obj
+src/contrib/graphbuilderadapter.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj
+.PHONY : src/contrib/graphbuilderadapter.cpp.obj
 
-Unity/unity_2_cxx.i: Unity/unity_2_cxx.cxx.i
-.PHONY : Unity/unity_2_cxx.i
+src/contrib/graphbuilderadapter.i: src/contrib/graphbuilderadapter.cpp.i
+.PHONY : src/contrib/graphbuilderadapter.i
 
 # target to preprocess a source file
-Unity/unity_2_cxx.cxx.i:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_2_cxx.cxx.i
-.PHONY : Unity/unity_2_cxx.cxx.i
+src/contrib/graphbuilderadapter.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i
+.PHONY : src/contrib/graphbuilderadapter.cpp.i
 
-Unity/unity_2_cxx.s: Unity/unity_2_cxx.cxx.s
-.PHONY : Unity/unity_2_cxx.s
+src/contrib/graphbuilderadapter.s: src/contrib/graphbuilderadapter.cpp.s
+.PHONY : src/contrib/graphbuilderadapter.s
 
 # target to generate assembly for a file
-Unity/unity_2_cxx.cxx.s:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_2_cxx.cxx.s
-.PHONY : Unity/unity_2_cxx.cxx.s
+src/contrib/graphbuilderadapter.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s
+.PHONY : src/contrib/graphbuilderadapter.cpp.s
 
-Unity/unity_3_cxx.obj: Unity/unity_3_cxx.cxx.obj
-.PHONY : Unity/unity_3_cxx.obj
+src/convert.obj: src/convert.cpp.obj
+.PHONY : src/convert.obj
 
 # target to build an object file
-Unity/unity_3_cxx.cxx.obj:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_3_cxx.cxx.obj
-.PHONY : Unity/unity_3_cxx.cxx.obj
+src/convert.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj
+.PHONY : src/convert.cpp.obj
 
-Unity/unity_3_cxx.i: Unity/unity_3_cxx.cxx.i
-.PHONY : Unity/unity_3_cxx.i
+src/convert.i: src/convert.cpp.i
+.PHONY : src/convert.i
 
 # target to preprocess a source file
-Unity/unity_3_cxx.cxx.i:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_3_cxx.cxx.i
-.PHONY : Unity/unity_3_cxx.cxx.i
+src/convert.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.i
+.PHONY : src/convert.cpp.i
 
-Unity/unity_3_cxx.s: Unity/unity_3_cxx.cxx.s
-.PHONY : Unity/unity_3_cxx.s
+src/convert.s: src/convert.cpp.s
+.PHONY : src/convert.s
 
 # target to generate assembly for a file
-Unity/unity_3_cxx.cxx.s:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/Unity/unity_3_cxx.cxx.s
-.PHONY : Unity/unity_3_cxx.cxx.s
+src/convert.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.s
+.PHONY : src/convert.cpp.s
+
+src/depthguard.obj: src/depthguard.cpp.obj
+.PHONY : src/depthguard.obj
+
+# target to build an object file
+src/depthguard.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj
+.PHONY : src/depthguard.cpp.obj
+
+src/depthguard.i: src/depthguard.cpp.i
+.PHONY : src/depthguard.i
+
+# target to preprocess a source file
+src/depthguard.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i
+.PHONY : src/depthguard.cpp.i
+
+src/depthguard.s: src/depthguard.cpp.s
+.PHONY : src/depthguard.s
+
+# target to generate assembly for a file
+src/depthguard.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s
+.PHONY : src/depthguard.cpp.s
+
+src/directives.obj: src/directives.cpp.obj
+.PHONY : src/directives.obj
+
+# target to build an object file
+src/directives.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj
+.PHONY : src/directives.cpp.obj
+
+src/directives.i: src/directives.cpp.i
+.PHONY : src/directives.i
+
+# target to preprocess a source file
+src/directives.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.i
+.PHONY : src/directives.cpp.i
+
+src/directives.s: src/directives.cpp.s
+.PHONY : src/directives.s
+
+# target to generate assembly for a file
+src/directives.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.s
+.PHONY : src/directives.cpp.s
+
+src/emit.obj: src/emit.cpp.obj
+.PHONY : src/emit.obj
+
+# target to build an object file
+src/emit.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj
+.PHONY : src/emit.cpp.obj
+
+src/emit.i: src/emit.cpp.i
+.PHONY : src/emit.i
+
+# target to preprocess a source file
+src/emit.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.i
+.PHONY : src/emit.cpp.i
+
+src/emit.s: src/emit.cpp.s
+.PHONY : src/emit.s
+
+# target to generate assembly for a file
+src/emit.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.s
+.PHONY : src/emit.cpp.s
+
+src/emitfromevents.obj: src/emitfromevents.cpp.obj
+.PHONY : src/emitfromevents.obj
+
+# target to build an object file
+src/emitfromevents.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj
+.PHONY : src/emitfromevents.cpp.obj
+
+src/emitfromevents.i: src/emitfromevents.cpp.i
+.PHONY : src/emitfromevents.i
+
+# target to preprocess a source file
+src/emitfromevents.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i
+.PHONY : src/emitfromevents.cpp.i
+
+src/emitfromevents.s: src/emitfromevents.cpp.s
+.PHONY : src/emitfromevents.s
+
+# target to generate assembly for a file
+src/emitfromevents.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s
+.PHONY : src/emitfromevents.cpp.s
+
+src/emitter.obj: src/emitter.cpp.obj
+.PHONY : src/emitter.obj
+
+# target to build an object file
+src/emitter.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj
+.PHONY : src/emitter.cpp.obj
+
+src/emitter.i: src/emitter.cpp.i
+.PHONY : src/emitter.i
+
+# target to preprocess a source file
+src/emitter.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i
+.PHONY : src/emitter.cpp.i
+
+src/emitter.s: src/emitter.cpp.s
+.PHONY : src/emitter.s
+
+# target to generate assembly for a file
+src/emitter.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s
+.PHONY : src/emitter.cpp.s
+
+src/emitterstate.obj: src/emitterstate.cpp.obj
+.PHONY : src/emitterstate.obj
+
+# target to build an object file
+src/emitterstate.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj
+.PHONY : src/emitterstate.cpp.obj
+
+src/emitterstate.i: src/emitterstate.cpp.i
+.PHONY : src/emitterstate.i
+
+# target to preprocess a source file
+src/emitterstate.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i
+.PHONY : src/emitterstate.cpp.i
+
+src/emitterstate.s: src/emitterstate.cpp.s
+.PHONY : src/emitterstate.s
+
+# target to generate assembly for a file
+src/emitterstate.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s
+.PHONY : src/emitterstate.cpp.s
+
+src/emitterutils.obj: src/emitterutils.cpp.obj
+.PHONY : src/emitterutils.obj
+
+# target to build an object file
+src/emitterutils.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj
+.PHONY : src/emitterutils.cpp.obj
+
+src/emitterutils.i: src/emitterutils.cpp.i
+.PHONY : src/emitterutils.i
+
+# target to preprocess a source file
+src/emitterutils.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i
+.PHONY : src/emitterutils.cpp.i
+
+src/emitterutils.s: src/emitterutils.cpp.s
+.PHONY : src/emitterutils.s
+
+# target to generate assembly for a file
+src/emitterutils.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s
+.PHONY : src/emitterutils.cpp.s
+
+src/exceptions.obj: src/exceptions.cpp.obj
+.PHONY : src/exceptions.obj
+
+# target to build an object file
+src/exceptions.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj
+.PHONY : src/exceptions.cpp.obj
+
+src/exceptions.i: src/exceptions.cpp.i
+.PHONY : src/exceptions.i
+
+# target to preprocess a source file
+src/exceptions.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i
+.PHONY : src/exceptions.cpp.i
+
+src/exceptions.s: src/exceptions.cpp.s
+.PHONY : src/exceptions.s
+
+# target to generate assembly for a file
+src/exceptions.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s
+.PHONY : src/exceptions.cpp.s
+
+src/exp.obj: src/exp.cpp.obj
+.PHONY : src/exp.obj
+
+# target to build an object file
+src/exp.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj
+.PHONY : src/exp.cpp.obj
+
+src/exp.i: src/exp.cpp.i
+.PHONY : src/exp.i
+
+# target to preprocess a source file
+src/exp.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.i
+.PHONY : src/exp.cpp.i
+
+src/exp.s: src/exp.cpp.s
+.PHONY : src/exp.s
+
+# target to generate assembly for a file
+src/exp.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.s
+.PHONY : src/exp.cpp.s
+
+src/memory.obj: src/memory.cpp.obj
+.PHONY : src/memory.obj
+
+# target to build an object file
+src/memory.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj
+.PHONY : src/memory.cpp.obj
+
+src/memory.i: src/memory.cpp.i
+.PHONY : src/memory.i
+
+# target to preprocess a source file
+src/memory.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.i
+.PHONY : src/memory.cpp.i
+
+src/memory.s: src/memory.cpp.s
+.PHONY : src/memory.s
+
+# target to generate assembly for a file
+src/memory.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.s
+.PHONY : src/memory.cpp.s
+
+src/node.obj: src/node.cpp.obj
+.PHONY : src/node.obj
+
+# target to build an object file
+src/node.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj
+.PHONY : src/node.cpp.obj
+
+src/node.i: src/node.cpp.i
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
+
+src/node_data.obj: src/node_data.cpp.obj
+.PHONY : src/node_data.obj
+
+# target to build an object file
+src/node_data.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj
+.PHONY : src/node_data.cpp.obj
+
+src/node_data.i: src/node_data.cpp.i
+.PHONY : src/node_data.i
+
+# target to preprocess a source file
+src/node_data.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i
+.PHONY : src/node_data.cpp.i
+
+src/node_data.s: src/node_data.cpp.s
+.PHONY : src/node_data.s
+
+# target to generate assembly for a file
+src/node_data.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s
+.PHONY : src/node_data.cpp.s
+
+src/nodebuilder.obj: src/nodebuilder.cpp.obj
+.PHONY : src/nodebuilder.obj
+
+# target to build an object file
+src/nodebuilder.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj
+.PHONY : src/nodebuilder.cpp.obj
+
+src/nodebuilder.i: src/nodebuilder.cpp.i
+.PHONY : src/nodebuilder.i
+
+# target to preprocess a source file
+src/nodebuilder.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i
+.PHONY : src/nodebuilder.cpp.i
+
+src/nodebuilder.s: src/nodebuilder.cpp.s
+.PHONY : src/nodebuilder.s
+
+# target to generate assembly for a file
+src/nodebuilder.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s
+.PHONY : src/nodebuilder.cpp.s
+
+src/nodeevents.obj: src/nodeevents.cpp.obj
+.PHONY : src/nodeevents.obj
+
+# target to build an object file
+src/nodeevents.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj
+.PHONY : src/nodeevents.cpp.obj
+
+src/nodeevents.i: src/nodeevents.cpp.i
+.PHONY : src/nodeevents.i
+
+# target to preprocess a source file
+src/nodeevents.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i
+.PHONY : src/nodeevents.cpp.i
+
+src/nodeevents.s: src/nodeevents.cpp.s
+.PHONY : src/nodeevents.s
+
+# target to generate assembly for a file
+src/nodeevents.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s
+.PHONY : src/nodeevents.cpp.s
+
+src/null.obj: src/null.cpp.obj
+.PHONY : src/null.obj
+
+# target to build an object file
+src/null.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj
+.PHONY : src/null.cpp.obj
+
+src/null.i: src/null.cpp.i
+.PHONY : src/null.i
+
+# target to preprocess a source file
+src/null.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.i
+.PHONY : src/null.cpp.i
+
+src/null.s: src/null.cpp.s
+.PHONY : src/null.s
+
+# target to generate assembly for a file
+src/null.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.s
+.PHONY : src/null.cpp.s
+
+src/ostream_wrapper.obj: src/ostream_wrapper.cpp.obj
+.PHONY : src/ostream_wrapper.obj
+
+# target to build an object file
+src/ostream_wrapper.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj
+.PHONY : src/ostream_wrapper.cpp.obj
+
+src/ostream_wrapper.i: src/ostream_wrapper.cpp.i
+.PHONY : src/ostream_wrapper.i
+
+# target to preprocess a source file
+src/ostream_wrapper.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i
+.PHONY : src/ostream_wrapper.cpp.i
+
+src/ostream_wrapper.s: src/ostream_wrapper.cpp.s
+.PHONY : src/ostream_wrapper.s
+
+# target to generate assembly for a file
+src/ostream_wrapper.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s
+.PHONY : src/ostream_wrapper.cpp.s
+
+src/parse.obj: src/parse.cpp.obj
+.PHONY : src/parse.obj
+
+# target to build an object file
+src/parse.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj
+.PHONY : src/parse.cpp.obj
+
+src/parse.i: src/parse.cpp.i
+.PHONY : src/parse.i
+
+# target to preprocess a source file
+src/parse.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.i
+.PHONY : src/parse.cpp.i
+
+src/parse.s: src/parse.cpp.s
+.PHONY : src/parse.s
+
+# target to generate assembly for a file
+src/parse.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.s
+.PHONY : src/parse.cpp.s
+
+src/parser.obj: src/parser.cpp.obj
+.PHONY : src/parser.obj
+
+# target to build an object file
+src/parser.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj
+.PHONY : src/parser.cpp.obj
+
+src/parser.i: src/parser.cpp.i
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.i
+.PHONY : src/parser.cpp.i
+
+src/parser.s: src/parser.cpp.s
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.s
+.PHONY : src/parser.cpp.s
+
+src/regex_yaml.obj: src/regex_yaml.cpp.obj
+.PHONY : src/regex_yaml.obj
+
+# target to build an object file
+src/regex_yaml.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj
+.PHONY : src/regex_yaml.cpp.obj
+
+src/regex_yaml.i: src/regex_yaml.cpp.i
+.PHONY : src/regex_yaml.i
+
+# target to preprocess a source file
+src/regex_yaml.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i
+.PHONY : src/regex_yaml.cpp.i
+
+src/regex_yaml.s: src/regex_yaml.cpp.s
+.PHONY : src/regex_yaml.s
+
+# target to generate assembly for a file
+src/regex_yaml.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s
+.PHONY : src/regex_yaml.cpp.s
+
+src/scanner.obj: src/scanner.cpp.obj
+.PHONY : src/scanner.obj
+
+# target to build an object file
+src/scanner.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj
+.PHONY : src/scanner.cpp.obj
+
+src/scanner.i: src/scanner.cpp.i
+.PHONY : src/scanner.i
+
+# target to preprocess a source file
+src/scanner.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i
+.PHONY : src/scanner.cpp.i
+
+src/scanner.s: src/scanner.cpp.s
+.PHONY : src/scanner.s
+
+# target to generate assembly for a file
+src/scanner.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s
+.PHONY : src/scanner.cpp.s
+
+src/scanscalar.obj: src/scanscalar.cpp.obj
+.PHONY : src/scanscalar.obj
+
+# target to build an object file
+src/scanscalar.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj
+.PHONY : src/scanscalar.cpp.obj
+
+src/scanscalar.i: src/scanscalar.cpp.i
+.PHONY : src/scanscalar.i
+
+# target to preprocess a source file
+src/scanscalar.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i
+.PHONY : src/scanscalar.cpp.i
+
+src/scanscalar.s: src/scanscalar.cpp.s
+.PHONY : src/scanscalar.s
+
+# target to generate assembly for a file
+src/scanscalar.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s
+.PHONY : src/scanscalar.cpp.s
+
+src/scantag.obj: src/scantag.cpp.obj
+.PHONY : src/scantag.obj
+
+# target to build an object file
+src/scantag.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj
+.PHONY : src/scantag.cpp.obj
+
+src/scantag.i: src/scantag.cpp.i
+.PHONY : src/scantag.i
+
+# target to preprocess a source file
+src/scantag.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i
+.PHONY : src/scantag.cpp.i
+
+src/scantag.s: src/scantag.cpp.s
+.PHONY : src/scantag.s
+
+# target to generate assembly for a file
+src/scantag.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s
+.PHONY : src/scantag.cpp.s
+
+src/scantoken.obj: src/scantoken.cpp.obj
+.PHONY : src/scantoken.obj
+
+# target to build an object file
+src/scantoken.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj
+.PHONY : src/scantoken.cpp.obj
+
+src/scantoken.i: src/scantoken.cpp.i
+.PHONY : src/scantoken.i
+
+# target to preprocess a source file
+src/scantoken.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i
+.PHONY : src/scantoken.cpp.i
+
+src/scantoken.s: src/scantoken.cpp.s
+.PHONY : src/scantoken.s
+
+# target to generate assembly for a file
+src/scantoken.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s
+.PHONY : src/scantoken.cpp.s
+
+src/simplekey.obj: src/simplekey.cpp.obj
+.PHONY : src/simplekey.obj
+
+# target to build an object file
+src/simplekey.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj
+.PHONY : src/simplekey.cpp.obj
+
+src/simplekey.i: src/simplekey.cpp.i
+.PHONY : src/simplekey.i
+
+# target to preprocess a source file
+src/simplekey.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i
+.PHONY : src/simplekey.cpp.i
+
+src/simplekey.s: src/simplekey.cpp.s
+.PHONY : src/simplekey.s
+
+# target to generate assembly for a file
+src/simplekey.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s
+.PHONY : src/simplekey.cpp.s
+
+src/singledocparser.obj: src/singledocparser.cpp.obj
+.PHONY : src/singledocparser.obj
+
+# target to build an object file
+src/singledocparser.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj
+.PHONY : src/singledocparser.cpp.obj
+
+src/singledocparser.i: src/singledocparser.cpp.i
+.PHONY : src/singledocparser.i
+
+# target to preprocess a source file
+src/singledocparser.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i
+.PHONY : src/singledocparser.cpp.i
+
+src/singledocparser.s: src/singledocparser.cpp.s
+.PHONY : src/singledocparser.s
+
+# target to generate assembly for a file
+src/singledocparser.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s
+.PHONY : src/singledocparser.cpp.s
+
+src/stream.obj: src/stream.cpp.obj
+.PHONY : src/stream.obj
+
+# target to build an object file
+src/stream.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj
+.PHONY : src/stream.cpp.obj
+
+src/stream.i: src/stream.cpp.i
+.PHONY : src/stream.i
+
+# target to preprocess a source file
+src/stream.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.i
+.PHONY : src/stream.cpp.i
+
+src/stream.s: src/stream.cpp.s
+.PHONY : src/stream.s
+
+# target to generate assembly for a file
+src/stream.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.s
+.PHONY : src/stream.cpp.s
+
+src/tag.obj: src/tag.cpp.obj
+.PHONY : src/tag.obj
+
+# target to build an object file
+src/tag.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj
+.PHONY : src/tag.cpp.obj
+
+src/tag.i: src/tag.cpp.i
+.PHONY : src/tag.i
+
+# target to preprocess a source file
+src/tag.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.i
+.PHONY : src/tag.cpp.i
+
+src/tag.s: src/tag.cpp.s
+.PHONY : src/tag.s
+
+# target to generate assembly for a file
+src/tag.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\yaml-cpp.dir\build.make yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.s
+.PHONY : src/tag.cpp.s
 
 # Help Target
 help:
@@ -670,18 +1318,99 @@ help:
 	@echo ... NightlyUpdate
 	@echo ... uninstall
 	@echo ... yaml-cpp
-	@echo ... Unity/unity_0_cxx.obj
-	@echo ... Unity/unity_0_cxx.i
-	@echo ... Unity/unity_0_cxx.s
-	@echo ... Unity/unity_1_cxx.obj
-	@echo ... Unity/unity_1_cxx.i
-	@echo ... Unity/unity_1_cxx.s
-	@echo ... Unity/unity_2_cxx.obj
-	@echo ... Unity/unity_2_cxx.i
-	@echo ... Unity/unity_2_cxx.s
-	@echo ... Unity/unity_3_cxx.obj
-	@echo ... Unity/unity_3_cxx.i
-	@echo ... Unity/unity_3_cxx.s
+	@echo ... src/binary.obj
+	@echo ... src/binary.i
+	@echo ... src/binary.s
+	@echo ... src/contrib/graphbuilder.obj
+	@echo ... src/contrib/graphbuilder.i
+	@echo ... src/contrib/graphbuilder.s
+	@echo ... src/contrib/graphbuilderadapter.obj
+	@echo ... src/contrib/graphbuilderadapter.i
+	@echo ... src/contrib/graphbuilderadapter.s
+	@echo ... src/convert.obj
+	@echo ... src/convert.i
+	@echo ... src/convert.s
+	@echo ... src/depthguard.obj
+	@echo ... src/depthguard.i
+	@echo ... src/depthguard.s
+	@echo ... src/directives.obj
+	@echo ... src/directives.i
+	@echo ... src/directives.s
+	@echo ... src/emit.obj
+	@echo ... src/emit.i
+	@echo ... src/emit.s
+	@echo ... src/emitfromevents.obj
+	@echo ... src/emitfromevents.i
+	@echo ... src/emitfromevents.s
+	@echo ... src/emitter.obj
+	@echo ... src/emitter.i
+	@echo ... src/emitter.s
+	@echo ... src/emitterstate.obj
+	@echo ... src/emitterstate.i
+	@echo ... src/emitterstate.s
+	@echo ... src/emitterutils.obj
+	@echo ... src/emitterutils.i
+	@echo ... src/emitterutils.s
+	@echo ... src/exceptions.obj
+	@echo ... src/exceptions.i
+	@echo ... src/exceptions.s
+	@echo ... src/exp.obj
+	@echo ... src/exp.i
+	@echo ... src/exp.s
+	@echo ... src/memory.obj
+	@echo ... src/memory.i
+	@echo ... src/memory.s
+	@echo ... src/node.obj
+	@echo ... src/node.i
+	@echo ... src/node.s
+	@echo ... src/node_data.obj
+	@echo ... src/node_data.i
+	@echo ... src/node_data.s
+	@echo ... src/nodebuilder.obj
+	@echo ... src/nodebuilder.i
+	@echo ... src/nodebuilder.s
+	@echo ... src/nodeevents.obj
+	@echo ... src/nodeevents.i
+	@echo ... src/nodeevents.s
+	@echo ... src/null.obj
+	@echo ... src/null.i
+	@echo ... src/null.s
+	@echo ... src/ostream_wrapper.obj
+	@echo ... src/ostream_wrapper.i
+	@echo ... src/ostream_wrapper.s
+	@echo ... src/parse.obj
+	@echo ... src/parse.i
+	@echo ... src/parse.s
+	@echo ... src/parser.obj
+	@echo ... src/parser.i
+	@echo ... src/parser.s
+	@echo ... src/regex_yaml.obj
+	@echo ... src/regex_yaml.i
+	@echo ... src/regex_yaml.s
+	@echo ... src/scanner.obj
+	@echo ... src/scanner.i
+	@echo ... src/scanner.s
+	@echo ... src/scanscalar.obj
+	@echo ... src/scanscalar.i
+	@echo ... src/scanscalar.s
+	@echo ... src/scantag.obj
+	@echo ... src/scantag.i
+	@echo ... src/scantag.s
+	@echo ... src/scantoken.obj
+	@echo ... src/scantoken.i
+	@echo ... src/scantoken.s
+	@echo ... src/simplekey.obj
+	@echo ... src/simplekey.i
+	@echo ... src/simplekey.s
+	@echo ... src/singledocparser.obj
+	@echo ... src/singledocparser.i
+	@echo ... src/singledocparser.s
+	@echo ... src/stream.obj
+	@echo ... src/stream.i
+	@echo ... src/stream.s
+	@echo ... src/tag.obj
+	@echo ... src/tag.i
+	@echo ... src/tag.s
 .PHONY : help
 
 

@@ -27,6 +27,9 @@ void Vector3D::normalize(){
     m_y/=length;
     m_z/=length;
 }
+float Vector3D::length() const{
+    return std::sqrt(m_x*m_x+m_y*m_y+m_z*m_z);
+}
 
 Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c){
     m_a=a;
@@ -40,7 +43,52 @@ Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c){
         first.m_z*second.m_x-first.m_x*second.m_z,
         first.m_x*second.m_y-first.m_y*second.m_x,
     };
+    m_N.normalize();
 }
+Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c, Vector3D const& N){
+    m_a=a;
+    m_b=b;
+    m_c=c;
+    Vector3D first={b.m_x-a.m_x,b.m_y-a.m_y,b.m_z-a.m_z};
+
+    Vector3D second={c.m_x-a.m_x,c.m_y-a.m_y,c.m_z-a.m_z};
+
+    m_N=N;
+}
+
+
+
+void Vector3D::rotate(float dX, float dY, float dZ){
+    float const f=M_PI/180;
+    Matrix4x4 rotX = {{
+        { 1,  0,                 0,                0 },
+        { 0,  std::cosf(dX*f),  -std::sinf(dX*f),  0 },
+        { 0,  std::sinf(dX*f),   std::cosf(dX*f),  0 },
+        { 0,  0,                 0,                1 }
+    }};
+    *this=vectorXmatrix4x4(*this,rotX);
+
+
+
+    Matrix4x4 rotY = {{
+    {  std::cosf(dY*f), 0, std::sinf(dY*f), 0 },
+    {  0,               1, 0,               0 },
+    { -std::sinf(dY*f), 0, std::cosf(dY*f), 0 },
+    {  0,               0, 0,               1 }
+    }};
+
+    *this=vectorXmatrix4x4(*this,rotY);
+
+    Matrix4x4 rotZ = {{
+    { std::cosf(dZ*f), -std::sinf(dZ*f), 0, 0 },
+    { std::sinf(dZ*f),  std::cosf(dZ*f), 0, 0 },
+    { 0,                0,               1, 0 },
+    { 0,                0,               0, 1 }
+    }};
+
+    *this=vectorXmatrix4x4(*this,rotZ);
+}
+
 
 
 
@@ -77,5 +125,33 @@ Vector3D vectorXmatrix4x4(Vector3D const& v, Matrix4x4 const& m){
     return result;
 
 
+
+}
+
+
+
+Vector3D vectorXvectorPart(Vector3D const& a, Vector3D const& b){
+    return Vector3D(a.m_x*b.m_x,a.m_y*b.m_y,a.m_z*b.m_z);
+
+}
+
+
+
+float dotProduct(Vector3D const& a, Vector3D const& b){
+    return a.m_x*b.m_x+a.m_y*b.m_y+a.m_z*b.m_z;
+
+}
+
+
+Matrix4x4 matrixXmatrix4x4(Matrix4x4 const& a, Matrix4x4 const& b){
+    Matrix4x4 result;
+    for(int i=0; i<4; i++){
+        for(int j=0; j<4; j++){
+            for(int k=0; k<4; k++){
+                result.data[i][j]=a.data[i][k]+b.data[k][j];
+            }
+        }
+    }
+    return result;
 
 }

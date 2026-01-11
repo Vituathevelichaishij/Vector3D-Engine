@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/yaml-cpp-sandbox.dir/Unity/unity_0_cxx.cxx.obj"
-  "CMakeFiles/yaml-cpp-sandbox.dir/Unity/unity_0_cxx.cxx.obj.d"
+  "CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj"
+  "CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj.d"
   "libsandbox.dll.a"
   "sandbox.exe"
   "sandbox.exe.manifest"

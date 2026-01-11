@@ -1,1 +1,1 @@
-  -LD:/Codes/CPP/git/Engine/lib  -lmingw32 -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer "yaml-cpp-0.8.0/libyaml-cppd.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LD:/Codes/CPP/git/Engine/lib  -lSDL2 -lSDL2main -lSDL2_image -lSDL2_ttf -lSDL2_mixer "yaml-cpp-0.8.0/libyaml-cppd.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

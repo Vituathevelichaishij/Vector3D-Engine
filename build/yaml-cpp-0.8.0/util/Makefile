@@ -158,35 +158,77 @@ yaml-cpp-read/fast:
 	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
-Unity/unity_0_cxx.obj: Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.obj
+parse.obj: parse.cpp.obj
+.PHONY : parse.obj
 
 # target to build an object file
-Unity/unity_0_cxx.cxx.obj:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/Unity/unity_0_cxx.cxx.obj
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/Unity/unity_0_cxx.cxx.obj
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/Unity/unity_0_cxx.cxx.obj
-.PHONY : Unity/unity_0_cxx.cxx.obj
+parse.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.obj
+.PHONY : parse.cpp.obj
 
-Unity/unity_0_cxx.i: Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.i
+parse.i: parse.cpp.i
+.PHONY : parse.i
 
 # target to preprocess a source file
-Unity/unity_0_cxx.cxx.i:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/Unity/unity_0_cxx.cxx.i
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/Unity/unity_0_cxx.cxx.i
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/Unity/unity_0_cxx.cxx.i
-.PHONY : Unity/unity_0_cxx.cxx.i
+parse.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.i
+.PHONY : parse.cpp.i
 
-Unity/unity_0_cxx.s: Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.s
+parse.s: parse.cpp.s
+.PHONY : parse.s
 
 # target to generate assembly for a file
-Unity/unity_0_cxx.cxx.s:
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/Unity/unity_0_cxx.cxx.s
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/Unity/unity_0_cxx.cxx.s
-	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/Unity/unity_0_cxx.cxx.s
-.PHONY : Unity/unity_0_cxx.cxx.s
+parse.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-parse.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.s
+.PHONY : parse.cpp.s
+
+read.obj: read.cpp.obj
+.PHONY : read.obj
+
+# target to build an object file
+read.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj
+.PHONY : read.cpp.obj
+
+read.i: read.cpp.i
+.PHONY : read.i
+
+# target to preprocess a source file
+read.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.i
+.PHONY : read.cpp.i
+
+read.s: read.cpp.s
+.PHONY : read.s
+
+# target to generate assembly for a file
+read.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.s
+.PHONY : read.cpp.s
+
+sandbox.obj: sandbox.cpp.obj
+.PHONY : sandbox.obj
+
+# target to build an object file
+sandbox.cpp.obj:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj
+.PHONY : sandbox.cpp.obj
+
+sandbox.i: sandbox.cpp.i
+.PHONY : sandbox.i
+
+# target to preprocess a source file
+sandbox.cpp.i:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.i
+.PHONY : sandbox.cpp.i
+
+sandbox.s: sandbox.cpp.s
+.PHONY : sandbox.s
+
+# target to generate assembly for a file
+sandbox.cpp.s:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-sandbox.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.s
+.PHONY : sandbox.cpp.s
 
 # Help Target
 help:
@@ -199,9 +241,15 @@ help:
 	@echo ... yaml-cpp-parse
 	@echo ... yaml-cpp-read
 	@echo ... yaml-cpp-sandbox
-	@echo ... Unity/unity_0_cxx.obj
-	@echo ... Unity/unity_0_cxx.i
-	@echo ... Unity/unity_0_cxx.s
+	@echo ... parse.obj
+	@echo ... parse.i
+	@echo ... parse.s
+	@echo ... read.obj
+	@echo ... read.i
+	@echo ... read.s
+	@echo ... sandbox.obj
+	@echo ... sandbox.i
+	@echo ... sandbox.s
 .PHONY : help
 
 
