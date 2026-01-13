@@ -13,14 +13,13 @@ class Renderer{
         Renderer(Window const& window, Settings const& settings);
         ~Renderer();
         void render(Scene const& scene);
-        void renderMesh(Transform const& transform, Camera const& camera) const;
+        void renderMesh(Transform const& transform, Camera const& camera);
     private:
-        SDL_Renderer* m_Renderer;       ///< SDL renderer used for drawing.
+        std::vector<Triangle> m_collected;
+        SDL_Renderer* m_Renderer;      
         Settings const& m_settings;
-
-
-
-        void drawTriangle(Triangle const& t) const;
+        Matrix4x4 m_projMatrix;
+        void drawTriangle(Triangle const& t,Scene const & s) const;
         Triangle offsetPoligon(Transform const& transform, Triangle const& tri, Camera const& camera) const;
         Matrix4x4 getProjectionMatrix() const;
         

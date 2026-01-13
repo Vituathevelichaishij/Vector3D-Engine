@@ -130,6 +130,19 @@ program/fast:
 .PHONY : program/fast
 
 #=============================================================================
+# Target rules for targets named UTIL
+
+# Build rule for target.
+UTIL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UTIL
+.PHONY : UTIL
+
+# fast build rule for target.
+UTIL/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UTIL.dir\build.make CMakeFiles/UTIL.dir/build
+.PHONY : UTIL/fast
+
+#=============================================================================
 # Target rules for targets named Experimental
 
 # Build rule for target.
@@ -558,29 +571,77 @@ yaml-cpp-read/fast:
 	$(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\util\CMakeFiles\yaml-cpp-read.dir\build.make yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/build
 .PHONY : yaml-cpp-read/fast
 
-bin/components/rotation.obj: bin/components/rotation.cpp.obj
-.PHONY : bin/components/rotation.obj
+bin/components/cpp/Camera3D.obj: bin/components/cpp/Camera3D.cpp.obj
+.PHONY : bin/components/cpp/Camera3D.obj
 
 # target to build an object file
-bin/components/rotation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.obj
-.PHONY : bin/components/rotation.cpp.obj
+bin/components/cpp/Camera3D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj
+.PHONY : bin/components/cpp/Camera3D.cpp.obj
 
-bin/components/rotation.i: bin/components/rotation.cpp.i
-.PHONY : bin/components/rotation.i
+bin/components/cpp/Camera3D.i: bin/components/cpp/Camera3D.cpp.i
+.PHONY : bin/components/cpp/Camera3D.i
 
 # target to preprocess a source file
-bin/components/rotation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.i
-.PHONY : bin/components/rotation.cpp.i
+bin/components/cpp/Camera3D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.i
+.PHONY : bin/components/cpp/Camera3D.cpp.i
 
-bin/components/rotation.s: bin/components/rotation.cpp.s
-.PHONY : bin/components/rotation.s
+bin/components/cpp/Camera3D.s: bin/components/cpp/Camera3D.cpp.s
+.PHONY : bin/components/cpp/Camera3D.s
 
 # target to generate assembly for a file
-bin/components/rotation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/rotation.cpp.s
-.PHONY : bin/components/rotation.cpp.s
+bin/components/cpp/Camera3D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.s
+.PHONY : bin/components/cpp/Camera3D.cpp.s
+
+bin/components/cpp/FlatLight.obj: bin/components/cpp/FlatLight.cpp.obj
+.PHONY : bin/components/cpp/FlatLight.obj
+
+# target to build an object file
+bin/components/cpp/FlatLight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj
+.PHONY : bin/components/cpp/FlatLight.cpp.obj
+
+bin/components/cpp/FlatLight.i: bin/components/cpp/FlatLight.cpp.i
+.PHONY : bin/components/cpp/FlatLight.i
+
+# target to preprocess a source file
+bin/components/cpp/FlatLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.i
+.PHONY : bin/components/cpp/FlatLight.cpp.i
+
+bin/components/cpp/FlatLight.s: bin/components/cpp/FlatLight.cpp.s
+.PHONY : bin/components/cpp/FlatLight.s
+
+# target to generate assembly for a file
+bin/components/cpp/FlatLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s
+.PHONY : bin/components/cpp/FlatLight.cpp.s
+
+bin/components/cpp/rotation.obj: bin/components/cpp/rotation.cpp.obj
+.PHONY : bin/components/cpp/rotation.obj
+
+# target to build an object file
+bin/components/cpp/rotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj
+.PHONY : bin/components/cpp/rotation.cpp.obj
+
+bin/components/cpp/rotation.i: bin/components/cpp/rotation.cpp.i
+.PHONY : bin/components/cpp/rotation.i
+
+# target to preprocess a source file
+bin/components/cpp/rotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.i
+.PHONY : bin/components/cpp/rotation.cpp.i
+
+bin/components/cpp/rotation.s: bin/components/cpp/rotation.cpp.s
+.PHONY : bin/components/cpp/rotation.s
+
+# target to generate assembly for a file
+bin/components/cpp/rotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.s
+.PHONY : bin/components/cpp/rotation.cpp.s
 
 generated_registry.obj: generated_registry.cpp.obj
 .PHONY : generated_registry.obj
@@ -630,30 +691,6 @@ src/BasicGeometry.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicGeometry.cpp.s
 .PHONY : src/BasicGeometry.cpp.s
 
-src/BasicObjects/Camera.obj: src/BasicObjects/Camera.cpp.obj
-.PHONY : src/BasicObjects/Camera.obj
-
-# target to build an object file
-src/BasicObjects/Camera.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.obj
-.PHONY : src/BasicObjects/Camera.cpp.obj
-
-src/BasicObjects/Camera.i: src/BasicObjects/Camera.cpp.i
-.PHONY : src/BasicObjects/Camera.i
-
-# target to preprocess a source file
-src/BasicObjects/Camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.i
-.PHONY : src/BasicObjects/Camera.cpp.i
-
-src/BasicObjects/Camera.s: src/BasicObjects/Camera.cpp.s
-.PHONY : src/BasicObjects/Camera.s
-
-# target to generate assembly for a file
-src/BasicObjects/Camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/Camera.cpp.s
-.PHONY : src/BasicObjects/Camera.cpp.s
-
 src/BasicObjects/FlatLum.obj: src/BasicObjects/FlatLum.cpp.obj
 .PHONY : src/BasicObjects/FlatLum.obj
 
@@ -677,6 +714,30 @@ src/BasicObjects/FlatLum.s: src/BasicObjects/FlatLum.cpp.s
 src/BasicObjects/FlatLum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.s
 .PHONY : src/BasicObjects/FlatLum.cpp.s
+
+src/Camera.obj: src/Camera.cpp.obj
+.PHONY : src/Camera.obj
+
+# target to build an object file
+src/Camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Camera.cpp.obj
+.PHONY : src/Camera.cpp.obj
+
+src/Camera.i: src/Camera.cpp.i
+.PHONY : src/Camera.i
+
+# target to preprocess a source file
+src/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
+
+src/Camera.s: src/Camera.cpp.s
+.PHONY : src/Camera.s
+
+# target to generate assembly for a file
+src/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
 
 src/Component.obj: src/Component.cpp.obj
 .PHONY : src/Component.obj
@@ -773,6 +834,30 @@ src/GameObject.s: src/GameObject.cpp.s
 src/GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/GameObject.cpp.s
 .PHONY : src/GameObject.cpp.s
+
+src/Light.obj: src/Light.cpp.obj
+.PHONY : src/Light.obj
+
+# target to build an object file
+src/Light.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Light.cpp.obj
+.PHONY : src/Light.cpp.obj
+
+src/Light.i: src/Light.cpp.i
+.PHONY : src/Light.i
+
+# target to preprocess a source file
+src/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Light.cpp.i
+.PHONY : src/Light.cpp.i
+
+src/Light.s: src/Light.cpp.s
+.PHONY : src/Light.s
+
+# target to generate assembly for a file
+src/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/Light.cpp.s
+.PHONY : src/Light.cpp.s
 
 src/Renderer.obj: src/Renderer.cpp.obj
 .PHONY : src/Renderer.obj
@@ -918,6 +1003,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+util/CompGenerator.obj: util/CompGenerator.cpp.obj
+.PHONY : util/CompGenerator.obj
+
+# target to build an object file
+util/CompGenerator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UTIL.dir\build.make CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj
+.PHONY : util/CompGenerator.cpp.obj
+
+util/CompGenerator.i: util/CompGenerator.cpp.i
+.PHONY : util/CompGenerator.i
+
+# target to preprocess a source file
+util/CompGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UTIL.dir\build.make CMakeFiles/UTIL.dir/util/CompGenerator.cpp.i
+.PHONY : util/CompGenerator.cpp.i
+
+util/CompGenerator.s: util/CompGenerator.cpp.s
+.PHONY : util/CompGenerator.s
+
+# target to generate assembly for a file
+util/CompGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UTIL.dir\build.make CMakeFiles/UTIL.dir/util/CompGenerator.cpp.s
+.PHONY : util/CompGenerator.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -955,26 +1064,33 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... uninstall
+	@echo ... UTIL
 	@echo ... program
 	@echo ... yaml-cpp
 	@echo ... yaml-cpp-parse
 	@echo ... yaml-cpp-read
 	@echo ... yaml-cpp-sandbox
-	@echo ... bin/components/rotation.obj
-	@echo ... bin/components/rotation.i
-	@echo ... bin/components/rotation.s
+	@echo ... bin/components/cpp/Camera3D.obj
+	@echo ... bin/components/cpp/Camera3D.i
+	@echo ... bin/components/cpp/Camera3D.s
+	@echo ... bin/components/cpp/FlatLight.obj
+	@echo ... bin/components/cpp/FlatLight.i
+	@echo ... bin/components/cpp/FlatLight.s
+	@echo ... bin/components/cpp/rotation.obj
+	@echo ... bin/components/cpp/rotation.i
+	@echo ... bin/components/cpp/rotation.s
 	@echo ... generated_registry.obj
 	@echo ... generated_registry.i
 	@echo ... generated_registry.s
 	@echo ... src/BasicGeometry.obj
 	@echo ... src/BasicGeometry.i
 	@echo ... src/BasicGeometry.s
-	@echo ... src/BasicObjects/Camera.obj
-	@echo ... src/BasicObjects/Camera.i
-	@echo ... src/BasicObjects/Camera.s
 	@echo ... src/BasicObjects/FlatLum.obj
 	@echo ... src/BasicObjects/FlatLum.i
 	@echo ... src/BasicObjects/FlatLum.s
+	@echo ... src/Camera.obj
+	@echo ... src/Camera.i
+	@echo ... src/Camera.s
 	@echo ... src/Component.obj
 	@echo ... src/Component.i
 	@echo ... src/Component.s
@@ -987,6 +1103,9 @@ help:
 	@echo ... src/GameObject.obj
 	@echo ... src/GameObject.i
 	@echo ... src/GameObject.s
+	@echo ... src/Light.obj
+	@echo ... src/Light.i
+	@echo ... src/Light.s
 	@echo ... src/Renderer.obj
 	@echo ... src/Renderer.i
 	@echo ... src/Renderer.s
@@ -1005,6 +1124,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... util/CompGenerator.obj
+	@echo ... util/CompGenerator.i
+	@echo ... util/CompGenerator.s
 .PHONY : help
 
 

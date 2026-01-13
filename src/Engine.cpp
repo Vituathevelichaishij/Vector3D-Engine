@@ -6,10 +6,9 @@ Engine::Engine() : m_window(m_settings), m_renderer(m_window, m_settings){}
 void Engine::start(){
     RegisterAllComponents();
     m_scene=Scene("scene/scene1.yaml");
-    
+
 
     
-
     
     
     while(!m_quit){
@@ -26,4 +25,5 @@ void Engine::start(){
         }
         m_renderer.render(m_scene);
     }
+    
 }

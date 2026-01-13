@@ -11,40 +11,23 @@ class Component;
 
 class GameObject{
     public:
+        Transform m_transform;
         GameObject(YAML::Node const& obj,Scene* scene);
         virtual ~GameObject() = default;
         void update(Uint32 dt);
-        std::unique_ptr<Component> addComponent(std::string const& name, YAML::Node const& data);
-        std::unique_ptr<Component> addComponent(std::string const& name);
-        std::string m_name;
-        Transform m_transform;
-        std::unordered_map<std::string,std::unique_ptr<Component>> m_components;
+        Component* findComponent(std::string const& name);
 
-
-        template<typename T>
-        T* find(){
-            for(auto &o : m_components){
-                if(T* ptr=dynamic_cast<T*>(o.second.get())){
-                    return ptr;
-                }
-            }
-            return nullptr;
-        }
-
-
-        template<typename T>
-        const T* find() const{
-            for(auto &o : m_components){
-                if(const T* ptr=dynamic_cast<T*>(o.second.get())){
-                    return ptr;
-                }
-            }
-            return nullptr;
-        }
     protected:
-        GameObject();
-    private:
+        std::string m_name;
+        Component* addComponent(YAML::Node const& data);
+        Component* addComponent(std::string const& name, YAML::Node const& data);
+        Component* addComponent(std::string const& name);
+        std::unordered_map<std::string,std::unique_ptr<Component>> m_components;
         Scene* m_scene=nullptr;
+
+
+
+        
         
 };
 #endif

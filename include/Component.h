@@ -1,5 +1,6 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
+
 #include <SDL2/SDL.h>
 #include <yaml-cpp/yaml.h>
 class GameObject;

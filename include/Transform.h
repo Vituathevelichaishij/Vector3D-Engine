@@ -2,6 +2,7 @@
 #define TRANSFORM_H
 #include "BasicGeometry.h"
 #include <vector>
+#include <yaml-cpp/yaml.h>
 
 struct Mesh{
     std::vector<Triangle> data;
@@ -9,6 +10,7 @@ struct Mesh{
 };
 class Transform{
     public:
+        Transform(YAML::Node const& obj);
         Vector3D m_position={0,0,0};
         Vector3D m_rotation={0,0,0};
         Vector3D m_size={1,1,1};

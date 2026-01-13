@@ -1,33 +1,33 @@
 #include "GameObject.h"
 #include <iostream>
-GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_scene(scene), m_name(){
-
+#include "Scene.h"
+GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_transform(Transform(obj)), m_scene(scene), m_name(){
+    
     m_name=obj["name"].as<std::string>();
+    if (obj["prefab"]) {
+        try {
+            std::string prefabPath = obj["prefab"].as<std::string>();
+            YAML::Node prefab = YAML::LoadFile(prefabPath);
+            if(prefab["components"]){
+                for (auto const& comp : prefab["components"]) {
+                    if (comp["name"] && comp["type"]){
+                            
+                        addComponent(comp);
+                    }
+                }
+            }
 
-
-    if(obj["mesh"]){
+            if(prefab[".obj"]){
+                m_transform.m_mesh.LoadObjFile(prefab[".obj"].as<std::string>());
+            }
     
-        m_transform.m_mesh.LoadObjFile(obj["mesh"].as<std::string>());
+            } catch (const std::exception& e) {
+                std::cerr << "Failed to load prefab: " << e.what() << std::endl;
+            }
     }
     
-    if(auto transf=obj["transformation"]){
-
-        if(transf["size"]){
-            std::vector<float> size=transf["size"].as<std::vector<float>>();
-            m_transform.m_size={size[0],size[1],size[2]};
-        }
-        if(transf["position"]){
-            std::vector<float> position=transf["position"].as<std::vector<float>>();
-            m_transform.m_position={position[0],position[1],position[2]};
-        }
-        if(transf["rotation"]){
-            std::vector<float> rotation=transf["rotation"].as<std::vector<float>>();
-            m_transform.m_rotation={rotation[0],rotation[1],rotation[2]};
-        }
-    }
 }
 
-GameObject::GameObject(){}
 
 
 
@@ -49,24 +49,58 @@ void GameObject::update(Uint32 dt){
 
 
 
-std::unique_ptr<Component> GameObject::addComponent(std::string const& name, YAML::Node const& data){
+
+Component* GameObject::addComponent(YAML::Node const& data){
+    auto comp = ComponentFactory::init().create(data["name"].as<std::string>());
+
+
+    if(!comp) return nullptr;
+    comp->owner=this;
+    comp->init(data);
+    comp->start();
+    m_components.insert({data["type"].as<std::string>(),std::move(comp)});
+
+    return comp.get();
+}
+
+
+
+
+
+
+
+
+
+Component* GameObject::addComponent(std::string const& name, YAML::Node const& data){
     auto comp = ComponentFactory::init().create(name);
 
 
     if(!comp) return nullptr;
     comp->owner=this;
     comp->init(data);
+    comp->start();
     m_components.insert({name,std::move(comp)});
 
-    return comp;
+    return comp.get();
 }
 
-std::unique_ptr<Component> GameObject::addComponent(std::string const& name){
+Component* GameObject::addComponent(std::string const& name){
     auto comp = ComponentFactory::init().create(name);
     
     if(!comp) return nullptr;
     comp->owner=this;
     m_components.insert({name,std::move(comp)});
-    return comp;
+    return comp.get();
 
 }
+
+
+
+
+
+ Component* GameObject::findComponent(std::string const& name){
+    if(m_components.find(name)!=m_components.end()){
+        return m_components.find(name)->second.get();
+    }
+    return nullptr;
+ }

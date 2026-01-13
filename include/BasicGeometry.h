@@ -22,7 +22,7 @@ class Vector3D{
         Vector3D operator*(float n);
         Vector3D operator/(float n);
         void normalize();
-        void rotate(float dX, float dY, float dZ);
+        void rotate(Vector3D const& vec);
         float length() const;
 
 
@@ -38,16 +38,21 @@ class Triangle{
         Vector3D m_N;
     private:
 };
-
+Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c);
 
 Vector3D vectorXvectorPart(Vector3D const& a, Vector3D const& b);
 
 struct Matrix4x4{
-    float data[4][4];
+    Matrix4x4 operator*(Matrix4x4 m);
+    float data[4][4]={0};
 };
 Vector3D vectorXmatrix4x4(Vector3D const& v, Matrix4x4 const& m);
 
 Matrix4x4 matrixXmatrix4x4(Matrix4x4 const& a, Matrix4x4 const& b);
+
+Matrix4x4 getTransMatrix(Vector3D const& vec);
+
+Matrix4x4 getRotMatrix(Vector3D const& vec);
 
 float dotProduct(Vector3D const& a, Vector3D const& b);
 

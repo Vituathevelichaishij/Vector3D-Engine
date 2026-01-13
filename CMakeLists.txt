@@ -10,6 +10,7 @@ set(CMAKE_CXX_FLAGS_RELEASE_INIT "-Wall -O3")
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/include/BasicObjects)
+include_directories(${PROJECT_SOURCE_DIR}/build/bin/components/h)
 
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
@@ -33,10 +34,11 @@ add_subdirectory(yaml-cpp-0.8.0)
 
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE UTILSOURCES "util/*.cpp")
 
 
 ############
-file(GLOB COMPONENT_FILES "build/bin/components/*.cpp")
+file(GLOB COMPONENT_FILES "build/bin/components/cpp/*.cpp")
 
 set(REG_SOURCE "${CMAKE_BINARY_DIR}/generated_registry.cpp")
 set(REG_CONTENT "// Generated file\n")
@@ -61,6 +63,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin)
 add_executable(program ${SOURCES} ${COMPONENT_FILES} ${REG_SOURCE})
 
 
+
 target_link_libraries(program PUBLIC
 
     SDL2
@@ -71,3 +74,6 @@ target_link_libraries(program PUBLIC
     yaml-cpp::yaml-cpp
 
 )
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build)
+
+add_executable(UTIL ${UTILSOURCES})

@@ -5,17 +5,20 @@ gameObjects:
     transformation:
       rotation: [0,0,0]
       position: [0,0,0]
+    prefab: "prefab/player.yaml"
   - name: "flat lumination"
     transformation:
       rotation: [0,180,0]
 
 
 
-  - name: "cube"
+  - name: "cube1"
     transformation:
-      rotation: [0,0,0]
-      position: [0,0,0.8]
+      rotation: [0,0,180]
+      position: [-1,0,3]
       size: [1,1,1]
     prefab: "prefab/key.yaml"
 
-    mesh: "obj/Marble Bust.obj"
+    mesh: "obj/Asuka.obj"
+
+

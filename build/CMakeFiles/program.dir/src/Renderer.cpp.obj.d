@@ -429,7 +429,8 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
  D:/Codes/CPP/git/Engine/include/Component.h \
  D:/Codes/CPP/git/Engine/include/BasicObjects.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects/Camera.h \
- D:/Codes/CPP/git/Engine/include/GameObject.h \
+ D:/Codes/CPP/git/Engine/include/Camera.h \
  D:/Codes/CPP/git/Engine/include/BasicObjects/FlatLum.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects/Lumination.h
+ D:/Codes/CPP/git/Engine/include/GameObject.h \
+ D:/Codes/CPP/git/Engine/include/BasicObjects/Lumination.h \
+ D:/Codes/CPP/git/Engine/include/Light.h

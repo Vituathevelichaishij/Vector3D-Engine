@@ -172,11 +172,8 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
- D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
- C:/msys64/ucrt64/include/c++/14.2.0/functional \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
- C:/msys64/ucrt64/include/c++/14.2.0/array \
- C:/msys64/ucrt64/include/c++/14.2.0/compare \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h \
  C:/msys64/ucrt64/include/c++/14.2.0/memory \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
@@ -194,6 +191,73 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/dll.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitter.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/sstream \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/binary.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/null.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/ostream_wrapper.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterstyle.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/stlemitter.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/list \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/list.tcc \
+ C:/msys64/ucrt64/include/c++/14.2.0/set \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multiset.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/map \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/mark.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/noexcept.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/traits.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/utility \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/node.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator_fwd.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/ptr.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/type.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/impl.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/memory.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_iterator.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/iterator \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/iterator.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/atomic \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/array \
+ C:/msys64/ucrt64/include/c++/14.2.0/compare \
+ C:/msys64/ucrt64/include/c++/14.2.0/valarray \
+ C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.tcc \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/slice_array.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_after.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice_array.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/mask_array.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/indirect_array.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/impl.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/parse.h \
+ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/emit.h \
+ D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/functional \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
  D:/Codes/CPP/git/Engine/include/Component.h \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_main.h \
@@ -359,72 +423,8 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_version.h \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_locale.h \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_misc.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/dll.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitter.h \
- C:/msys64/ucrt64/include/c++/14.2.0/sstream \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/binary.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/null.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/ostream_wrapper.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterstyle.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/stlemitter.h \
- C:/msys64/ucrt64/include/c++/14.2.0/list \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/list.tcc \
- C:/msys64/ucrt64/include/c++/14.2.0/set \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tree.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multiset.h \
- C:/msys64/ucrt64/include/c++/14.2.0/map \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/mark.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/noexcept.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/traits.h \
- C:/msys64/ucrt64/include/c++/14.2.0/utility \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/node.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator_fwd.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/ptr.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/type.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/impl.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/memory.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_iterator.h \
- C:/msys64/ucrt64/include/c++/14.2.0/iterator \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/iterator.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator.h \
- C:/msys64/ucrt64/include/c++/14.2.0/atomic \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h \
- C:/msys64/ucrt64/include/c++/14.2.0/valarray \
- C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
- C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.tcc \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/slice_array.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_after.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice_array.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/mask_array.h \
- C:/msys64/ucrt64/include/c++/14.2.0/bits/indirect_array.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/impl.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/parse.h \
- D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/emit.h \
  D:/Codes/CPP/git/Engine/include/BasicObjects.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects/Camera.h \
- D:/Codes/CPP/git/Engine/include/GameObject.h \
+ D:/Codes/CPP/git/Engine/include/Camera.h \
  D:/Codes/CPP/git/Engine/include/BasicObjects/FlatLum.h \
+ D:/Codes/CPP/git/Engine/include/GameObject.h \
  D:/Codes/CPP/git/Engine/include/BasicObjects/Lumination.h

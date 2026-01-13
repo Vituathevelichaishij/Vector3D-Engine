@@ -35,38 +35,48 @@ Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c){
     m_a=a;
     m_b=b;
     m_c=c;
-    Vector3D first={b.m_x-a.m_x,b.m_y-a.m_y,b.m_z-a.m_z};
 
+
+    m_N=crossProduct(a,b,c);
+    m_N.normalize();
+}
+
+Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c){
+    Vector3D first={b.m_x-a.m_x,b.m_y-a.m_y,b.m_z-a.m_z};
     Vector3D second={c.m_x-a.m_x,c.m_y-a.m_y,c.m_z-a.m_z};
 
-    m_N={first.m_y*second.m_z-first.m_z*second.m_y,
+    return {first.m_y*second.m_z-first.m_z*second.m_y,
         first.m_z*second.m_x-first.m_x*second.m_z,
         first.m_x*second.m_y-first.m_y*second.m_x,
     };
-    m_N.normalize();
-}
-Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c, Vector3D const& N){
-    m_a=a;
-    m_b=b;
-    m_c=c;
-    Vector3D first={b.m_x-a.m_x,b.m_y-a.m_y,b.m_z-a.m_z};
 
-    Vector3D second={c.m_x-a.m_x,c.m_y-a.m_y,c.m_z-a.m_z};
-
-    m_N=N;
 }
 
 
-
-void Vector3D::rotate(float dX, float dY, float dZ){
+void Vector3D::rotate(Vector3D const& vec){
     float const f=M_PI/180;
-    Matrix4x4 rotX = {{
+    
+    *this=vectorXmatrix4x4(*this,getRotMatrix(vec));
+
+}
+
+
+
+Matrix4x4 Matrix4x4::operator*(Matrix4x4 m){
+    return matrixXmatrix4x4(*this,m);
+}
+
+Matrix4x4 getRotMatrix(Vector3D const& vec){
+    float const f=M_PI/180;
+    float const dX=vec.m_x;
+    float const dY=vec.m_y;
+    float const dZ=vec.m_z;
+    Matrix4x4 rotX  = {{
         { 1,  0,                 0,                0 },
         { 0,  std::cosf(dX*f),  -std::sinf(dX*f),  0 },
         { 0,  std::sinf(dX*f),   std::cosf(dX*f),  0 },
         { 0,  0,                 0,                1 }
     }};
-    *this=vectorXmatrix4x4(*this,rotX);
 
 
 
@@ -77,7 +87,6 @@ void Vector3D::rotate(float dX, float dY, float dZ){
     {  0,               0, 0,               1 }
     }};
 
-    *this=vectorXmatrix4x4(*this,rotY);
 
     Matrix4x4 rotZ = {{
     { std::cosf(dZ*f), -std::sinf(dZ*f), 0, 0 },
@@ -85,11 +94,8 @@ void Vector3D::rotate(float dX, float dY, float dZ){
     { 0,                0,               1, 0 },
     { 0,                0,               0, 1 }
     }};
-
-    *this=vectorXmatrix4x4(*this,rotZ);
+    return  matrixXmatrix4x4(rotX,matrixXmatrix4x4(rotY,rotZ));
 }
-
-
 
 
 Vector3D vectorXmatrix4x4(Vector3D const& v, Matrix4x4 const& m){
@@ -135,8 +141,6 @@ Vector3D vectorXvectorPart(Vector3D const& a, Vector3D const& b){
 
 }
 
-
-
 float dotProduct(Vector3D const& a, Vector3D const& b){
     return a.m_x*b.m_x+a.m_y*b.m_y+a.m_z*b.m_z;
 
@@ -144,14 +148,30 @@ float dotProduct(Vector3D const& a, Vector3D const& b){
 
 
 Matrix4x4 matrixXmatrix4x4(Matrix4x4 const& a, Matrix4x4 const& b){
-    Matrix4x4 result;
+    Matrix4x4 result={0};
     for(int i=0; i<4; i++){
         for(int j=0; j<4; j++){
             for(int k=0; k<4; k++){
-                result.data[i][j]=a.data[i][k]+b.data[k][j];
+                result.data[i][j]+=a.data[i][k]*b.data[k][j];
             }
         }
     }
     return result;
+
+}
+
+
+
+Matrix4x4 getTransMatrix(Vector3D const& vec){
+    Matrix4x4 result;
+    result.data[0][0]=1;
+    result.data[1][1]=1;
+    result.data[2][2]=1;
+    result.data[3][3]=1;
+    result.data[3][0]=vec.m_x;
+    result.data[3][1]=vec.m_y;
+    result.data[3][2]=vec.m_z;
+    return result;
+
 
 }
