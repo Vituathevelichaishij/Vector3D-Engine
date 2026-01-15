@@ -3,9 +3,16 @@
 #include "BasicGeometry.h"
 #include <vector>
 #include <yaml-cpp/yaml.h>
+struct Polygon{
+    Polygon(Triangle const& tr);
+    Triangle tri;
+};
+
+
 
 struct Mesh{
-    std::vector<Triangle> data;
+    std::vector<Polygon> data;
+    bool Light=true;
     bool LoadObjFile(std::string const& path);
 };
 class Transform{

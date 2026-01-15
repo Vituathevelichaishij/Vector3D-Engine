@@ -1,6 +1,11 @@
 #include "Transform.h"
 #include <fstream>
 #include <sstream>
+
+Polygon::Polygon(Triangle const& tr):tri(tr){};
+
+
+
 Transform::Transform(YAML::Node const& obj){
     if(auto transf=obj["transformation"]){
         if(transf["size"]){
@@ -69,7 +74,7 @@ bool Mesh::LoadObjFile(std::string const & path){
                 int idx2 = f_indices[i+1] - 1;
 
                 if (idx0 < verts.size() && idx1 < verts.size() && idx2 < verts.size()) {
-                    data.push_back({ verts[idx0], verts[idx1], verts[idx2] });
+                    data.push_back(Polygon({ verts[idx0], verts[idx1], verts[idx2] }));
                 }
             }
         }

@@ -423,8 +423,4 @@ CMakeFiles/program.dir/src/GameObject.cpp.obj: \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_locale.h \
  D:/Codes/CPP/git/Engine/include/SDL2/SDL_misc.h \
  D:/Codes/CPP/git/Engine/include/Scene.h \
- D:/Codes/CPP/git/Engine/include/GameObject.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects.h \
- D:/Codes/CPP/git/Engine/include/Camera.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects/FlatLum.h \
- D:/Codes/CPP/git/Engine/include/BasicObjects/Lumination.h
+ D:/Codes/CPP/git/Engine/include/GameObject.h

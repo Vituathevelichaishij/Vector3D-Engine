@@ -98,9 +98,3 @@ Component* GameObject::addComponent(std::string const& name){
 
 
 
- Component* GameObject::findComponent(std::string const& name){
-    if(m_components.find(name)!=m_components.end()){
-        return m_components.find(name)->second.get();
-    }
-    return nullptr;
- }

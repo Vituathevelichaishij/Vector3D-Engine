@@ -9,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/program.dir/generated_registry.cpp.obj.d"
   "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj"
   "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj.d"
-  "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj"
-  "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj.d"
   "CMakeFiles/program.dir/src/Camera.cpp.obj"
   "CMakeFiles/program.dir/src/Camera.cpp.obj.d"
   "CMakeFiles/program.dir/src/Component.cpp.obj"

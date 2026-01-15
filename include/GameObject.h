@@ -15,7 +15,11 @@ class GameObject{
         GameObject(YAML::Node const& obj,Scene* scene);
         virtual ~GameObject() = default;
         void update(Uint32 dt);
-        Component* findComponent(std::string const& name);
+        
+
+
+
+
 
     protected:
         std::string m_name;
@@ -24,6 +28,15 @@ class GameObject{
         Component* addComponent(std::string const& name);
         std::unordered_map<std::string,std::unique_ptr<Component>> m_components;
         Scene* m_scene=nullptr;
+    public: 
+        template<typename T>
+        T* findComponent(std::string const& name){
+            if(m_components.find(name)!=m_components.end()){
+                return dynamic_cast<T*>(m_components.find(name)->second.get());
+            }
+            return nullptr;
+        }
+
 
 
 

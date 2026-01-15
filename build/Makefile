@@ -691,30 +691,6 @@ src/BasicGeometry.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicGeometry.cpp.s
 .PHONY : src/BasicGeometry.cpp.s
 
-src/BasicObjects/FlatLum.obj: src/BasicObjects/FlatLum.cpp.obj
-.PHONY : src/BasicObjects/FlatLum.obj
-
-# target to build an object file
-src/BasicObjects/FlatLum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj
-.PHONY : src/BasicObjects/FlatLum.cpp.obj
-
-src/BasicObjects/FlatLum.i: src/BasicObjects/FlatLum.cpp.i
-.PHONY : src/BasicObjects/FlatLum.i
-
-# target to preprocess a source file
-src/BasicObjects/FlatLum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.i
-.PHONY : src/BasicObjects/FlatLum.cpp.i
-
-src/BasicObjects/FlatLum.s: src/BasicObjects/FlatLum.cpp.s
-.PHONY : src/BasicObjects/FlatLum.s
-
-# target to generate assembly for a file
-src/BasicObjects/FlatLum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.s
-.PHONY : src/BasicObjects/FlatLum.cpp.s
-
 src/Camera.obj: src/Camera.cpp.obj
 .PHONY : src/Camera.obj
 
@@ -1085,9 +1061,6 @@ help:
 	@echo ... src/BasicGeometry.obj
 	@echo ... src/BasicGeometry.i
 	@echo ... src/BasicGeometry.s
-	@echo ... src/BasicObjects/FlatLum.obj
-	@echo ... src/BasicObjects/FlatLum.i
-	@echo ... src/BasicObjects/FlatLum.s
 	@echo ... src/Camera.obj
 	@echo ... src/Camera.i
 	@echo ... src/Camera.s

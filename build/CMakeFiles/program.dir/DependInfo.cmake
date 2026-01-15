@@ -13,7 +13,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Codes/CPP/git/Engine/build/bin/components/cpp/rotation.cpp" "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/build/generated_registry.cpp" "CMakeFiles/program.dir/generated_registry.cpp.obj" "gcc" "CMakeFiles/program.dir/generated_registry.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/src/BasicGeometry.cpp" "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj" "gcc" "CMakeFiles/program.dir/src/BasicGeometry.cpp.obj.d"
-  "D:/Codes/CPP/git/Engine/src/BasicObjects/FlatLum.cpp" "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj" "gcc" "CMakeFiles/program.dir/src/BasicObjects/FlatLum.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/src/Camera.cpp" "CMakeFiles/program.dir/src/Camera.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Camera.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/src/Component.cpp" "CMakeFiles/program.dir/src/Component.cpp.obj" "gcc" "CMakeFiles/program.dir/src/Component.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/src/ComponentFactory.cpp" "CMakeFiles/program.dir/src/ComponentFactory.cpp.obj" "gcc" "CMakeFiles/program.dir/src/ComponentFactory.cpp.obj.d"

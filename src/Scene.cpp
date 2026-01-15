@@ -34,13 +34,4 @@ bool Scene::create(std::string const& prefab, std::string const& name){
 
 }
 
-std::vector<Component*> Scene::findComponents(std::string const& name) const{
-    std::vector<Component*> result;
-    for(auto& [_,obj]: m_objects){
-        auto ptr=obj->findComponent(name);
-        if(ptr){
-            result.push_back(ptr);
-        }
-    }
-    return result;
-}
+

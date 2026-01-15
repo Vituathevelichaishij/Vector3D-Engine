@@ -4,3 +4,5 @@ components:
   - name: "FlatLight"
     type: "Light"
     data: [0,0,-1]
+  - name: "rotation"
+    type: "rotation"

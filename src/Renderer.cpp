@@ -21,19 +21,19 @@ void Renderer::render(Scene const& scene){
     SDL_SetRenderDrawColor(m_Renderer,255,0,0,255);
 
     for(auto& obj :scene.m_objects){
-        renderMesh(obj.second->m_transform,  *dynamic_cast<Camera*>(scene.findComponents("Camera")[0]));
+        projectMesh(obj.second->m_transform,  *scene.findComponents<Camera>("Camera")[0]);
     }
 
-    sort(m_collected.begin(),m_collected.end(),[](Triangle const& a, Triangle const& b){
-        float z1=a.m_a.m_z+a.m_b.m_z+a.m_c.m_z;
-        float z2=b.m_a.m_z+b.m_b.m_z+b.m_c.m_z;
+    sort(m_collected.begin(),m_collected.end(),[](Polygon const& a, Polygon const& b){
+        float z1=a.tri.m_a.m_z+a.tri.m_b.m_z+a.tri.m_c.m_z;
+        float z2=b.tri.m_a.m_z+b.tri.m_b.m_z+b.tri.m_c.m_z;
         return z1>z2;
     });
 
 
     for(auto const& tr: m_collected){
         
-        drawTriangle(tr,scene);
+        drawTriangle(tr);
 
     }
 
@@ -48,11 +48,11 @@ void Renderer::render(Scene const& scene){
 
 
 
-void Renderer::renderMesh(Transform const& transform, Camera const& camera){
+void Renderer::projectMesh(Transform const& transform, Camera const& camera){
     for(auto const& tr : transform.m_mesh.data){
-        Triangle tri=offsetPoligon(transform, tr, camera);
-        if(dotProduct(tri.m_N,tri.m_a-camera.m_position)<0){
-            m_collected.push_back(tri);
+        Polygon polygon=projectPoligon(transform, tr, camera);
+        if(dotProduct(polygon.tri.m_N,polygon.tri.m_a-camera.m_position)<0){
+            m_collected.push_back(polygon);
         }
 
     }
@@ -60,11 +60,11 @@ void Renderer::renderMesh(Transform const& transform, Camera const& camera){
 
 }
 
-Triangle Renderer::offsetPoligon(Transform const& transform, Triangle const& tri, Camera const& camera) const{
+Polygon Renderer::projectPoligon(Transform const& transform, Polygon const& tri, Camera const& camera) const{
     
-    Vector3D a=tri.m_a;
-    Vector3D b=tri.m_b;
-    Vector3D c=tri.m_c;
+    Vector3D a=tri.tri.m_a;
+    Vector3D b=tri.tri.m_b;
+    Vector3D c=tri.tri.m_c;
 
     const Vector3D& angs=transform.m_rotation;
 
@@ -86,12 +86,12 @@ Triangle Renderer::offsetPoligon(Transform const& transform, Triangle const& tri
 
 
 
-void Renderer::drawTriangle(Triangle const& t , const Scene& s) const{
+void Renderer::drawTriangle(Polygon const& t) const{
     
     
-    Vector3D a=vectorXmatrix4x4(t.m_a,m_projMatrix);
-    Vector3D b=vectorXmatrix4x4(t.m_b,m_projMatrix);
-    Vector3D c=vectorXmatrix4x4(t.m_c,m_projMatrix);
+    Vector3D a=vectorXmatrix4x4(t.tri.m_a,m_projMatrix);
+    Vector3D b=vectorXmatrix4x4(t.tri.m_b,m_projMatrix);
+    Vector3D c=vectorXmatrix4x4(t.tri.m_c,m_projMatrix);
     
     float x1= (a.m_x+1)*m_settings.m_windowWidth/2;
     float y1= (1-a.m_y)*m_settings.m_windowHeight/2;
@@ -101,8 +101,7 @@ void Renderer::drawTriangle(Triangle const& t , const Scene& s) const{
 
     float x3= (c.m_x+1)*m_settings.m_windowWidth/2;
     float y3= (1-c.m_y)*m_settings.m_windowHeight/2;
-    float m=dynamic_cast<Light*>(s.findComponents("Light")[0])->getLuminocity(t);
-    
+    float m=dotProduct({0,0,-1},t.tri.m_N);
     const std::vector< SDL_Vertex > verts ={
         {SDL_FPoint{x1,y1}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
         {SDL_FPoint{x2,y2}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
