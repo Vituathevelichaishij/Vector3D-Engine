@@ -7,8 +7,8 @@ Engine::Engine() : m_window(m_settings), m_renderer(m_window, m_settings){}
 void Engine::start(){
     RegisterAllComponents();
     m_scene=Scene("scene/scene1.yaml");
-
-
+    int countedFrames = 0;
+    m_timer.start();
     
     
     
@@ -25,6 +25,8 @@ void Engine::start(){
             o.second->update(0);
         }
         m_renderer.render(m_scene);
+        std::cout<<countedFrames / ( m_timer.getTicks() / 1000.f )<<std::endl; 
+        ++countedFrames;
     }
     
 }

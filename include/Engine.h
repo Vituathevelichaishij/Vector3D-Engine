@@ -12,6 +12,7 @@ class Engine{
     private:
         Settings m_settings;
         Window m_window;
+        Timer m_timer;
         Renderer m_renderer;
         SDL_Event m_event;
         Scene m_scene;

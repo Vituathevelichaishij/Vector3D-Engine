@@ -41,6 +41,9 @@ void Renderer::render(Scene const& scene){
         return z1>z2;
     });
 
+    projectToScreen();
+
+    rasterPolygons();
 
     for(auto const& tr: m_collected){
         
@@ -62,7 +65,7 @@ void Renderer::render(Scene const& scene){
 void Renderer::projectMesh(Transform& transform){
     for(auto& tr : transform.m_mesh.data){
         
-        projectPoligon(transform, tr);
+        projectToCameraView(transform, tr);
 
     }
 
@@ -76,14 +79,56 @@ void Renderer::calculateLight(Polygon& pol){
 
 void Renderer::clipPolygons(){
     std::vector<Polygon> result;
-    Vector3D plains[][2]={{{0,0,0.1},{0,0, 1}}};
+    Vector3D plain[2]={{0,0,0.1},{0,0, 1}};
     for(auto &pol :m_collected){
-        polygonClipAgainstPlane(plains[0][0], plains[0][1],pol,result);
+        polygonClipAgainstPlane(plain[0], plain[1],pol,result);
     }
     m_collected=std::move(result);
 }
 
-void Renderer::projectPoligon(Transform const& transform, Polygon const& tri){
+void Renderer::rasterPolygons(){
+    std::vector<Polygon> result=m_collected;
+    Vector3D plains[][2]={{{0,0,0},{0,1,0}},
+                         {{0,0,0},{1,0,0}},
+                         {{m_settings.m_windowWidth,0,0},{-1,0,0}},
+                         {{0,m_settings.m_windowHeight,0},{0,-1, 0}}};
+    int head=0;
+    for(int p=0;p<4;p++){
+        int sz=result.size()-head;
+        for(int i=head; i<sz; i++){
+            polygonClipAgainstPlane(plains[p][0], plains[p][1],result[i],result);
+            head++;
+        }
+    }
+    m_collected.assign(std::make_move_iterator(result.begin()+head),std::make_move_iterator(result.end()));  
+
+
+}
+
+
+void Renderer::projectToScreen(){
+    for(auto& pol : m_collected){
+        pol.tri.m_a=vectorXmatrix4x4(pol.tri.m_a,m_projMatrix);
+        pol.tri.m_b=vectorXmatrix4x4(pol.tri.m_b,m_projMatrix);
+        pol.tri.m_c=vectorXmatrix4x4(pol.tri.m_c,m_projMatrix);
+    
+    
+        pol.tri.m_a.m_x = (pol.tri.m_a.m_x+1)*m_settings.m_windowWidth/2;
+        pol.tri.m_a.m_y = (1-pol.tri.m_a.m_y)*m_settings.m_windowHeight/2;
+
+        pol.tri.m_b.m_x = (pol.tri.m_b.m_x+1)*m_settings.m_windowWidth/2;
+        pol.tri.m_b.m_y = (1- pol.tri.m_b.m_y)*m_settings.m_windowHeight/2;
+
+        pol.tri.m_c.m_x = (pol.tri.m_c.m_x+1)*m_settings.m_windowWidth/2;
+        pol.tri.m_c.m_y = (1-pol.tri.m_c.m_y)*m_settings.m_windowHeight/2;
+    }
+
+    
+
+
+
+}
+void Renderer::projectToCameraView(Transform const& transform, Polygon const& tri){
     
     
 
@@ -125,25 +170,13 @@ void Renderer::projectPoligon(Transform const& transform, Polygon const& tri){
 void Renderer::drawTriangle(Polygon const& t) const{
     
     
-    Vector3D a=vectorXmatrix4x4(t.tri.m_a,m_projMatrix);
-    Vector3D b=vectorXmatrix4x4(t.tri.m_b,m_projMatrix);
-    Vector3D c=vectorXmatrix4x4(t.tri.m_c,m_projMatrix);
-    
-    float x1= (a.m_x+1)*m_settings.m_windowWidth/2;
-    float y1= (1-a.m_y)*m_settings.m_windowHeight/2;
 
-    float x2= (b.m_x+1)*m_settings.m_windowWidth/2;
-    float y2= (1-b.m_y)*m_settings.m_windowHeight/2;
-
-    float x3= (c.m_x+1)*m_settings.m_windowWidth/2;
-    float y3= (1-c.m_y)*m_settings.m_windowHeight/2;
-    float m=t.m_lum;
    
-
+    float m=t.m_lum;
     const std::vector< SDL_Vertex > verts ={
-        {SDL_FPoint{x1,y1}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
-        {SDL_FPoint{x2,y2}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
-        {SDL_FPoint{x3,y3}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}}
+        {SDL_FPoint{t.tri.m_a.m_x,t.tri.m_a.m_y}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
+        {SDL_FPoint{t.tri.m_b.m_x,t.tri.m_b.m_y}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
+        {SDL_FPoint{t.tri.m_c.m_x,t.tri.m_c.m_y}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}}
     };
     SDL_RenderGeometry(m_Renderer,NULL,verts.data(),verts.size(),nullptr,0);
 /*

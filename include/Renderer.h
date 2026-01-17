@@ -3,6 +3,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <cmath>
+#include <queue>
 #include "Settings.h"
 #include "Window.h"
 #include "BasicGeometry.h"
@@ -25,11 +26,12 @@ class Renderer{
         Matrix4x4 m_camMatrix;
         Vector3D m_camPos;
         void drawTriangle(Polygon const& t) const;
-        void projectPoligon(Transform const& transform, Polygon const& tri);
+        void projectToCameraView(Transform const& transform, Polygon const& tri);
         Matrix4x4 getProjectionMatrix() const;
         void calculateLight(Polygon& pol);
         void polygonClipAgainstPlane(Vector3D& plane_p, Vector3D plane_n, Polygon& in, std::vector<Polygon>& result);
-        // void polygonClipAgainstPlane(Vector3D const& plane_p,Vector3D plane_n,Polygon const& in, std::vector<Polygon>& result);
+        void projectToScreen();
+        void rasterPolygons();
         void clipPolygons();
 
 
