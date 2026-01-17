@@ -3,7 +3,7 @@
 #include <sstream>
 
 Polygon::Polygon(Triangle const& tr):tri(tr){};
-
+Polygon::Polygon(Triangle const& tr,float lum):tri(tr), m_lum(lum){}
 
 
 Transform::Transform(YAML::Node const& obj){
@@ -81,3 +81,5 @@ bool Mesh::LoadObjFile(std::string const & path){
     }
     return true;
 }
+
+

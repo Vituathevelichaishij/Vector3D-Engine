@@ -619,6 +619,30 @@ bin/components/cpp/FlatLight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s
 .PHONY : bin/components/cpp/FlatLight.cpp.s
 
+bin/components/cpp/r.obj: bin/components/cpp/r.cpp.obj
+.PHONY : bin/components/cpp/r.obj
+
+# target to build an object file
+bin/components/cpp/r.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj
+.PHONY : bin/components/cpp/r.cpp.obj
+
+bin/components/cpp/r.i: bin/components/cpp/r.cpp.i
+.PHONY : bin/components/cpp/r.i
+
+# target to preprocess a source file
+bin/components/cpp/r.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/r.cpp.i
+.PHONY : bin/components/cpp/r.cpp.i
+
+bin/components/cpp/r.s: bin/components/cpp/r.cpp.s
+.PHONY : bin/components/cpp/r.s
+
+# target to generate assembly for a file
+bin/components/cpp/r.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/r.cpp.s
+.PHONY : bin/components/cpp/r.cpp.s
+
 bin/components/cpp/rotation.obj: bin/components/cpp/rotation.cpp.obj
 .PHONY : bin/components/cpp/rotation.obj
 
@@ -810,6 +834,30 @@ src/GameObject.s: src/GameObject.cpp.s
 src/GameObject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/GameObject.cpp.s
 .PHONY : src/GameObject.cpp.s
+
+src/InputHandler.obj: src/InputHandler.cpp.obj
+.PHONY : src/InputHandler.obj
+
+# target to build an object file
+src/InputHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/InputHandler.cpp.obj
+.PHONY : src/InputHandler.cpp.obj
+
+src/InputHandler.i: src/InputHandler.cpp.i
+.PHONY : src/InputHandler.i
+
+# target to preprocess a source file
+src/InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/InputHandler.cpp.i
+.PHONY : src/InputHandler.cpp.i
+
+src/InputHandler.s: src/InputHandler.cpp.s
+.PHONY : src/InputHandler.s
+
+# target to generate assembly for a file
+src/InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/src/InputHandler.cpp.s
+.PHONY : src/InputHandler.cpp.s
 
 src/Light.obj: src/Light.cpp.obj
 .PHONY : src/Light.obj
@@ -1052,6 +1100,9 @@ help:
 	@echo ... bin/components/cpp/FlatLight.obj
 	@echo ... bin/components/cpp/FlatLight.i
 	@echo ... bin/components/cpp/FlatLight.s
+	@echo ... bin/components/cpp/r.obj
+	@echo ... bin/components/cpp/r.i
+	@echo ... bin/components/cpp/r.s
 	@echo ... bin/components/cpp/rotation.obj
 	@echo ... bin/components/cpp/rotation.i
 	@echo ... bin/components/cpp/rotation.s
@@ -1076,6 +1127,9 @@ help:
 	@echo ... src/GameObject.obj
 	@echo ... src/GameObject.i
 	@echo ... src/GameObject.s
+	@echo ... src/InputHandler.obj
+	@echo ... src/InputHandler.i
+	@echo ... src/InputHandler.s
 	@echo ... src/Light.obj
 	@echo ... src/Light.i
 	@echo ... src/Light.s

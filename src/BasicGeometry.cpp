@@ -52,6 +52,14 @@ Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c){
 
 }
 
+Vector3D crossProduct(Vector3D const& first, Vector3D const& second){
+
+    return {first.m_y*second.m_z-first.m_z*second.m_y,
+        first.m_z*second.m_x-first.m_x*second.m_z,
+        first.m_x*second.m_y-first.m_y*second.m_x,
+    };
+
+}
 
 void Vector3D::rotate(Vector3D const& vec){
     float const f=M_PI/180;
@@ -175,3 +183,65 @@ Matrix4x4 getTransMatrix(Vector3D const& vec){
 
 
 }
+
+
+
+ Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D const &target, Vector3D const &up){
+
+    Vector3D newForward = target- pos;
+    newForward.normalize();
+
+
+    Vector3D a = newForward * dotProduct(up, newForward);
+    Vector3D newUp = up-a;
+    newUp.normalize();
+
+
+    Vector3D newRight = crossProduct(newUp, newForward);
+
+
+    Matrix4x4 matrix;
+    matrix.data[0][0] = newRight.m_x;     matrix.data[0][1] = newRight.m_y;         matrix.data[0][2] = newRight.m_z;         matrix.data[0][3] = 0.0f;
+    matrix.data[1][0] = newUp.m_x;            matrix.data[1][1] = newUp.m_y;            matrix.data[1][2] = newUp.m_z;            matrix.data[1][3] = 0.0f;
+    matrix.data[2][0] = newForward.m_x;       matrix.data[2][1] = newForward.m_y;       matrix.data[2][2] = newForward.m_z;       matrix.data[2][3] = 0.0f;
+    matrix.data[3][0] = pos.m_x;                      matrix.data[3][1] = pos.m_y;                      matrix.data[3][2] = pos.m_z;                      matrix.data[3][3] = 1.0f;
+
+    return matrix;
+
+}
+
+
+
+Matrix4x4 quickInverse(Matrix4x4 const &m){
+	Matrix4x4 matrix;
+	matrix.data[0][0] = m.data[0][0]; matrix.data[0][1] = m.data[1][0]; matrix.data[0][2] = m.data[2][0]; matrix.data[0][3] = 0.0f;
+	matrix.data[1][0] = m.data[0][1]; matrix.data[1][1] = m.data[1][1]; matrix.data[1][2] = m.data[2][1]; matrix.data[1][3] = 0.0f;
+	matrix.data[2][0] = m.data[0][2]; matrix.data[2][1] = m.data[1][2]; matrix.data[2][2] = m.data[2][2]; matrix.data[2][3] = 0.0f;
+	matrix.data[3][0] = -(m.data[3][0] * matrix.data[0][0] + m.data[3][1] * matrix.data[1][0] + m.data[3][2] * matrix.data[2][0]);
+	matrix.data[3][1] = -(m.data[3][0] * matrix.data[0][1] + m.data[3][1] * matrix.data[1][1] + m.data[3][2] * matrix.data[2][1]);
+	matrix.data[3][2] = -(m.data[3][0] * matrix.data[0][2] + m.data[3][1] * matrix.data[1][2] + m.data[3][2] * matrix.data[2][2]);
+	matrix.data[3][3] = 1.0f;
+	return matrix;
+}
+
+
+
+Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd){
+    Vector3D planeN = N;
+    planeN.normalize();
+	float plane_d = -dotProduct(planeN, planeP);
+	float ad = dotProduct(lineStart, planeN);
+	float bd = dotProduct(lineEnd, planeN);
+	float t = (-plane_d - ad) / (bd - ad);
+	Vector3D lineStartToEnd = lineEnd-lineStart;
+	Vector3D lineToIntersect = lineStartToEnd*t;
+	return lineStart+lineToIntersect;
+
+
+
+}
+
+
+
+
+

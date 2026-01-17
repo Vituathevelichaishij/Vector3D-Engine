@@ -6,6 +6,6 @@ class Camera : public Component{
 
         Vector3D m_angles;
         Vector3D m_position;
-        virtual Matrix4x4 getCameraMatrix() =0;
+        virtual Matrix4x4 getCameraMatrix() const =0;
 
 };

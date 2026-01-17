@@ -1,4 +1,5 @@
 #include "Engine.h"
+#include "InputHandler.h"
 extern void RegisterAllComponents();
 
 Engine::Engine() : m_window(m_settings), m_renderer(m_window, m_settings){}
@@ -12,14 +13,14 @@ void Engine::start(){
     
     
     while(!m_quit){
+        InputHandler::pullEvents();
 
 
 
-        while(SDL_PollEvent(&m_event) != 0){
-            if(m_event.type == SDL_QUIT){
-                m_quit = true;
-            }
-	    }
+        if(InputHandler::keyEventofType(SDL_QUIT)){
+            m_quit = true;
+        }
+	    
         for(auto& o : m_scene.m_objects){
             o.second->update(0);
         }

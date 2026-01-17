@@ -1,6 +1,7 @@
 #include "FlatLight.h"
 #include "GameObject.h"
 #include "ComponentFactory.h"
+#include <iostream>
 void register_FlatLight()
 {ComponentFactory::init().registerComponent("FlatLight", []() {return std::make_unique<FlatLight>();   });}
 
@@ -21,5 +22,6 @@ float FlatLight::getLuminocity(Triangle const& tri){
 
     float result=dotProduct(tri.m_N,m_lightDir);
     if(result<0) result=0;
+
     return  result;
 }

@@ -8,21 +8,32 @@
 #include "BasicGeometry.h"
 #include "Transform.h"
 #include "Scene.h"
+class Light;
 class Camera;
 class Renderer{
     public:
         Renderer(Window const& window, Settings const& settings);
         ~Renderer();
-        void render(Scene const& scene);
-        void projectMesh(Transform const& transform, Camera const& camera);
+        void render(Scene const& scsene);
+        void projectMesh(Transform& transform);
     private:
         std::vector<Polygon> m_collected;
+        std::vector<Light*> m_lightSources;
         SDL_Renderer* m_Renderer;      
         Settings const& m_settings;
         Matrix4x4 m_projMatrix;
+        Matrix4x4 m_camMatrix;
+        Vector3D m_camPos;
         void drawTriangle(Polygon const& t) const;
-        Polygon projectPoligon(Transform const& transform, Polygon const& tri, Camera const& camera) const;
+        void projectPoligon(Transform const& transform, Polygon const& tri);
         Matrix4x4 getProjectionMatrix() const;
+        void calculateLight(Polygon& pol);
+        void polygonClipAgainstPlane(Vector3D& plane_p, Vector3D plane_n, Polygon& in, std::vector<Polygon>& result);
+        // void polygonClipAgainstPlane(Vector3D const& plane_p,Vector3D plane_n,Polygon const& in, std::vector<Polygon>& result);
+        void clipPolygons();
+
+
+
         
 };
 

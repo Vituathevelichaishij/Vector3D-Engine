@@ -30,6 +30,7 @@ class Vector3D{
 
 class Triangle{
     public:
+        Triangle() =default;
         Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c);
         Triangle(Vector3D const& a, Vector3D const& b,Vector3D const& c, Vector3D const& N);
         Vector3D m_a;
@@ -39,6 +40,8 @@ class Triangle{
     private:
 };
 Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c);
+
+Vector3D crossProduct(Vector3D const& first, Vector3D const& second);
 
 Vector3D vectorXvectorPart(Vector3D const& a, Vector3D const& b);
 
@@ -54,6 +57,16 @@ Matrix4x4 getTransMatrix(Vector3D const& vec);
 
 Matrix4x4 getRotMatrix(Vector3D const& vec);
 
+Matrix4x4 quickInverse(Matrix4x4 const &m);
+
+Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3D const &up);
+
+
+Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3D const &up);
+
+Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd);
+
 float dotProduct(Vector3D const& a, Vector3D const& b);
+
 
 #endif

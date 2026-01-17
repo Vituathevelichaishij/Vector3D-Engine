@@ -424,4 +424,5 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/functional \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
  D:/Codes/CPP/git/Engine/include/Component.h \
- D:/Codes/CPP/git/Engine/include/ComponentFactory.h
+ D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
+ D:/Codes/CPP/git/Engine/include/InputHandler.h

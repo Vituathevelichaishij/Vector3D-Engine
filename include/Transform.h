@@ -4,8 +4,11 @@
 #include <vector>
 #include <yaml-cpp/yaml.h>
 struct Polygon{
+    Polygon() =default;
     Polygon(Triangle const& tr);
+    Polygon(Triangle const& tr,float lum);
     Triangle tri;
+    float m_lum;
 };
 
 
