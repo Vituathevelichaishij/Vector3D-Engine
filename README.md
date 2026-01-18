@@ -60,7 +60,7 @@ Window`s propertiesc can be changed in config file.
 All used files needs to be located in bin directory.
 To add scene with objects you need to create yaml file with all objects in the scene:
 
-### scene1.yaml
+``` scene1.yaml
 gameObjects:
   - name: "camera"
     transformation:
@@ -81,10 +81,10 @@ gameObjects:
     .obj: "obj/cube.obj"
     texture: "textures/cube.png"
 
-
+```
     
 In the prefab file you can add custom or premade components:
-### prefab1.yaml
+``` prefab1.yaml
 components:
   - name: "Camera3D" <-component name
     type: "Camera" <-base type
@@ -92,12 +92,12 @@ components:
   - name: "rotation"
     type: "rotation"
     data: [0,0,1] <- data which be used in initialization
-
+```
 
 To create component you need  to use basic component class for scrip, or you may create your own type of camera, lighting, etc.
 Components file needs be located in bin/components/h and bin/components/cpp.
 Component example:
-### rotation.cpp
+``` rotation.cpp
 #include "rotation.h"
 #include "GameObject.h"
 #include "ComponentFactory.h"
@@ -126,3 +126,4 @@ class rotation : public Component{
         virtual void start() override;
         virtual void init(YAML::Node const& data) override;
 };
+```
