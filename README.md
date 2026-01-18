@@ -4,48 +4,49 @@ A lightweight custom **3D game engine** written in **C++** using **SDL2**, featu
 
 ---
 
-##  Features
+## ✨ Features
 
-- **Component System (ECS-like)**
-  - Attach and remove components at runtime
-  - Modular behavior architecture
-  - Easy extension with custom components
+### 🧩 Component System (ECS-like)
+- Attach and remove components at runtime  
+- Modular behavior architecture  
+- Easy extension with custom components  
 
--  **Prefab System**
-  - Save reusable entity templates
-  - Instantiate complex objects with one call
-  - Supports hierarchical objects
+### 📦 Prefab System
+- Save reusable entity templates  
+- Instantiate complex objects with one call  
+- Supports hierarchical objects  
 
--  **Lighting System**
-  - Directional light
-  - Point light
-  - Basic shading model (Lambert/Phong depending on implementation)
-  - Per-vertex / per-pixel lighting support
+### 💡 Lighting System
+- Directional light  
+- Point light  
+- Basic shading model (Lambert/Phong depending on implementation)  
+- Per-vertex / per-pixel lighting support  
 
--  **3D Math Core**
-  - Custom Vector and Matrix math
-  - Transform system (position, rotation, scale)
-  - Camera projection (perspective)
+### 📐 3D Math Core
+- Custom Vector and Matrix math  
+- Transform system (position, rotation, scale)  
+- Camera projection (perspective)  
 
--  Software Renderer
-  - Triangle rasterization
-  - Z-buffer (depth testing)
-  - Texture mapping
-  - Back-face culling
-  - Clipping against view frustum
+### 🖥 Software Renderer
+- Triangle rasterization  
+- Z-buffer (depth testing)  
+- Texture mapping  
+- Back-face culling  
+- Clipping against view frustum  
 
--  Camera System
-  - Free-fly camera
-  - First-person style movement
-  - Configurable FOV and near/far planes
+### 📷 Camera System
+- Free-fly camera  
+- First-person style movement  
+- Configurable FOV and near/far planes  
 
--  Input System
-  - Keyboard and mouse handling
-  - Real-time input polling
+### ⌨ Input System
+- Keyboard and mouse handling  
+- Real-time input polling  
 
--  Cross-platform
-  - Windows (MinGW / MSVC)
-  - Linux (GCC / Clang)
+### 🌍 Cross-platform
+- Windows (MinGW / MSVC)  
+- Linux (GCC / Clang)  
+
 ---
 ##  Dependencies
 
