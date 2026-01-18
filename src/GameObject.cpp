@@ -4,25 +4,29 @@
 GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_transform(Transform(obj)), m_scene(scene), m_name(){
     
     m_name=obj["name"].as<std::string>();
-    if (obj["prefab"]) {
+
         try {
-            std::string prefabPath = obj["prefab"].as<std::string>();
-            YAML::Node prefab = YAML::LoadFile(prefabPath);
-            if(prefab["components"]){
-                for (auto const& comp : prefab["components"]) {
-                    if (comp["name"] && comp["type"]){
-                            
-                        addComponent(comp);
+            
+            
+            if(obj["prefab"]){
+                std::string prefabPath = obj["prefab"].as<std::string>();
+                YAML::Node prefab = YAML::LoadFile(prefabPath);
+                if(prefab["components"]){
+                    for (auto const& comp : prefab["components"]) {
+                        if (comp["name"] && comp["type"]){
+                                
+                            addComponent(comp);
+                        }
                     }
                 }
             }
 
-            if(prefab[".obj"]){
-                m_transform.m_mesh.LoadObjFile(prefab[".obj"].as<std::string>());
+            if(obj[".obj"]){
+                m_transform.m_mesh.LoadObjFile(obj[".obj"].as<std::string>());
 
             }
-            if(prefab["texture"]){
-                m_transform.m_mesh.sprite=IMG_Load(prefab["texture"].as<std::string>().c_str());
+            if(obj["texture"]){
+                m_transform.m_mesh.sprite=IMG_Load(obj["texture"].as<std::string>().c_str());
 
                 for(auto& pol: m_transform.m_mesh.data){
 
@@ -35,7 +39,7 @@ GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_transform(Transfo
             } catch (const std::exception& e) {
                 std::cerr << "Failed to load prefab: " << e.what() << std::endl;
             }
-    }
+
     
 }
 

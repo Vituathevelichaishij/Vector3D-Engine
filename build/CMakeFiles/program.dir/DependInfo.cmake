@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Codes/CPP/git/Engine/build/bin/components/cpp/Camera3D.cpp" "CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/build/bin/components/cpp/FlatLight.cpp" "CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj.d"
+  "D:/Codes/CPP/git/Engine/build/bin/components/cpp/PointLight.cpp" "CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/build/bin/components/cpp/r.cpp" "CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/build/bin/components/cpp/rotation.cpp" "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj" "gcc" "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj.d"
   "D:/Codes/CPP/git/Engine/build/generated_registry.cpp" "CMakeFiles/program.dir/generated_registry.cpp.obj" "gcc" "CMakeFiles/program.dir/generated_registry.cpp.obj.d"

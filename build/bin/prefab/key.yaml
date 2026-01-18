@@ -1,5 +1,2 @@
 components:
-  - name: "r"
-    type: "r"
-.obj: "obj/Asuka.obj"
-texture: "textures/body.png"
+

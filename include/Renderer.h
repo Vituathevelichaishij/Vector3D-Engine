@@ -25,6 +25,7 @@ class Renderer{
 
         SDL_Texture* m_texture;
         std::vector<Uint32> m_frameBuffer;
+        std::vector<float> m_dephBuffer;
 
 
 

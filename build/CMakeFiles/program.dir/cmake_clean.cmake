@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj.d"
   "CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj"
   "CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj.d"
+  "CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj"
+  "CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj.d"
   "CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj"
   "CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj.d"
   "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj"

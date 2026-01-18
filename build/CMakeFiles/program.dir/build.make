@@ -311,11 +311,26 @@ CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s"
 	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp -o CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.s
 
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj: bin/components/cpp/PointLight.cpp
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj"
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\PointLight.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\PointLight.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\PointLight.cpp
+
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.i"
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\PointLight.cpp > CMakeFiles\program.dir\bin\components\cpp\PointLight.cpp.i
+
+CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.s"
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\PointLight.cpp -o CMakeFiles\program.dir\bin\components\cpp\PointLight.cpp.s
+
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj"
 	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.i: cmake_force
@@ -330,7 +345,7 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.d
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/rotation.cpp
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj"
 	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.i: cmake_force
@@ -345,7 +360,7 @@ CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/flags.
 CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/generated_registry.cpp.obj: generated_registry.cpp
 CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/program.dir/generated_registry.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/program.dir/generated_registry.cpp.obj"
 	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/generated_registry.cpp.obj -MF CMakeFiles\program.dir\generated_registry.cpp.obj.d -o CMakeFiles\program.dir\generated_registry.cpp.obj -c D:\Codes\CPP\git\Engine\build\generated_registry.cpp
 
 CMakeFiles/program.dir/generated_registry.cpp.i: cmake_force
@@ -374,6 +389,7 @@ program_OBJECTS = \
 "CMakeFiles/program.dir/src/main.cpp.obj" \
 "CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj" \
 "CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj" \
+"CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj" \
 "CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj" \
 "CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj" \
 "CMakeFiles/program.dir/generated_registry.cpp.obj"
@@ -397,6 +413,7 @@ bin/program.exe: CMakeFiles/program.dir/src/Window.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/src/main.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj
+bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/generated_registry.cpp.obj
@@ -405,7 +422,7 @@ bin/program.exe: yaml-cpp-0.8.0/libyaml-cppd.a
 bin/program.exe: CMakeFiles/program.dir/linkLibs.rsp
 bin/program.exe: CMakeFiles/program.dir/objects1.rsp
 bin/program.exe: CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable bin\program.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable bin\program.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\program.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

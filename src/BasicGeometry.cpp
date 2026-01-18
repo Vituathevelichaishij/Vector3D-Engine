@@ -77,7 +77,8 @@ void Triangle2D::computeNormal() {
 
 
 
-Vector3D::Vector3D(float x, float y, float z): m_x(x),m_y(y), m_z(z){}
+Vector3D::Vector3D(float x, float y, float z): m_x(x),m_y(y), m_z(z){
+}
 
 Vector3D Vector3D::operator+(const Vector3D &n)const{
     return Vector3D(m_x+n.m_x,m_y+n.m_y,m_z+n.m_z);

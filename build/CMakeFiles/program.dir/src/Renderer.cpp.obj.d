@@ -449,4 +449,6 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/Camera.h \
-  D:/Codes/CPP/git/Engine/include/Light.h
+  D:/Codes/CPP/git/Engine/include/Light.h \
+  C:/msys64/ucrt64/lib/clang/19/include/float.h \
+  C:/msys64/ucrt64/include/float.h

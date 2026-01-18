@@ -632,6 +632,30 @@ bin/components/cpp/FlatLight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s
 .PHONY : bin/components/cpp/FlatLight.cpp.s
 
+bin/components/cpp/PointLight.obj: bin/components/cpp/PointLight.cpp.obj
+.PHONY : bin/components/cpp/PointLight.obj
+
+# target to build an object file
+bin/components/cpp/PointLight.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.obj
+.PHONY : bin/components/cpp/PointLight.cpp.obj
+
+bin/components/cpp/PointLight.i: bin/components/cpp/PointLight.cpp.i
+.PHONY : bin/components/cpp/PointLight.i
+
+# target to preprocess a source file
+bin/components/cpp/PointLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.i
+.PHONY : bin/components/cpp/PointLight.cpp.i
+
+bin/components/cpp/PointLight.s: bin/components/cpp/PointLight.cpp.s
+.PHONY : bin/components/cpp/PointLight.s
+
+# target to generate assembly for a file
+bin/components/cpp/PointLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\program.dir\build.make CMakeFiles/program.dir/bin/components/cpp/PointLight.cpp.s
+.PHONY : bin/components/cpp/PointLight.cpp.s
+
 bin/components/cpp/r.obj: bin/components/cpp/r.cpp.obj
 .PHONY : bin/components/cpp/r.obj
 
@@ -1114,6 +1138,9 @@ help:
 	@echo ... bin/components/cpp/FlatLight.obj
 	@echo ... bin/components/cpp/FlatLight.i
 	@echo ... bin/components/cpp/FlatLight.s
+	@echo ... bin/components/cpp/PointLight.obj
+	@echo ... bin/components/cpp/PointLight.i
+	@echo ... bin/components/cpp/PointLight.s
 	@echo ... bin/components/cpp/r.obj
 	@echo ... bin/components/cpp/r.i
 	@echo ... bin/components/cpp/r.s

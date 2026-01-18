@@ -1,0 +1,29 @@
+
+
+gameObjects:
+  - name: "camera"
+    transformation:
+      rotation: [0,0,0]
+      position: [0,0,-30]
+    prefab: "prefab/player.yaml"
+
+
+
+  - name: "Sun"
+    transformation:
+      rotation: [0,0,0]
+      position: [0,0,0]
+      size: [10,10,10]
+      light: false
+    prefab: "prefab/sun.yaml"
+    .obj: "obj/Sphere.obj"
+
+  - name: "planet1"
+    transformation:
+      rotation: [0,0,0]
+      position: [20,0,0]
+      size: [5,5,5]
+      light: true
+    prefab: "prefab/planet.yaml"
+    .obj: "obj/Sphere.obj"
+  

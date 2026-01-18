@@ -6,19 +6,19 @@ gameObjects:
       rotation: [0,0,0]
       position: [0,0,0]
     prefab: "prefab/player.yaml"
-  - name: "flat lumination"
-    transformation:
-      rotation: [0,180,0]
+
 
 
 
   - name: "cube1"
     transformation:
-      rotation: [0,180,0]
+      rotation: [180,180,0]
       position: [0,0,2]
       size: [1,1,1]
       light: false
     prefab: "prefab/key.yaml"
+    .obj: "obj/Asuka.obj"
+    texture: "textures/body.png"
 
 
 
@@ -28,5 +28,7 @@ gameObjects:
       position: [0,-2,2]
       size: [1,1,1]
     prefab: "prefab/map.yaml"
+    .obj: "obj/Low_poly_map.obj"
+    texture: "textures/Base_Color1.png"
 
 

@@ -12,7 +12,6 @@ void rotation::update(Uint32 dT)
     float rotSpeed  = 1;
     Vector3D dir={0,0,1};
     dir.rotate(owner->m_transform.m_rotation);
-    // ===== Движение (WASD) =====
     if (InputHandler::keyIsPressed(SDLK_w)) {
         owner->m_transform.m_position = owner->m_transform.m_position + dir * moveSpeed;
     }
@@ -21,16 +20,6 @@ void rotation::update(Uint32 dT)
         owner->m_transform.m_position = owner->m_transform.m_position - dir * moveSpeed;
     }
 
-    if (InputHandler::keyIsPressed(SDLK_a)) {
-        owner->m_transform.m_position.m_x -= moveSpeed;
-    }
-
-    if (InputHandler::keyIsPressed(SDLK_d)) {
-        owner->m_transform.m_position.m_x += moveSpeed;
-    }
-
-
-    // ===== Вращение (Стрелки) =====
 
     if (InputHandler::keyIsPressed(SDLK_UP)) {
         owner->m_transform.m_rotation.m_x += rotSpeed;

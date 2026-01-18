@@ -6,7 +6,7 @@ Engine::Engine() : m_window(m_settings), m_renderer(m_window, m_settings){}
 
 void Engine::start(){
     RegisterAllComponents();
-    m_scene=Scene("scene/scene1.yaml");
+    m_scene=Scene("scene/scene2.yaml");
     int countedFrames = 0;
     m_timer.start();
     Uint32 lastUpdate=0;
@@ -26,7 +26,7 @@ void Engine::start(){
         for(auto& o : m_scene.m_objects){
             o.second->update(m_timer.getTicks()-lastUpdate);
         }
-        std::cout<<countedFrames /  (m_timer.getTicks() / 1000.f) <<std::endl; 
+        //std::cout<<countedFrames /  (m_timer.getTicks() / 1000.f) <<std::endl; 
         lastUpdate=m_timer.getTicks();
         
         ++countedFrames;

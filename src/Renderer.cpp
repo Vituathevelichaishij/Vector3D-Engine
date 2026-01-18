@@ -1,12 +1,14 @@
 #include "Renderer.h"
 #include "Camera.h"
 #include "Light.h"
+#include <float.h>
 Renderer::Renderer(Window const& window, Settings const& settings):m_settings(settings){
         m_renderer = SDL_CreateRenderer( window.gWindow,-1,SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
         m_projMatrix=getProjectionMatrix();
 
         m_texture = SDL_CreateTexture(m_renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, m_settings.m_windowWidth, m_settings.m_windowHeight);
         m_frameBuffer.resize(settings.m_windowWidth * settings.m_windowHeight);
+        m_dephBuffer.resize(settings.m_windowWidth * settings.m_windowHeight,0);
 
         SDL_SetRenderDrawBlendMode(m_renderer, SDL_BLENDMODE_BLEND);
         SDL_SetRenderDrawColor(m_renderer, 0x0, 0x0, 0x0, 0x0 );     
@@ -18,7 +20,9 @@ Renderer::~Renderer(){
 
 
 void Renderer::render(Scene const& scene){
-    
+    std::fill(m_frameBuffer.begin(), m_frameBuffer.end(), 0);
+    std::fill(m_dephBuffer.begin(), m_dephBuffer.end(), 0 );
+
 
     auto cam=scene.findComponents<Camera>("Camera")[0];
     m_camMatrix=cam->getCameraMatrix();
@@ -34,12 +38,13 @@ void Renderer::render(Scene const& scene){
     clipPolygons();
 
 
-    
+    /*
     sort(m_collected.begin(),m_collected.end(),[](Polygon const& a, Polygon const& b){
             float z1 = std::max({a.tri.m_a.m_z, a.tri.m_b.m_z, a.tri.m_c.m_z});
             float z2 = std::max({b.tri.m_a.m_z, b.tri.m_b.m_z, b.tri.m_c.m_z});
         return z1>z2;
     });
+    */ 
 
     projectToScreen();
 
@@ -57,7 +62,10 @@ void Renderer::render(Scene const& scene){
     SDL_RenderClear(m_renderer);
     SDL_RenderCopy(m_renderer, m_texture, NULL, NULL);
     SDL_RenderPresent(m_renderer);
-    std::fill(m_frameBuffer.begin(), m_frameBuffer.end(), 0);
+
+    
+    
+    
 }
 
 
@@ -72,10 +80,13 @@ void Renderer::projectMesh(Transform& transform){
 
 }
 
-void Renderer::calculateLight(Polygon& pol){
-    pol.m_lum=m_lightSources[0]->getLuminocity(pol.tri);
-    
-}
+    void Renderer::calculateLight(Polygon& pol){
+        float lum=0;
+        for(auto& l: m_lightSources){
+        lum=std::max(lum,l->getLuminocity(pol.tri));
+        }
+        pol.m_lum=lum;
+    }
 
 void Renderer::clipPolygons(){
     std::vector<Polygon> result;
@@ -120,9 +131,9 @@ void Renderer::projectToScreen(){
         pol.text.m_b= pol.text.m_b/wB;
         pol.text.m_c= pol.text.m_c/wC;
 
-        pol.text.m_a.m_w=1/wA;
-        pol.text.m_b.m_w=1/wB;
-        pol.text.m_c.m_w=1/wC;
+        pol.text.m_a.m_w=1.0f/wA;
+        pol.text.m_b.m_w=1.0f/wB;
+        pol.text.m_c.m_w=1.0f/wC;
 
         pol.tri.m_a=pol.tri.m_a/wA;
         pol.tri.m_b=pol.tri.m_b/wB;
@@ -148,40 +159,40 @@ void Renderer::projectToScreen(){
 
 
 }
-void Renderer::projectToCameraView(Transform const& transform, Polygon const& tri){
-    
-    
+    void Renderer::projectToCameraView(Transform const& transform, Polygon const& tri){
+        
+        
 
 
-    Matrix4x4 worldMatrix=getRotMatrix(transform.m_rotation)*getTransMatrix(transform.m_position);
+        Matrix4x4 worldMatrix=getRotMatrix(transform.m_rotation)*getTransMatrix(transform.m_position);
 
 
-    Vector3D a=vectorXmatrix4x4(tri.tri.m_a,worldMatrix);
-    Vector3D b=vectorXmatrix4x4(tri.tri.m_b,worldMatrix);
-    Vector3D c=vectorXmatrix4x4(tri.tri.m_c,worldMatrix);
+        Vector3D a=vectorXmatrix4x4(tri.tri.m_a,worldMatrix);
+        Vector3D b=vectorXmatrix4x4(tri.tri.m_b,worldMatrix);
+        Vector3D c=vectorXmatrix4x4(tri.tri.m_c,worldMatrix);
 
-    Polygon result(Triangle3D{a,b,c}, tri.text);
-    result.sprite=tri.sprite;
+        Polygon result(Triangle3D{a,b,c}, tri.text);
+        result.sprite=tri.sprite;
 
-    if(dotProduct(result.tri.m_N,a-m_camPos)>0) return;
+        if(dotProduct(result.tri.m_N,a-m_camPos)>0) return;
 
-    if(transform.m_light)
-    calculateLight(result);
-
-
-
-    result.tri.m_a=vectorXmatrix4x4(result.tri.m_a,m_camMatrix);
-    result.tri.m_b=vectorXmatrix4x4(result.tri.m_b,m_camMatrix);
-    result.tri.m_c=vectorXmatrix4x4(result.tri.m_c,m_camMatrix);
-
-    m_collected.emplace_back(std::move(result));
-    
+        if(transform.m_light)
+        calculateLight(result);
 
 
 
+        result.tri.m_a=vectorXmatrix4x4(result.tri.m_a,m_camMatrix);
+        result.tri.m_b=vectorXmatrix4x4(result.tri.m_b,m_camMatrix);
+        result.tri.m_c=vectorXmatrix4x4(result.tri.m_c,m_camMatrix);
+
+        m_collected.emplace_back(std::move(result));
+        
 
 
-} 
+
+
+
+    } 
 
 
 
@@ -357,6 +368,10 @@ void Renderer::polygonClipAgainstPlane(Vector3D& plane_p, Vector3D plane_n, Poly
 }
 
 
+
+
+
+
 void Renderer::drawPolygon(Polygon& pol) {
 
     if (pol.tri.m_b.m_y < pol.tri.m_a.m_y) {
@@ -441,7 +456,10 @@ void Renderer::drawPolygon(Polygon& pol) {
             float du_dx = (u_end - u_start) / dx;
             float dv_dx = (v_end - v_start) / dx;
             float dw_dx = (w_end - w_start) / dx;
-            
+
+
+
+
 
             float u = u_start + (ix_start - x_start) * du_dx;
             float v = v_start + (ix_start - x_start) * dv_dx;
@@ -463,8 +481,12 @@ void Renderer::drawPolygon(Polygon& pol) {
                     b = 255 * m;
                 }
                 
-                m_frameBuffer[y * m_settings.m_windowWidth + x] = 
-                    (255 << 24) | (r << 16) | (g << 8) | b;
+                if(w > m_dephBuffer[y*m_settings.m_windowWidth+x]){
+                        m_frameBuffer[y * m_settings.m_windowWidth + x] = 
+                            (255 << 24) | (r << 16) | (g << 8) | b;
+                        m_dephBuffer[y*m_settings.m_windowWidth+x]=w;
+
+                }
                 
 
                 u += du_dx;
@@ -474,76 +496,6 @@ void Renderer::drawPolygon(Polygon& pol) {
         }
     }
 
-/*
-    if (y2 != y3) {
-
-        float dxdy1 = (x3 - x2) / (float)(y3 - y2);
-        float dxdy2 = (x3 - x1) / (float)(y3 - y1);
-        
-
-        float dudy1 = (u3 - u2) / (float)(y3 - y2);
-        float dvdy1 = (v3 - v2) / (float)(y3 - y2);
-        float dudy2 = (u3 - u1) / (float)(y3 - y1);
-        float dvdy2 = (v3 - v1) / (float)(y3 - y1);
-
-        for (int y = y2; y <= y3 && y < m_settings.m_windowHeight; y++) {
-            if (y < 0) continue;
-            
-            int y_offset1 = y - y2;  
-            int y_offset2 = y - y1;  
-            
-
-            float x_start = x2 + dxdy1 * y_offset1;
-            float x_end = x1 + dxdy2 * y_offset2;
-            
-            
-            float u_start = u2 + dudy1 * y_offset1;
-            float v_start = v2 + dvdy1 * y_offset1;
-            float u_end = u1 + dudy2 * y_offset2;
-            float v_end = v1 + dvdy2 * y_offset2;
-            
-            if (x_start > x_end) {
-                std::swap(x_start, x_end);
-                std::swap(u_start, u_end);
-                std::swap(v_start, v_end);
-            }
-            
-            int ix_start = std::max(0, (int)x_start);
-            int ix_end = std::min(m_settings.m_windowWidth, (int)x_end);
-            
-            if (ix_end <= ix_start) continue;
-            
-            float dx = x_end - x_start;
-            float du_dx = (u_end - u_start) / dx;
-            float dv_dx = (v_end - v_start) / dx;
-            
-            float u = u_start + (ix_start - x_start) * du_dx;
-            float v = v_start + (ix_start - x_start) * dv_dx;
-            
-            for (int x = ix_start; x < ix_end; x++) {
-                float m = pol.m_lum;
-                int r, g, b;
-                
-                if (pol.sprite) {
-                    Uint32 pixel = getPixel(pol.sprite, u, v);
-                    r = ((pixel >> 16) & 0xFF)*m;
-                    g = ((pixel >> 8) & 0xFF)*m;
-                    b = (pixel & 0xFF)*m;
-                } else {
-                    r = 255 * m;
-                    g = 255 * m;
-                    b = 255 * m;
-                }
-                
-                m_frameBuffer[y * m_settings.m_windowWidth + x] = 
-                    (255 << 24) | (r << 16) | (g << 8) | b;
-                
-                u += du_dx;
-                v += dv_dx;
-            }
-        }
-    }
-    */
 
 
 
@@ -619,8 +571,12 @@ void Renderer::drawPolygon(Polygon& pol) {
                     b = 255 * m;
                 }
                 
-                m_frameBuffer[y * m_settings.m_windowWidth + x] = 
-                    (255 << 24) | (r << 16) | (g << 8) | b;
+                if(w > m_dephBuffer[y*m_settings.m_windowWidth+x]){
+                        m_frameBuffer[y * m_settings.m_windowWidth + x] = 
+                            (255 << 24) | (r << 16) | (g << 8) | b;
+                        m_dephBuffer[y*m_settings.m_windowWidth+x]=w;
+
+                }
                 
 
                 u += du_dx;
@@ -630,7 +586,6 @@ void Renderer::drawPolygon(Polygon& pol) {
         }
     }
 }
-
 
 
 Uint32 Renderer::getPixel(SDL_Surface *surface, float u, float v) {
