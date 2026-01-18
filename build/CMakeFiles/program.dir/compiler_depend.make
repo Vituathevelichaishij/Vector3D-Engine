@@ -7,7 +7,6 @@ CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: bin/components/cpp/C
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -197,6 +196,8 @@ CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: bin/components/cpp/C
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -232,117 +233,133 @@ CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: bin/components/cpp/C
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   bin/components/h/Camera3D.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Camera.h \
@@ -368,6 +385,7 @@ CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: bin/components/cpp/C
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -439,7 +457,6 @@ CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: bin/components/cpp/
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -629,6 +646,8 @@ CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: bin/components/cpp/
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -664,117 +683,133 @@ CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: bin/components/cpp/
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   bin/components/h/FlatLight.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
@@ -800,6 +835,7 @@ CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: bin/components/cpp/
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -871,7 +907,6 @@ CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -1061,6 +1096,8 @@ CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp \
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -1096,117 +1133,133 @@ CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp \
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   bin/components/h/r.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
@@ -1231,6 +1284,7 @@ CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -1302,7 +1356,6 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -1401,6 +1454,7 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_map.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_set.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
@@ -1472,6 +1526,7 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
   C:/msys64/ucrt64/include/c++/14.2.0/unordered_map \
+  C:/msys64/ucrt64/include/c++/14.2.0/unordered_set \
   C:/msys64/ucrt64/include/c++/14.2.0/utility \
   C:/msys64/ucrt64/include/c++/14.2.0/valarray \
   C:/msys64/ucrt64/include/c++/14.2.0/vector \
@@ -1492,6 +1547,8 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -1527,117 +1584,133 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   bin/components/h/rotation.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
@@ -1663,6 +1736,7 @@ CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/r
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -1892,10 +1966,18 @@ CMakeFiles/program.dir/src/BasicGeometry.cpp.obj: D:/Codes/CPP/git/Engine/src/Ba
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h
 
 CMakeFiles/program.dir/src/Camera.cpp.obj: D:/Codes/CPP/git/Engine/src/Camera.cpp
@@ -1906,7 +1988,6 @@ CMakeFiles/program.dir/src/Component.cpp.obj: D:/Codes/CPP/git/Engine/src/Compon
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -2093,6 +2174,8 @@ CMakeFiles/program.dir/src/Component.cpp.obj: D:/Codes/CPP/git/Engine/src/Compon
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -2128,117 +2211,133 @@ CMakeFiles/program.dir/src/Component.cpp.obj: D:/Codes/CPP/git/Engine/src/Compon
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_assert.h \
@@ -2329,7 +2428,6 @@ CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: D:/Codes/CPP/git/Engine/src
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -2519,6 +2617,8 @@ CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: D:/Codes/CPP/git/Engine/src
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -2554,117 +2654,133 @@ CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: D:/Codes/CPP/git/Engine/src
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
@@ -2756,7 +2872,6 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cp
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -2858,6 +2973,7 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_ptr.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_map.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_set.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
@@ -2931,6 +3047,7 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cp
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
   C:/msys64/ucrt64/include/c++/14.2.0/unordered_map \
+  C:/msys64/ucrt64/include/c++/14.2.0/unordered_set \
   C:/msys64/ucrt64/include/c++/14.2.0/utility \
   C:/msys64/ucrt64/include/c++/14.2.0/valarray \
   C:/msys64/ucrt64/include/c++/14.2.0/vector \
@@ -2951,6 +3068,8 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cp
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -2986,117 +3105,133 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cp
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
@@ -3198,7 +3333,6 @@ CMakeFiles/program.dir/src/GameObject.cpp.obj: D:/Codes/CPP/git/Engine/src/GameO
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -3388,6 +3522,8 @@ CMakeFiles/program.dir/src/GameObject.cpp.obj: D:/Codes/CPP/git/Engine/src/GameO
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -3423,117 +3559,133 @@ CMakeFiles/program.dir/src/GameObject.cpp.obj: D:/Codes/CPP/git/Engine/src/GameO
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
@@ -3557,6 +3709,7 @@ CMakeFiles/program.dir/src/GameObject.cpp.obj: D:/Codes/CPP/git/Engine/src/GameO
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -3629,7 +3782,6 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bit \
@@ -3645,12 +3797,16 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable_policy.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
@@ -3664,6 +3820,7 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/node_handle.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h \
@@ -3687,6 +3844,7 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_set.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h \
@@ -3704,6 +3862,7 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h \
   C:/msys64/ucrt64/include/c++/14.2.0/exception \
+  C:/msys64/ucrt64/include/c++/14.2.0/ext/aligned_buffer.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h \
@@ -3726,6 +3885,7 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/c++/14.2.0/tuple \
   C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.2.0/typeinfo \
+  C:/msys64/ucrt64/include/c++/14.2.0/unordered_set \
   C:/msys64/ucrt64/include/c++/14.2.0/vector \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -3744,6 +3904,8 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -3778,117 +3940,133 @@ CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/Inp
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/InputHandler.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_assert.h \
@@ -3950,7 +4128,6 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine/src/Rendere
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -4145,6 +4322,8 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine/src/Rendere
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -4180,117 +4359,133 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine/src/Rendere
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Camera.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
@@ -4392,7 +4587,6 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: D:/Codes/CPP/git/Engine/src/Scene.cpp 
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -4582,6 +4776,8 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: D:/Codes/CPP/git/Engine/src/Scene.cpp 
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -4617,117 +4813,133 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: D:/Codes/CPP/git/Engine/src/Scene.cpp 
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
@@ -4751,6 +4963,7 @@ CMakeFiles/program.dir/src/Scene.cpp.obj: D:/Codes/CPP/git/Engine/src/Scene.cpp 
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
@@ -5037,11 +5250,20 @@ CMakeFiles/program.dir/src/Settings.cpp.obj: D:/Codes/CPP/git/Engine/src/Setting
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
   D:/Codes/CPP/git/Engine/include/Settings.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/binary.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/dll.h \
@@ -5273,23 +5495,30 @@ CMakeFiles/program.dir/src/Transform.cpp.obj: D:/Codes/CPP/git/Engine/src/Transf
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
   C:/msys64/ucrt64/include/math.h \
   C:/msys64/ucrt64/include/process.h \
+  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
   C:/msys64/ucrt64/include/pthread.h \
   C:/msys64/ucrt64/include/pthread_compat.h \
   C:/msys64/ucrt64/include/pthread_signal.h \
   C:/msys64/ucrt64/include/pthread_time.h \
   C:/msys64/ucrt64/include/pthread_unistd.h \
+  C:/msys64/ucrt64/include/sdkddkver.h \
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
+  C:/msys64/ucrt64/include/setjmp.h \
   C:/msys64/ucrt64/include/signal.h \
+  C:/msys64/ucrt64/include/stdarg.h \
   C:/msys64/ucrt64/include/stddef.h \
   C:/msys64/ucrt64/include/stdint.h \
   C:/msys64/ucrt64/include/stdio.h \
@@ -5301,12 +5530,188 @@ CMakeFiles/program.dir/src/Transform.cpp.obj: D:/Codes/CPP/git/Engine/src/Transf
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/msys64/ucrt64/include/winapifamily.h \
+  C:/msys64/ucrt64/include/winsdkver.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_assert.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_atomic.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_audio.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_blendmode.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_clipboard.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_config.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_config_windows.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_cpuinfo.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_endian.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_error.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_events.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_filesystem.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_gamecontroller.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_gesture.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_guid.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_hidapi.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_loadso.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_locale.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_log.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_main.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_messagebox.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_metal.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_misc.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_mouse.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_mutex.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_pixels.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_platform.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_power.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_quit.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_rect.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_render.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_rwops.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_scancode.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_sensor.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_shape.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_stdinc.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_surface.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_system.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_thread.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_timer.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_touch.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_version.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/SDL_video.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/begin_code.h \
+  D:/Codes/CPP/git/Engine/include/SDL2/close_code.h \
   D:/Codes/CPP/git/Engine/include/Transform.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/binary.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/dll.h \
@@ -5346,7 +5751,6 @@ CMakeFiles/program.dir/src/Window.cpp.obj: D:/Codes/CPP/git/Engine/src/Window.cp
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -5534,6 +5938,8 @@ CMakeFiles/program.dir/src/Window.cpp.obj: D:/Codes/CPP/git/Engine/src/Window.cp
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -5569,117 +5975,133 @@ CMakeFiles/program.dir/src/Window.cpp.obj: D:/Codes/CPP/git/Engine/src/Window.cp
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_assert.h \
   D:/Codes/CPP/git/Engine/include/SDL2/SDL_atomic.h \
@@ -5771,7 +6193,6 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine/src/main.cpp \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
@@ -5966,6 +6387,8 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine/src/main.cpp \
   C:/msys64/ucrt64/include/corecrt_wstdlib.h \
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
+  C:/msys64/ucrt64/include/d3d12.h \
+  C:/msys64/ucrt64/include/d3d12sdklayers.h \
   C:/msys64/ucrt64/include/errno.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -6001,117 +6424,133 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine/src/main.cpp \
   C:/msys64/ucrt64/include/wctype.h \
   C:/msys64/ucrt64/include/winapifamily.h \
   C:/msys64/ucrt64/include/winsdkver.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/cpuid.h \
+  C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/immintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdarg.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h \
+  C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h \
   D:/Codes/CPP/git/Engine/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine/include/Component.h \
   D:/Codes/CPP/git/Engine/include/ComponentFactory.h \
@@ -6207,37 +6646,13 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine/src/main.cpp \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h
 
 
+C:/msys64/ucrt64/include/c++/14.2.0/algorithm:
+
 C:/msys64/ucrt64/include/_timeval.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/aligned_buffer.h:
 
 bin/components/cpp/Camera3D.cpp:
-
-C:/msys64/ucrt64/include/wchar.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
-
-C:/msys64/ucrt64/include/c++/14.2.0/memory:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_gesture.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc:
-
-C:/msys64/ucrt64/include/_mingw_stdarg.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h:
 
@@ -6261,11 +6676,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h:
 
 C:/msys64/ucrt64/include/_mingw_stat64.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/algorithm:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint8intrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx512vp2intersectintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/memoryfwd.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/sm4intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/amxcomplexintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/bessel_function.tcc:
 
@@ -6293,8 +6710,6 @@ C:/msys64/ucrt64/include/c++/14.2.0/ext/atomicity.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/new_allocator.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxfp16intrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/backward/binders.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h:
@@ -6321,15 +6736,15 @@ D:/Codes/CPP/git/Engine/src/Renderer.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h:
+D:/Codes/CPP/git/Engine/src/Engine.cpp:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h:
 
@@ -6337,9 +6752,27 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h:
+C:/msys64/ucrt64/include/wchar.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h:
+C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/memory:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_gesture.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
@@ -6349,25 +6782,29 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h:
 
 D:/Codes/CPP/git/Engine/include/Window.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/vadefs.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_surface.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_haptic.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx512bwintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_arg.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h:
 
 D:/Codes/CPP/git/Engine/src/Settings.cpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h:
 
@@ -6389,6 +6826,8 @@ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/parse.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/indirect_array.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/wbnoinvdintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h:
 
 C:/msys64/ucrt64/include/winsdkver.h:
@@ -6397,23 +6836,19 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/list.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/fstream:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/wmmintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_cpuinfo.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/localefwd.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2vlintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/mask_array.h:
 
@@ -6422,6 +6857,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_log.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/smmintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/node_handle.h:
 
@@ -6433,33 +6870,33 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
 
-D:/Codes/CPP/git/Engine/src/Engine.cpp:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
-
 D:/Codes/CPP/git/Engine/src/Window.cpp:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h:
 
 C:/msys64/ucrt64/include/stdio.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/waitpkgintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/cmpccxaddintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/prfchwintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx512dqintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/xsavecintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_atomic.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/pkuintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cstddef:
 
@@ -6467,17 +6904,17 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/slice_array.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_atomic.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/clwbintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/specfun.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tuple:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/fmaintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/string:
 
@@ -6487,7 +6924,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/enqcmdintrin.h:
 
 C:/msys64/ucrt64/include/corecrt_stdio_config.h:
 
@@ -6497,15 +6934,19 @@ D:/Codes/CPP/git/Engine/include/SDL2/SDL_video.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86gprintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h:
 
 D:/Codes/CPP/git/Engine/src/Light.cpp:
 
+C:/msys64/ucrt64/lib/clang/19/include/avx512ifmavlintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/f16cintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlbitalgintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h:
 
@@ -6535,19 +6976,17 @@ D:/Codes/CPP/git/Engine/include/SDL2/SDL_version.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/vaesintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_joystick.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stringfwd.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tmmintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/uniform_int_dist.h:
 
@@ -6563,6 +7002,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_touch.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/serializeintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h:
@@ -6575,10 +7016,6 @@ C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h:
@@ -6587,9 +7024,9 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/cctype:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
+C:/msys64/ucrt64/include/c++/14.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
 
@@ -6601,9 +7038,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/cmath:
 
 bin/components/cpp/rotation.cpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/gfniintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/vector:
 
@@ -6621,15 +7056,19 @@ C:/msys64/ucrt64/include/c++/14.2.0/cwctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/tsxldtrkintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/popcntintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/exception:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_pixels.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/ext/concurrence.h:
+C:/msys64/ucrt64/lib/clang/19/include/avxvnniintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlbwintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/ext/concurrence.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h:
 
@@ -6637,33 +7076,31 @@ C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/functional:
 
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_list.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/initializer_list:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ios:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/iosfwd:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/iostream:
+
+C:/msys64/ucrt64/lib/clang/19/include/tmmintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/istream:
 
 D:/Codes/CPP/git/Engine/src/main.cpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
+C:/msys64/ucrt64/lib/clang/19/include/invpcidintrin.h:
+
+C:/msys64/ucrt64/include/d3d12.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/iterator:
 
 C:/msys64/ucrt64/include/c++/14.2.0/list:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_assert.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/map:
 
@@ -6681,9 +7118,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/ostream:
 
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/fxsrintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
@@ -6695,6 +7130,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/set:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/memory.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/xsavesintrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/sstream:
 
 C:/msys64/ucrt64/include/c++/14.2.0/stdexcept:
@@ -6702,6 +7139,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/stdexcept:
 C:/msys64/ucrt64/include/c++/14.2.0/streambuf:
 
 D:/Codes/CPP/git/Engine/src/Component.cpp:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg_va_copy.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/system_error:
 
@@ -6713,11 +7152,11 @@ D:/Codes/CPP/git/Engine/src/InputHandler.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/gamma.tcc:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/legendre_function.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_hermite.tcc:
 
@@ -6747,8 +7186,6 @@ C:/msys64/ucrt64/include/c++/14.2.0/utility:
 
 C:/msys64/ucrt64/include/c++/14.2.0/valarray:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h:
@@ -6767,7 +7204,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/type.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/raointintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
@@ -6775,13 +7212,19 @@ C:/msys64/ucrt64/include/corecrt.h:
 
 C:/msys64/ucrt64/include/corecrt_startup.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h:
-
 C:/msys64/ucrt64/include/crtdefs.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_stdinc.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/intrin.h:
+
 C:/msys64/ucrt64/include/ctype.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h:
+
+C:/msys64/ucrt64/include/d3d12sdklayers.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/lwpintrin.h:
 
 C:/msys64/ucrt64/include/errno.h:
 
@@ -6789,9 +7232,9 @@ C:/msys64/ucrt64/include/intrin.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/impl.h:
 
-C:/msys64/ucrt64/include/limits.h:
+C:/msys64/ucrt64/lib/clang/19/include/rdpruintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h:
+C:/msys64/ucrt64/include/limits.h:
 
 C:/msys64/ucrt64/include/locale.h:
 
@@ -6801,7 +7244,11 @@ C:/msys64/ucrt64/include/process.h:
 
 C:/msys64/ucrt64/include/pthread.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/avx512bitalgintrin.h:
+
 C:/msys64/ucrt64/include/pthread_signal.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avxvnniint8intrin.h:
 
 C:/msys64/ucrt64/include/pthread_time.h:
 
@@ -6810,6 +7257,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h:
 C:/msys64/ucrt64/include/pthread_unistd.h:
 
 C:/msys64/ucrt64/include/sdkddkver.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/adcintrin.h:
 
 C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
 
@@ -6824,6 +7273,8 @@ D:/Codes/CPP/git/Engine/include/SDL2/SDL_blendmode.h:
 C:/msys64/ucrt64/include/sec_api/wchar_s.h:
 
 C:/msys64/ucrt64/include/setjmp.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512fintrin.h:
 
 C:/msys64/ucrt64/include/signal.h:
 
@@ -6847,195 +7298,229 @@ D:/Codes/CPP/git/Engine/include/SDL2/SDL_thread.h:
 
 C:/msys64/ucrt64/include/winapifamily.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_rwops.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg___gnuc_va_list.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg___va_copy.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlvnniintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stdarg_header_macro.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/avx2intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h:
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_platform.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_metal.h:
+bin/components/h/rotation.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124vnniwintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectvlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmavlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512pfintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmivlintrin.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlbwintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vldqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vlintrin.h:
-
-bin/components/h/FlatLight.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/null.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h:
-
-D:/Codes/CPP/git/Engine/src/GameObject.cpp:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h:
-
-D:/Codes/CPP/git/Engine/include/Scene.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clwbintrin.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_mutex.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cpuid.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/close_code.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/deque:
-
-D:/Codes/CPP/git/Engine/include/Light.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/movdirintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitxintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_main.h:
-
-D:/Codes/CPP/git/Engine/include/GameObject.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_mouse.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/mark.h:
 
 D:/Codes/CPP/git/Engine/include/BasicGeometry.h:
 
-D:/Codes/CPP/git/Engine/include/Camera.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h:
 
-D:/Codes/CPP/git/Engine/include/Component.h:
+C:/msys64/ucrt64/lib/clang/19/include/stdarg.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_aes.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__wmmintrin_pclmul.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/ptr.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_sensor.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/adxintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/ammintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/amxfp16intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/amxintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/stdint.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512bf16intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512cdintrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_system.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512fp16intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlcdintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512ifmaintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vbmi2intrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_error.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/usermsrintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vbmiintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vbmivlintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/mmintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlbf16intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vldqintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlfp16intrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_config.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlvbmi2intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vlvp2intersectintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vnniintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avx512vpopcntdqvlintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avxifmaintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/ia32intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avxintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avxneconvertintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/avxvnniint16intrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_main.h:
+
+D:/Codes/CPP/git/Engine/include/GameObject.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/bmi2intrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_timer.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/bmiintrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_guid.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/cetintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/cldemoteintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/clflushoptintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/clzerointrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/cpuid.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/crc32intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/emmintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/unordered_set:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_metal.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/fma4intrin.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/hresetintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/immintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/keylockerintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/lzcntintrin.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/movdirintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/mwaitxintrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_mutex.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/pconfigintrin.h:
+
+D:/Codes/CPP/git/Engine/src/Scene.cpp:
+
+C:/msys64/ucrt64/lib/clang/19/include/pmmintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/prfchiintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/ptwriteintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/rdseedintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/rtmintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/sgxintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/sha512intrin.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_quit.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/shaintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/sm3intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/stddef.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/tbmintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/uintrintrin.h:
+
+D:/Codes/CPP/git/Engine/src/ComponentFactory.cpp:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/node.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_messagebox.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/vpclmulqdqintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/x86gprintrin.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_filesystem.h:
 
 D:/Codes/CPP/git/Engine/include/ComponentFactory.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/x86intrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/xmmintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/xopintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/xsaveintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/xsaveoptintrin.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/xtestintrin.h:
+
+D:/Codes/CPP/git/Engine/include/Camera.h:
+
+D:/Codes/CPP/git/Engine/include/Component.h:
 
 bin/components/h/r.h:
 
@@ -7047,71 +7532,61 @@ D:/Codes/CPP/git/Engine/include/Engine.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_audio.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_clipboard.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_set.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_config.h:
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_clipboard.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_config_windows.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_endian.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_error.h:
-
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_events.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_gamecontroller.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_guid.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_hints.h:
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_image.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_keyboard.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_keycode.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_loadso.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_locale.h:
 
-D:/Codes/CPP/git/Engine/src/ComponentFactory.cpp:
-
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/node.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_messagebox.h:
-
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_misc.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_platform.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_quit.h:
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_mouse.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_render.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/ptr.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_sensor.h:
+D:/Codes/CPP/git/Engine/include/SDL2/SDL_rwops.h:
 
 D:/Codes/CPP/git/Engine/include/SDL2/SDL_shape.h:
 
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_system.h:
-
-D:/Codes/CPP/git/Engine/include/SDL2/SDL_timer.h:
-
 D:/Codes/CPP/git/Engine/include/SDL2/begin_code.h:
+
+D:/Codes/CPP/git/Engine/include/SDL2/close_code.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitter.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h:
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node.h:
 
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
+
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_iterator.h:
+
+bin/components/h/FlatLight.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/emit.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/noexcept.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/null.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/ostream_wrapper.h:
 
@@ -7119,11 +7594,11 @@ D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/traits.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/stlemitter.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h:
+C:/msys64/ucrt64/include/c++/14.2.0/deque:
+
+D:/Codes/CPP/git/Engine/include/Light.h:
 
 bin/components/cpp/r.cpp:
-
-bin/components/h/rotation.h:
 
 D:/Codes/CPP/git/Engine/include/InputHandler.h:
 
@@ -7139,9 +7614,11 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_queue.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/queue:
 
+D:/Codes/CPP/git/Engine/include/Scene.h:
+
 D:/Codes/CPP/git/Engine/include/Settings.h:
 
-D:/Codes/CPP/git/Engine/src/Scene.cpp:
+D:/Codes/CPP/git/Engine/src/GameObject.cpp:
 
 D:/Codes/CPP/git/Engine/src/Transform.cpp:
 

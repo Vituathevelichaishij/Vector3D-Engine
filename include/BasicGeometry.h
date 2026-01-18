@@ -28,17 +28,70 @@ class Vector3D{
 
 };
 
-class Triangle{
+
+
+class Vector2D{
     public:
-        Triangle() =default;
-        Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c);
-        Triangle(Vector3D const& a, Vector3D const& b,Vector3D const& c, Vector3D const& N);
+        float m_u=0;
+        float m_v=0;
+        float m_w=1;
+        Vector2D(float u, float v);
+        Vector2D()=default;
+        Vector2D operator+(const Vector2D &n) const;
+        Vector2D operator-(const Vector2D &n) const;
+        Vector2D operator-(float n) const;
+        Vector2D operator*(float n) const;
+        Vector2D operator/(float n) const;
+        void normalize();
+        float length() const;
+
+
+};
+
+
+class Triangle2D {
+public:
+    Triangle2D() =default;
+    
+    Triangle2D(const Vector2D& a, const Vector2D& b, const Vector2D& c);
+
+
+    Triangle2D(const Vector2D& a, const Vector2D& b, const Vector2D& c,const Vector2D& N);
+
+
+    void computeNormal();
+
+public:
+    Vector2D m_a;
+    Vector2D m_b;
+    Vector2D m_c;
+
+    Vector2D m_N;
+
+};
+
+
+
+
+
+
+
+
+class Triangle3D{
+    public:
+        Triangle3D() =default;
+        Triangle3D(Vector3D const& a, Vector3D const& b, Vector3D const& c);
+        Triangle3D(Vector3D const& a, Vector3D const& b,Vector3D const& c, Vector3D const& N);
         Vector3D m_a;
         Vector3D m_b;
         Vector3D m_c;
         Vector3D m_N;
     private:
 };
+
+
+
+
 Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c);
 
 Vector3D crossProduct(Vector3D const& first, Vector3D const& second);
@@ -64,7 +117,7 @@ Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3
 
 Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3D const &up);
 
-Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd);
+Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd, float& t);
 
 float dotProduct(Vector3D const& a, Vector3D const& b);
 

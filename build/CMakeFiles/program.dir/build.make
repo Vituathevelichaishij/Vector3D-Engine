@@ -76,285 +76,285 @@ CMakeFiles/program.dir/src/BasicGeometry.cpp.obj: CMakeFiles/program.dir/include
 CMakeFiles/program.dir/src/BasicGeometry.cpp.obj: D:/Codes/CPP/git/Engine/src/BasicGeometry.cpp
 CMakeFiles/program.dir/src/BasicGeometry.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/BasicGeometry.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/BasicGeometry.cpp.obj -MF CMakeFiles\program.dir\src\BasicGeometry.cpp.obj.d -o CMakeFiles\program.dir\src\BasicGeometry.cpp.obj -c D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/BasicGeometry.cpp.obj -MF CMakeFiles\program.dir\src\BasicGeometry.cpp.obj.d -o CMakeFiles\program.dir\src\BasicGeometry.cpp.obj -c D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp
 
 CMakeFiles/program.dir/src/BasicGeometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/BasicGeometry.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp > CMakeFiles\program.dir\src\BasicGeometry.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp > CMakeFiles\program.dir\src\BasicGeometry.cpp.i
 
 CMakeFiles/program.dir/src/BasicGeometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/BasicGeometry.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp -o CMakeFiles\program.dir\src\BasicGeometry.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\BasicGeometry.cpp -o CMakeFiles\program.dir\src\BasicGeometry.cpp.s
 
 CMakeFiles/program.dir/src/Camera.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Camera.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Camera.cpp.obj: D:/Codes/CPP/git/Engine/src/Camera.cpp
 CMakeFiles/program.dir/src/Camera.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/Camera.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Camera.cpp.obj -MF CMakeFiles\program.dir\src\Camera.cpp.obj.d -o CMakeFiles\program.dir\src\Camera.cpp.obj -c D:\Codes\CPP\git\Engine\src\Camera.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Camera.cpp.obj -MF CMakeFiles\program.dir\src\Camera.cpp.obj.d -o CMakeFiles\program.dir\src\Camera.cpp.obj -c D:\Codes\CPP\git\Engine\src\Camera.cpp
 
 CMakeFiles/program.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Camera.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Camera.cpp > CMakeFiles\program.dir\src\Camera.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Camera.cpp > CMakeFiles\program.dir\src\Camera.cpp.i
 
 CMakeFiles/program.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Camera.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Camera.cpp -o CMakeFiles\program.dir\src\Camera.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Camera.cpp -o CMakeFiles\program.dir\src\Camera.cpp.s
 
 CMakeFiles/program.dir/src/Component.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Component.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Component.cpp.obj: D:/Codes/CPP/git/Engine/src/Component.cpp
 CMakeFiles/program.dir/src/Component.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/src/Component.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Component.cpp.obj -MF CMakeFiles\program.dir\src\Component.cpp.obj.d -o CMakeFiles\program.dir\src\Component.cpp.obj -c D:\Codes\CPP\git\Engine\src\Component.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Component.cpp.obj -MF CMakeFiles\program.dir\src\Component.cpp.obj.d -o CMakeFiles\program.dir\src\Component.cpp.obj -c D:\Codes\CPP\git\Engine\src\Component.cpp
 
 CMakeFiles/program.dir/src/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Component.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Component.cpp > CMakeFiles\program.dir\src\Component.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Component.cpp > CMakeFiles\program.dir\src\Component.cpp.i
 
 CMakeFiles/program.dir/src/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Component.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Component.cpp -o CMakeFiles\program.dir\src\Component.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Component.cpp -o CMakeFiles\program.dir\src\Component.cpp.s
 
 CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: D:/Codes/CPP/git/Engine/src/ComponentFactory.cpp
 CMakeFiles/program.dir/src/ComponentFactory.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program.dir/src/ComponentFactory.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/ComponentFactory.cpp.obj -MF CMakeFiles\program.dir\src\ComponentFactory.cpp.obj.d -o CMakeFiles\program.dir\src\ComponentFactory.cpp.obj -c D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/ComponentFactory.cpp.obj -MF CMakeFiles\program.dir\src\ComponentFactory.cpp.obj.d -o CMakeFiles\program.dir\src\ComponentFactory.cpp.obj -c D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp
 
 CMakeFiles/program.dir/src/ComponentFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/ComponentFactory.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp > CMakeFiles\program.dir\src\ComponentFactory.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp > CMakeFiles\program.dir\src\ComponentFactory.cpp.i
 
 CMakeFiles/program.dir/src/ComponentFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/ComponentFactory.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp -o CMakeFiles\program.dir\src\ComponentFactory.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\ComponentFactory.cpp -o CMakeFiles\program.dir\src\ComponentFactory.cpp.s
 
 CMakeFiles/program.dir/src/Engine.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Engine.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine/src/Engine.cpp
 CMakeFiles/program.dir/src/Engine.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/program.dir/src/Engine.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Engine.cpp.obj -MF CMakeFiles\program.dir\src\Engine.cpp.obj.d -o CMakeFiles\program.dir\src\Engine.cpp.obj -c D:\Codes\CPP\git\Engine\src\Engine.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Engine.cpp.obj -MF CMakeFiles\program.dir\src\Engine.cpp.obj.d -o CMakeFiles\program.dir\src\Engine.cpp.obj -c D:\Codes\CPP\git\Engine\src\Engine.cpp
 
 CMakeFiles/program.dir/src/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Engine.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Engine.cpp > CMakeFiles\program.dir\src\Engine.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Engine.cpp > CMakeFiles\program.dir\src\Engine.cpp.i
 
 CMakeFiles/program.dir/src/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Engine.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Engine.cpp -o CMakeFiles\program.dir\src\Engine.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Engine.cpp -o CMakeFiles\program.dir\src\Engine.cpp.s
 
 CMakeFiles/program.dir/src/GameObject.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/GameObject.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/GameObject.cpp.obj: D:/Codes/CPP/git/Engine/src/GameObject.cpp
 CMakeFiles/program.dir/src/GameObject.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/program.dir/src/GameObject.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/GameObject.cpp.obj -MF CMakeFiles\program.dir\src\GameObject.cpp.obj.d -o CMakeFiles\program.dir\src\GameObject.cpp.obj -c D:\Codes\CPP\git\Engine\src\GameObject.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/GameObject.cpp.obj -MF CMakeFiles\program.dir\src\GameObject.cpp.obj.d -o CMakeFiles\program.dir\src\GameObject.cpp.obj -c D:\Codes\CPP\git\Engine\src\GameObject.cpp
 
 CMakeFiles/program.dir/src/GameObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/GameObject.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\GameObject.cpp > CMakeFiles\program.dir\src\GameObject.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\GameObject.cpp > CMakeFiles\program.dir\src\GameObject.cpp.i
 
 CMakeFiles/program.dir/src/GameObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/GameObject.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\GameObject.cpp -o CMakeFiles\program.dir\src\GameObject.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\GameObject.cpp -o CMakeFiles\program.dir\src\GameObject.cpp.s
 
 CMakeFiles/program.dir/src/InputHandler.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/InputHandler.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/InputHandler.cpp.obj: D:/Codes/CPP/git/Engine/src/InputHandler.cpp
 CMakeFiles/program.dir/src/InputHandler.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/program.dir/src/InputHandler.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/InputHandler.cpp.obj -MF CMakeFiles\program.dir\src\InputHandler.cpp.obj.d -o CMakeFiles\program.dir\src\InputHandler.cpp.obj -c D:\Codes\CPP\git\Engine\src\InputHandler.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/InputHandler.cpp.obj -MF CMakeFiles\program.dir\src\InputHandler.cpp.obj.d -o CMakeFiles\program.dir\src\InputHandler.cpp.obj -c D:\Codes\CPP\git\Engine\src\InputHandler.cpp
 
 CMakeFiles/program.dir/src/InputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/InputHandler.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\InputHandler.cpp > CMakeFiles\program.dir\src\InputHandler.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\InputHandler.cpp > CMakeFiles\program.dir\src\InputHandler.cpp.i
 
 CMakeFiles/program.dir/src/InputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/InputHandler.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\InputHandler.cpp -o CMakeFiles\program.dir\src\InputHandler.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\InputHandler.cpp -o CMakeFiles\program.dir\src\InputHandler.cpp.s
 
 CMakeFiles/program.dir/src/Light.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Light.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Light.cpp.obj: D:/Codes/CPP/git/Engine/src/Light.cpp
 CMakeFiles/program.dir/src/Light.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/program.dir/src/Light.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Light.cpp.obj -MF CMakeFiles\program.dir\src\Light.cpp.obj.d -o CMakeFiles\program.dir\src\Light.cpp.obj -c D:\Codes\CPP\git\Engine\src\Light.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Light.cpp.obj -MF CMakeFiles\program.dir\src\Light.cpp.obj.d -o CMakeFiles\program.dir\src\Light.cpp.obj -c D:\Codes\CPP\git\Engine\src\Light.cpp
 
 CMakeFiles/program.dir/src/Light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Light.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Light.cpp > CMakeFiles\program.dir\src\Light.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Light.cpp > CMakeFiles\program.dir\src\Light.cpp.i
 
 CMakeFiles/program.dir/src/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Light.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Light.cpp -o CMakeFiles\program.dir\src\Light.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Light.cpp -o CMakeFiles\program.dir\src\Light.cpp.s
 
 CMakeFiles/program.dir/src/Renderer.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Renderer.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine/src/Renderer.cpp
 CMakeFiles/program.dir/src/Renderer.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/program.dir/src/Renderer.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Renderer.cpp.obj -MF CMakeFiles\program.dir\src\Renderer.cpp.obj.d -o CMakeFiles\program.dir\src\Renderer.cpp.obj -c D:\Codes\CPP\git\Engine\src\Renderer.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Renderer.cpp.obj -MF CMakeFiles\program.dir\src\Renderer.cpp.obj.d -o CMakeFiles\program.dir\src\Renderer.cpp.obj -c D:\Codes\CPP\git\Engine\src\Renderer.cpp
 
 CMakeFiles/program.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Renderer.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Renderer.cpp > CMakeFiles\program.dir\src\Renderer.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Renderer.cpp > CMakeFiles\program.dir\src\Renderer.cpp.i
 
 CMakeFiles/program.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Renderer.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Renderer.cpp -o CMakeFiles\program.dir\src\Renderer.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Renderer.cpp -o CMakeFiles\program.dir\src\Renderer.cpp.s
 
 CMakeFiles/program.dir/src/Scene.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Scene.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Scene.cpp.obj: D:/Codes/CPP/git/Engine/src/Scene.cpp
 CMakeFiles/program.dir/src/Scene.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/program.dir/src/Scene.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Scene.cpp.obj -MF CMakeFiles\program.dir\src\Scene.cpp.obj.d -o CMakeFiles\program.dir\src\Scene.cpp.obj -c D:\Codes\CPP\git\Engine\src\Scene.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Scene.cpp.obj -MF CMakeFiles\program.dir\src\Scene.cpp.obj.d -o CMakeFiles\program.dir\src\Scene.cpp.obj -c D:\Codes\CPP\git\Engine\src\Scene.cpp
 
 CMakeFiles/program.dir/src/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Scene.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Scene.cpp > CMakeFiles\program.dir\src\Scene.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Scene.cpp > CMakeFiles\program.dir\src\Scene.cpp.i
 
 CMakeFiles/program.dir/src/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Scene.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Scene.cpp -o CMakeFiles\program.dir\src\Scene.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Scene.cpp -o CMakeFiles\program.dir\src\Scene.cpp.s
 
 CMakeFiles/program.dir/src/Settings.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Settings.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Settings.cpp.obj: D:/Codes/CPP/git/Engine/src/Settings.cpp
 CMakeFiles/program.dir/src/Settings.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/program.dir/src/Settings.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Settings.cpp.obj -MF CMakeFiles\program.dir\src\Settings.cpp.obj.d -o CMakeFiles\program.dir\src\Settings.cpp.obj -c D:\Codes\CPP\git\Engine\src\Settings.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Settings.cpp.obj -MF CMakeFiles\program.dir\src\Settings.cpp.obj.d -o CMakeFiles\program.dir\src\Settings.cpp.obj -c D:\Codes\CPP\git\Engine\src\Settings.cpp
 
 CMakeFiles/program.dir/src/Settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Settings.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Settings.cpp > CMakeFiles\program.dir\src\Settings.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Settings.cpp > CMakeFiles\program.dir\src\Settings.cpp.i
 
 CMakeFiles/program.dir/src/Settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Settings.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Settings.cpp -o CMakeFiles\program.dir\src\Settings.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Settings.cpp -o CMakeFiles\program.dir\src\Settings.cpp.s
 
 CMakeFiles/program.dir/src/Transform.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Transform.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Transform.cpp.obj: D:/Codes/CPP/git/Engine/src/Transform.cpp
 CMakeFiles/program.dir/src/Transform.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/program.dir/src/Transform.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Transform.cpp.obj -MF CMakeFiles\program.dir\src\Transform.cpp.obj.d -o CMakeFiles\program.dir\src\Transform.cpp.obj -c D:\Codes\CPP\git\Engine\src\Transform.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Transform.cpp.obj -MF CMakeFiles\program.dir\src\Transform.cpp.obj.d -o CMakeFiles\program.dir\src\Transform.cpp.obj -c D:\Codes\CPP\git\Engine\src\Transform.cpp
 
 CMakeFiles/program.dir/src/Transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Transform.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Transform.cpp > CMakeFiles\program.dir\src\Transform.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Transform.cpp > CMakeFiles\program.dir\src\Transform.cpp.i
 
 CMakeFiles/program.dir/src/Transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Transform.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Transform.cpp -o CMakeFiles\program.dir\src\Transform.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Transform.cpp -o CMakeFiles\program.dir\src\Transform.cpp.s
 
 CMakeFiles/program.dir/src/Window.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/Window.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/Window.cpp.obj: D:/Codes/CPP/git/Engine/src/Window.cpp
 CMakeFiles/program.dir/src/Window.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/program.dir/src/Window.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Window.cpp.obj -MF CMakeFiles\program.dir\src\Window.cpp.obj.d -o CMakeFiles\program.dir\src\Window.cpp.obj -c D:\Codes\CPP\git\Engine\src\Window.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/Window.cpp.obj -MF CMakeFiles\program.dir\src\Window.cpp.obj.d -o CMakeFiles\program.dir\src\Window.cpp.obj -c D:\Codes\CPP\git\Engine\src\Window.cpp
 
 CMakeFiles/program.dir/src/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/Window.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Window.cpp > CMakeFiles\program.dir\src\Window.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\Window.cpp > CMakeFiles\program.dir\src\Window.cpp.i
 
 CMakeFiles/program.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/Window.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Window.cpp -o CMakeFiles\program.dir\src\Window.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\Window.cpp -o CMakeFiles\program.dir\src\Window.cpp.s
 
 CMakeFiles/program.dir/src/main.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/main.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine/src/main.cpp
 CMakeFiles/program.dir/src/main.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/program.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/main.cpp.obj -MF CMakeFiles\program.dir\src\main.cpp.obj.d -o CMakeFiles\program.dir\src\main.cpp.obj -c D:\Codes\CPP\git\Engine\src\main.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/main.cpp.obj -MF CMakeFiles\program.dir\src\main.cpp.obj.d -o CMakeFiles\program.dir\src\main.cpp.obj -c D:\Codes\CPP\git\Engine\src\main.cpp
 
 CMakeFiles/program.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\main.cpp > CMakeFiles\program.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\src\main.cpp > CMakeFiles\program.dir\src\main.cpp.i
 
 CMakeFiles/program.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\main.cpp -o CMakeFiles\program.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\src\main.cpp -o CMakeFiles\program.dir\src\main.cpp.s
 
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: bin/components/cpp/Camera3D.cpp
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp > CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp > CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.i
 
 CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/Camera3D.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp -o CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\Camera3D.cpp -o CMakeFiles\program.dir\bin\components\cpp\Camera3D.cpp.s
 
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: bin/components/cpp/FlatLight.cpp
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp > CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp > CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.i
 
 CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/FlatLight.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp -o CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\FlatLight.cpp -o CMakeFiles\program.dir\bin\components\cpp\FlatLight.cpp.s
 
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: bin/components/cpp/r.cpp
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\r.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/bin/components/cpp/r.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp > CMakeFiles\program.dir\bin\components\cpp\r.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp > CMakeFiles\program.dir\bin\components\cpp\r.cpp.i
 
 CMakeFiles/program.dir/bin/components/cpp/r.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/r.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp -o CMakeFiles\program.dir\bin\components\cpp\r.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\r.cpp -o CMakeFiles\program.dir\bin\components\cpp\r.cpp.s
 
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: bin/components/cpp/rotation.cpp
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj -MF CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj.d -o CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.obj -c D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp
 
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp > CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp > CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.i
 
 CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp -o CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\bin\components\cpp\rotation.cpp -o CMakeFiles\program.dir\bin\components\cpp\rotation.cpp.s
 
 CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/includes_CXX.rsp
 CMakeFiles/program.dir/generated_registry.cpp.obj: generated_registry.cpp
 CMakeFiles/program.dir/generated_registry.cpp.obj: CMakeFiles/program.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/program.dir/generated_registry.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/generated_registry.cpp.obj -MF CMakeFiles\program.dir\generated_registry.cpp.obj.d -o CMakeFiles\program.dir\generated_registry.cpp.obj -c D:\Codes\CPP\git\Engine\build\generated_registry.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/generated_registry.cpp.obj -MF CMakeFiles\program.dir\generated_registry.cpp.obj.d -o CMakeFiles\program.dir\generated_registry.cpp.obj -c D:\Codes\CPP\git\Engine\build\generated_registry.cpp
 
 CMakeFiles/program.dir/generated_registry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/program.dir/generated_registry.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\generated_registry.cpp > CMakeFiles\program.dir\generated_registry.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\build\generated_registry.cpp > CMakeFiles\program.dir\generated_registry.cpp.i
 
 CMakeFiles/program.dir/generated_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/program.dir/generated_registry.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\generated_registry.cpp -o CMakeFiles\program.dir\generated_registry.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\build\generated_registry.cpp -o CMakeFiles\program.dir\generated_registry.cpp.s
 
 # Object files for target program
 program_OBJECTS = \

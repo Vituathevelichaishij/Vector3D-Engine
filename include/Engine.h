@@ -16,7 +16,7 @@ class Engine{
         Renderer m_renderer;
         SDL_Event m_event;
         Scene m_scene;
-        bool m_quit;
+        bool m_quit=false;
 };
 
 #endif

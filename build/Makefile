@@ -520,6 +520,19 @@ yaml-cpp/fast:
 .PHONY : yaml-cpp/fast
 
 #=============================================================================
+# Target rules for targets named format
+
+# Build rule for target.
+format: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 format
+.PHONY : format
+
+# fast build rule for target.
+format/fast:
+	$(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\format.dir\build.make yaml-cpp-0.8.0/CMakeFiles/format.dir/build
+.PHONY : format/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -1087,6 +1100,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... format
 	@echo ... uninstall
 	@echo ... UTIL
 	@echo ... program

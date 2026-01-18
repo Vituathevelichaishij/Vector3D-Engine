@@ -162,10 +162,18 @@ CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj: D:/Codes/CPP/git/Engine/util/Com
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h
 
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/invoke.h:
@@ -342,6 +350,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
@@ -490,10 +500,24 @@ C:/msys64/ucrt64/include/time.h:
 
 C:/msys64/ucrt64/include/vadefs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
+C:/msys64/ucrt64/lib/clang/19/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/stddef.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/vadefs.h:

@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/msys64/ucrt64/bin/c++.exe
-CompilerVersion: 14.2.0
+Compiler: C:/msys64/ucrt64/bin/clang++.exe
+CompilerVersion: 19.1.4
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

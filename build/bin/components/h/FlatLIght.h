@@ -5,7 +5,7 @@ class FlatLight : public Light{
         virtual void start() override;
         virtual void update(Uint32 dT) override;
         virtual void init(YAML::Node const& data) override;
-        virtual float getLuminocity(Triangle const& tri);
+        virtual float getLuminocity(Triangle3D const& tri) override;
         ~FlatLight() override =default;
     private:
         Vector3D m_lightDir;

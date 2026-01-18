@@ -10,6 +10,8 @@ int main(){
 
     
     test.start();
+    
     SDL_Quit();
+
     return 0;
 }

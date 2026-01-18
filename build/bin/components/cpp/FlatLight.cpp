@@ -18,7 +18,7 @@ void  FlatLight::init(YAML::Node const& data){
 }
 void  FlatLight::start(){}
 
-float FlatLight::getLuminocity(Triangle const& tri){
+float FlatLight::getLuminocity(Triangle3D const& tri){
 
     float result=dotProduct(tri.m_N,m_lightDir);
     if(result<0) result=0;

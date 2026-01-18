@@ -14,9 +14,10 @@ gameObjects:
 
   - name: "cube1"
     transformation:
-      rotation: [180,180,0]
+      rotation: [0,180,0]
       position: [0,0,2]
       size: [1,1,1]
+      light: false
     prefab: "prefab/key.yaml"
 
 

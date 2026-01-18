@@ -1,4 +1,82 @@
 #include "BasicGeometry.h"
+
+
+Vector2D::Vector2D(float u, float v)
+    : m_u(u), m_v(v) {}
+
+Vector2D Vector2D::operator+(const Vector2D& n) const {
+    return Vector2D(m_u + n.m_u, m_v + n.m_v);
+}
+
+Vector2D Vector2D::operator-(const Vector2D& n) const {
+    return Vector2D(m_u - n.m_u, m_v - n.m_v);
+}
+
+Vector2D Vector2D::operator-(float n) const {
+    return Vector2D(m_u - n, m_v - n);
+}
+
+Vector2D Vector2D::operator*(float n) const {
+    return Vector2D(m_u * n, m_v * n);
+}
+
+Vector2D Vector2D::operator/(float n) const {
+    return Vector2D(m_u / n, m_v / n);
+}
+
+void Vector2D::normalize() {
+    float len = std::sqrt(m_u * m_u + m_v * m_v);
+    if (len != 0.0f) {
+        m_u /= len;
+        m_v /= len;
+    }
+}
+
+float Vector2D::length() const {
+    return std::sqrt(m_u * m_u + m_v * m_v);
+}
+
+
+
+
+
+
+
+Triangle2D::Triangle2D(const Vector2D& a, const Vector2D& b, const Vector2D& c): m_a(a), m_b(b), m_c(c){
+    computeNormal();
+}
+
+
+Triangle2D::Triangle2D(const Vector2D& a, const Vector2D& b, const Vector2D& c,const Vector2D& N): m_a(a), m_b(b), m_c(c), m_N(N){
+    m_N.normalize();
+}
+
+
+void Triangle2D::computeNormal() {
+
+    Vector2D edge = m_b - m_a;
+
+    m_N = Vector2D(-edge.m_v, edge.m_u);
+
+    m_N.normalize();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Vector3D::Vector3D(float x, float y, float z): m_x(x),m_y(y), m_z(z){}
 
 Vector3D Vector3D::operator+(const Vector3D &n)const{
@@ -31,7 +109,7 @@ float Vector3D::length() const{
     return std::sqrt(m_x*m_x+m_y*m_y+m_z*m_z);
 }
 
-Triangle::Triangle(Vector3D const& a, Vector3D const& b, Vector3D const& c){
+Triangle3D::Triangle3D(Vector3D const& a, Vector3D const& b, Vector3D const& c){
     m_a=a;
     m_b=b;
     m_c=c;
@@ -129,11 +207,7 @@ Vector3D vectorXmatrix4x4(Vector3D const& v, Matrix4x4 const& m){
               v.m_y * m.data[1][3] +
               v.m_z * m.data[2][3] +
               v.m_w  * m.data[3][3];
-    if(result.m_w!=0){
-        result.m_x/=result.m_w;
-        result.m_y/=result.m_w;
-        result.m_z/=result.m_w;
-    }
+
     
 
     return result;
@@ -226,13 +300,13 @@ Matrix4x4 quickInverse(Matrix4x4 const &m){
 
 
 
-Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd){
+Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd, float& t){
     Vector3D planeN = N;
     planeN.normalize();
 	float plane_d = -dotProduct(planeN, planeP);
 	float ad = dotProduct(lineStart, planeN);
 	float bd = dotProduct(lineEnd, planeN);
-	float t = (-plane_d - ad) / (bd - ad);
+	t = (-plane_d - ad) / (bd - ad);
 	Vector3D lineStartToEnd = lineEnd-lineStart;
 	Vector3D lineToIntersect = lineStartToEnd*t;
 	return lineStart+lineToIntersect;

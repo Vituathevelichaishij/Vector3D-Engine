@@ -76,15 +76,15 @@ yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj: yaml-cpp-0.8.0/ut
 yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/util/read.cpp
 yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj -MF CMakeFiles\yaml-cpp-read.dir\read.cpp.obj.d -o CMakeFiles\yaml-cpp-read.dir\read.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj -MF CMakeFiles\yaml-cpp-read.dir\read.cpp.obj.d -o CMakeFiles\yaml-cpp-read.dir\read.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp
 
 yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp-read.dir/read.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp > CMakeFiles\yaml-cpp-read.dir\read.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp > CMakeFiles\yaml-cpp-read.dir\read.cpp.i
 
 yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp-read.dir/read.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp -o CMakeFiles\yaml-cpp-read.dir\read.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0\util && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\util\read.cpp -o CMakeFiles\yaml-cpp-read.dir\read.cpp.s
 
 # Object files for target yaml-cpp-read
 yaml__cpp__read_OBJECTS = \

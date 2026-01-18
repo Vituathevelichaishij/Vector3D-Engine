@@ -20,8 +20,14 @@ class Renderer{
     private:
         std::vector<Polygon> m_collected;
         std::vector<Light*> m_lightSources;
-        SDL_Renderer* m_Renderer;      
+        SDL_Renderer* m_renderer;    
         Settings const& m_settings;
+
+        SDL_Texture* m_texture;
+        std::vector<Uint32> m_frameBuffer;
+
+
+
         Matrix4x4 m_projMatrix;
         Matrix4x4 m_camMatrix;
         Vector3D m_camPos;
@@ -33,6 +39,8 @@ class Renderer{
         void projectToScreen();
         void rasterPolygons();
         void clipPolygons();
+        void drawPolygon(Polygon& pol);
+        Uint32 getPixel(SDL_Surface *surface, float u, float v);
 
 
 

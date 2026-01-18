@@ -19,8 +19,19 @@ GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_transform(Transfo
 
             if(prefab[".obj"]){
                 m_transform.m_mesh.LoadObjFile(prefab[".obj"].as<std::string>());
+
             }
-    
+            if(prefab["texture"]){
+                m_transform.m_mesh.sprite=IMG_Load(prefab["texture"].as<std::string>().c_str());
+
+                for(auto& pol: m_transform.m_mesh.data){
+
+                    pol.sprite=m_transform.m_mesh.sprite;
+                }
+            }
+
+
+
             } catch (const std::exception& e) {
                 std::cerr << "Failed to load prefab: " << e.what() << std::endl;
             }
@@ -50,17 +61,17 @@ void GameObject::update(Uint32 dt){
 
 
 
-Component* GameObject::addComponent(YAML::Node const& data){
+void GameObject::addComponent(YAML::Node const& data){
     auto comp = ComponentFactory::init().create(data["name"].as<std::string>());
 
 
-    if(!comp) return nullptr;
+    if(!comp) return;
     comp->owner=this;
     comp->init(data);
     comp->start();
     m_components.insert({data["type"].as<std::string>(),std::move(comp)});
 
-    return comp.get();
+
 }
 
 
@@ -71,26 +82,26 @@ Component* GameObject::addComponent(YAML::Node const& data){
 
 
 
-Component* GameObject::addComponent(std::string const& name, YAML::Node const& data){
+void GameObject::addComponent(std::string const& name, YAML::Node const& data){
     auto comp = ComponentFactory::init().create(name);
 
 
-    if(!comp) return nullptr;
+    if(!comp) return;
     comp->owner=this;
     comp->init(data);
     comp->start();
     m_components.insert({name,std::move(comp)});
 
-    return comp.get();
+
 }
 
-Component* GameObject::addComponent(std::string const& name){
+void GameObject::addComponent(std::string const& name){
     auto comp = ComponentFactory::init().create(name);
     
-    if(!comp) return nullptr;
+    if(!comp) return;
     comp->owner=this;
     m_components.insert({name,std::move(comp)});
-    return comp.get();
+
 
 }
 

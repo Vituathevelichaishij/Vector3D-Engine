@@ -12,7 +12,7 @@ Window::Window(Settings const& settings){
     }
     else{
         SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "2");
-        gWindow  = SDL_CreateWindow( "EVA Terminal", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_FOREIGN ); //SDL_WINDOW_FULLSCREEN_DESKTOP
+        gWindow  = SDL_CreateWindow( settings.m_windowName.c_str(), SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_FOREIGN ); //SDL_WINDOW_FULLSCREEN_DESKTOP
         if( gWindow == NULL ){
             std::cout<<"Window could not be created! SDL_Error:" << SDL_GetError() <<std::endl;
         }

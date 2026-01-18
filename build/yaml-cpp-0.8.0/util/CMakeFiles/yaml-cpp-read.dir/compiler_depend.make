@@ -227,11 +227,20 @@ yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj: D:/Codes/CPP/git/
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h \
+  C:/msys64/ucrt64/lib/clang/19/include/limits.h \
+  C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stddef.h \
+  C:/msys64/ucrt64/lib/clang/19/include/stdint.h \
+  C:/msys64/ucrt64/lib/clang/19/include/vadefs.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/anchor.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/binary.h \
   D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/dll.h \
@@ -399,6 +408,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/vadefs.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h:
@@ -408,6 +419,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_wchar_t.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h:
 
@@ -553,6 +566,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_size_t.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/cctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
@@ -598,8 +613,6 @@ C:/msys64/ucrt64/include/c++/14.2.0/iosfwd:
 C:/msys64/ucrt64/include/c++/14.2.0/iostream:
 
 C:/msys64/ucrt64/include/c++/14.2.0/istream:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/iterator:
 
@@ -648,6 +661,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/tr1/gamma.tcc:
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/legendre_function.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_wint_t.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_hermite.tcc:
 
@@ -745,33 +760,45 @@ C:/msys64/ucrt64/include/time.h:
 
 C:/msys64/ucrt64/include/vadefs.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_header_macro.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_max_align_t.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
+C:/msys64/ucrt64/lib/clang/19/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_null.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/mark.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_nullptr_t.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitter.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_offsetof.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
+C:/msys64/ucrt64/lib/clang/19/include/__stddef_ptrdiff_t.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/parser.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/mm_malloc.h:
+
+C:/msys64/ucrt64/lib/clang/19/include/stddef.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/eventhandler.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
+C:/msys64/ucrt64/lib/clang/19/include/stdint.h:
 
-D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/mark.h:
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emitter.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node.h:
+
+D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
 
 D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_iterator.h:
 

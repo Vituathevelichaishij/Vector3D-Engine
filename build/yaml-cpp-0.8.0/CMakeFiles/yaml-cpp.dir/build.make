@@ -76,465 +76,465 @@ yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj: yaml-cp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/contrib/graphbuilder.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp > CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp > CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilder.cpp -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilder.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/contrib/graphbuilderadapter.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp > CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp > CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\contrib\graphbuilderadapter.cpp -o CMakeFiles\yaml-cpp.dir\src\contrib\graphbuilderadapter.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/binary.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\binary.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/binary.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp > CMakeFiles\yaml-cpp.dir\src\binary.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp > CMakeFiles\yaml-cpp.dir\src\binary.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/binary.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp -o CMakeFiles\yaml-cpp.dir\src\binary.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\binary.cpp -o CMakeFiles\yaml-cpp.dir\src\binary.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/convert.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\convert.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/convert.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp > CMakeFiles\yaml-cpp.dir\src\convert.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp > CMakeFiles\yaml-cpp.dir\src\convert.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/convert.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp -o CMakeFiles\yaml-cpp.dir\src\convert.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\convert.cpp -o CMakeFiles\yaml-cpp.dir\src\convert.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/depthguard.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp > CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp > CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp -o CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\depthguard.cpp -o CMakeFiles\yaml-cpp.dir\src\depthguard.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/directives.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\directives.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/directives.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp > CMakeFiles\yaml-cpp.dir\src\directives.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp > CMakeFiles\yaml-cpp.dir\src\directives.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/directives.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp -o CMakeFiles\yaml-cpp.dir\src\directives.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\directives.cpp -o CMakeFiles\yaml-cpp.dir\src\directives.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/emit.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emit.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emit.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp > CMakeFiles\yaml-cpp.dir\src\emit.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp > CMakeFiles\yaml-cpp.dir\src\emit.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emit.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp -o CMakeFiles\yaml-cpp.dir\src\emit.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emit.cpp -o CMakeFiles\yaml-cpp.dir\src\emit.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/emitfromevents.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp > CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp > CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp -o CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitfromevents.cpp -o CMakeFiles\yaml-cpp.dir\src\emitfromevents.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/emitter.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitter.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitter.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp > CMakeFiles\yaml-cpp.dir\src\emitter.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp > CMakeFiles\yaml-cpp.dir\src\emitter.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitter.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp -o CMakeFiles\yaml-cpp.dir\src\emitter.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitter.cpp -o CMakeFiles\yaml-cpp.dir\src\emitter.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/emitterstate.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp > CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp > CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp -o CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterstate.cpp -o CMakeFiles\yaml-cpp.dir\src\emitterstate.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/emitterutils.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp > CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp > CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp -o CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\emitterutils.cpp -o CMakeFiles\yaml-cpp.dir\src\emitterutils.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/exceptions.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp > CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp > CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp -o CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exceptions.cpp -o CMakeFiles\yaml-cpp.dir\src\exceptions.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/exp.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\exp.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/exp.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp > CMakeFiles\yaml-cpp.dir\src\exp.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp > CMakeFiles\yaml-cpp.dir\src\exp.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/exp.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp -o CMakeFiles\yaml-cpp.dir\src\exp.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\exp.cpp -o CMakeFiles\yaml-cpp.dir\src\exp.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/memory.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\memory.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/memory.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp > CMakeFiles\yaml-cpp.dir\src\memory.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp > CMakeFiles\yaml-cpp.dir\src\memory.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/memory.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp -o CMakeFiles\yaml-cpp.dir\src\memory.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\memory.cpp -o CMakeFiles\yaml-cpp.dir\src\memory.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/node.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\node.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\node.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\node.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\node.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/node.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp > CMakeFiles\yaml-cpp.dir\src\node.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp > CMakeFiles\yaml-cpp.dir\src\node.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/node.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp -o CMakeFiles\yaml-cpp.dir\src\node.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node.cpp -o CMakeFiles\yaml-cpp.dir\src\node.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/node_data.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\node_data.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/node_data.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp > CMakeFiles\yaml-cpp.dir\src\node_data.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp > CMakeFiles\yaml-cpp.dir\src\node_data.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/node_data.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp -o CMakeFiles\yaml-cpp.dir\src\node_data.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\node_data.cpp -o CMakeFiles\yaml-cpp.dir\src\node_data.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/nodebuilder.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp > CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp > CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp -o CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodebuilder.cpp -o CMakeFiles\yaml-cpp.dir\src\nodebuilder.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/nodeevents.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp > CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp > CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp -o CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\nodeevents.cpp -o CMakeFiles\yaml-cpp.dir\src\nodeevents.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/null.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\null.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\null.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\null.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\null.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/null.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp > CMakeFiles\yaml-cpp.dir\src\null.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp > CMakeFiles\yaml-cpp.dir\src\null.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/null.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp -o CMakeFiles\yaml-cpp.dir\src\null.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\null.cpp -o CMakeFiles\yaml-cpp.dir\src\null.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/ostream_wrapper.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp > CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp > CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp -o CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\ostream_wrapper.cpp -o CMakeFiles\yaml-cpp.dir\src\ostream_wrapper.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/parse.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\parse.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/parse.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp > CMakeFiles\yaml-cpp.dir\src\parse.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp > CMakeFiles\yaml-cpp.dir\src\parse.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/parse.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp -o CMakeFiles\yaml-cpp.dir\src\parse.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parse.cpp -o CMakeFiles\yaml-cpp.dir\src\parse.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/parser.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\parser.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/parser.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp > CMakeFiles\yaml-cpp.dir\src\parser.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp > CMakeFiles\yaml-cpp.dir\src\parser.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/parser.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp -o CMakeFiles\yaml-cpp.dir\src\parser.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\parser.cpp -o CMakeFiles\yaml-cpp.dir\src\parser.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/regex_yaml.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp > CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp > CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp -o CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\regex_yaml.cpp -o CMakeFiles\yaml-cpp.dir\src\regex_yaml.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/scanner.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scanner.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scanner.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp > CMakeFiles\yaml-cpp.dir\src\scanner.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp > CMakeFiles\yaml-cpp.dir\src\scanner.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scanner.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp -o CMakeFiles\yaml-cpp.dir\src\scanner.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanner.cpp -o CMakeFiles\yaml-cpp.dir\src\scanner.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/scanscalar.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp > CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp > CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp -o CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scanscalar.cpp -o CMakeFiles\yaml-cpp.dir\src\scanscalar.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/scantag.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scantag.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scantag.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp > CMakeFiles\yaml-cpp.dir\src\scantag.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp > CMakeFiles\yaml-cpp.dir\src\scantag.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scantag.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp -o CMakeFiles\yaml-cpp.dir\src\scantag.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantag.cpp -o CMakeFiles\yaml-cpp.dir\src\scantag.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/scantoken.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp > CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp > CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp -o CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\scantoken.cpp -o CMakeFiles\yaml-cpp.dir\src\scantoken.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/simplekey.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp > CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp > CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp -o CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\simplekey.cpp -o CMakeFiles\yaml-cpp.dir\src\simplekey.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/singledocparser.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp > CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp > CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp -o CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\singledocparser.cpp -o CMakeFiles\yaml-cpp.dir\src\singledocparser.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/stream.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\stream.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/stream.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp > CMakeFiles\yaml-cpp.dir\src\stream.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp > CMakeFiles\yaml-cpp.dir\src\stream.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/stream.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp -o CMakeFiles\yaml-cpp.dir\src\stream.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\stream.cpp -o CMakeFiles\yaml-cpp.dir\src\stream.cpp.s
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/flags.make
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/includes_CXX.rsp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj: D:/Codes/CPP/git/Engine/yaml-cpp-0.8.0/src/tag.cpp
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\tag.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\tag.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj -MF CMakeFiles\yaml-cpp.dir\src\tag.cpp.obj.d -o CMakeFiles\yaml-cpp.dir\src\tag.cpp.obj -c D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yaml-cpp.dir/src/tag.cpp.i"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp > CMakeFiles\yaml-cpp.dir\src\tag.cpp.i
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp > CMakeFiles\yaml-cpp.dir\src\tag.cpp.i
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yaml-cpp.dir/src/tag.cpp.s"
-	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp -o CMakeFiles\yaml-cpp.dir\src\tag.cpp.s
+	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\yaml-cpp-0.8.0\src\tag.cpp -o CMakeFiles\yaml-cpp.dir\src\tag.cpp.s
 
 # Object files for target yaml-cpp
 yaml__cpp_OBJECTS = \

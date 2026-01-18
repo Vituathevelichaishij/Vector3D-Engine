@@ -523,6 +523,20 @@ yaml-cpp/fast:
 .PHONY : yaml-cpp/fast
 
 # Convenience name for target.
+yaml-cpp-0.8.0/CMakeFiles/format.dir/rule:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 yaml-cpp-0.8.0/CMakeFiles/format.dir/rule
+.PHONY : yaml-cpp-0.8.0/CMakeFiles/format.dir/rule
+
+# Convenience name for target.
+format: yaml-cpp-0.8.0/CMakeFiles/format.dir/rule
+.PHONY : format
+
+# fast build rule for target.
+format/fast:
+	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f yaml-cpp-0.8.0\CMakeFiles\format.dir\build.make yaml-cpp-0.8.0/CMakeFiles/format.dir/build
+.PHONY : format/fast
+
+# Convenience name for target.
 yaml-cpp-0.8.0/CMakeFiles/uninstall.dir/rule:
 	cd /d D:\Codes\CPP\git\Engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 yaml-cpp-0.8.0/CMakeFiles/uninstall.dir/rule
 .PHONY : yaml-cpp-0.8.0/CMakeFiles/uninstall.dir/rule
@@ -1316,6 +1330,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... format
 	@echo ... uninstall
 	@echo ... yaml-cpp
 	@echo ... src/binary.obj

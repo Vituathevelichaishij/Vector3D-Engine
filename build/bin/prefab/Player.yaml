@@ -3,6 +3,6 @@ components:
     type: "Camera"
   - name: "FlatLight"
     type: "Light"
-    data: [-1,1,0]
+    data: [0,1,0]
   - name: "rotation"
     type: "rotation"

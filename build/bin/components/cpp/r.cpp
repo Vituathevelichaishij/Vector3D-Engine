@@ -7,7 +7,7 @@ void register_r()
 
 void r::update(Uint32 dT)
 {
-    owner->m_transform.m_rotation.m_y+=1;
+    owner->m_transform.m_rotation.m_y+=30*(float)dT/1000.f;
 }
 
 

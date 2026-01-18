@@ -76,15 +76,15 @@ CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj: CMakeFiles/UTIL.dir/includes_CXX
 CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj: D:/Codes/CPP/git/Engine/util/CompGenerator.cpp
 CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj: CMakeFiles/UTIL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj -MF CMakeFiles\UTIL.dir\util\CompGenerator.cpp.obj.d -o CMakeFiles\UTIL.dir\util\CompGenerator.cpp.obj -c D:\Codes\CPP\git\Engine\util\CompGenerator.cpp
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UTIL.dir/util/CompGenerator.cpp.obj -MF CMakeFiles\UTIL.dir\util\CompGenerator.cpp.obj.d -o CMakeFiles\UTIL.dir\util\CompGenerator.cpp.obj -c D:\Codes\CPP\git\Engine\util\CompGenerator.cpp
 
 CMakeFiles/UTIL.dir/util/CompGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UTIL.dir/util/CompGenerator.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\util\CompGenerator.cpp > CMakeFiles\UTIL.dir\util\CompGenerator.cpp.i
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\CPP\git\Engine\util\CompGenerator.cpp > CMakeFiles\UTIL.dir\util\CompGenerator.cpp.i
 
 CMakeFiles/UTIL.dir/util/CompGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UTIL.dir/util/CompGenerator.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\util\CompGenerator.cpp -o CMakeFiles\UTIL.dir\util\CompGenerator.cpp.s
+	C:\msys64\ucrt64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\CPP\git\Engine\util\CompGenerator.cpp -o CMakeFiles\UTIL.dir\util\CompGenerator.cpp.s
 
 # Object files for target UTIL
 UTIL_OBJECTS = \
