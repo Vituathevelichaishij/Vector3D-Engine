@@ -20,6 +20,7 @@ Renderer::~Renderer(){
 
 
 void Renderer::render(Scene const& scene){
+    SDL_RenderClear(m_renderer);
     std::fill(m_frameBuffer.begin(), m_frameBuffer.end(), 0);
     std::fill(m_dephBuffer.begin(), m_dephBuffer.end(), 0 );
 
@@ -38,13 +39,8 @@ void Renderer::render(Scene const& scene){
     clipPolygons();
 
 
-    /*
-    sort(m_collected.begin(),m_collected.end(),[](Polygon const& a, Polygon const& b){
-            float z1 = std::max({a.tri.m_a.m_z, a.tri.m_b.m_z, a.tri.m_c.m_z});
-            float z2 = std::max({b.tri.m_a.m_z, b.tri.m_b.m_z, b.tri.m_c.m_z});
-        return z1>z2;
-    });
-    */ 
+
+
 
     projectToScreen();
 
@@ -52,14 +48,14 @@ void Renderer::render(Scene const& scene){
     for(auto & tr: m_collected){
         
         drawPolygon(tr);
-
+        //drawTriangle(tr);
     }
 
 
     m_collected.clear();
     
     SDL_UpdateTexture(m_texture, NULL, m_frameBuffer.data(), m_settings.m_windowWidth * sizeof(Uint32));
-    SDL_RenderClear(m_renderer);
+    
     SDL_RenderCopy(m_renderer, m_texture, NULL, NULL);
     SDL_RenderPresent(m_renderer);
 
@@ -196,13 +192,13 @@ void Renderer::projectToScreen(){
 
 
 
-/*
+
 
 void Renderer::drawTriangle(Polygon const& t) const{
     
     
 
-   
+   /*
     float m=t.m_lum;
     const std::vector< SDL_Vertex > verts ={
         {SDL_FPoint{t.tri.m_a.m_x,t.tri.m_a.m_y}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}},
@@ -210,14 +206,15 @@ void Renderer::drawTriangle(Polygon const& t) const{
         {SDL_FPoint{t.tri.m_c.m_x,t.tri.m_c.m_y}, SDL_Colour{255*m,255*m,255*m,255},SDL_FPoint{0}}
     };
     SDL_RenderGeometry(m_renderer,NULL,verts.data(),verts.size(),nullptr,0);
-
-    SDL_RenderDrawLine(m_Renderer,x1,y1,x2,y2);
-    SDL_RenderDrawLine(m_Renderer,x1,y1,x3,y3);
-    SDL_RenderDrawLine(m_Renderer,x3,y3,x2,y2);
-
+    */
+    SDL_SetRenderDrawColor(m_renderer, 255, 255, 255, 255 ); 
+    SDL_RenderDrawLine(m_renderer,t.tri.m_a.m_x,t.tri.m_a.m_y,t.tri.m_b.m_x,t.tri.m_b.m_y);
+    SDL_RenderDrawLine(m_renderer,t.tri.m_a.m_x,t.tri.m_a.m_y,t.tri.m_c.m_x,t.tri.m_c.m_y);
+    SDL_RenderDrawLine(m_renderer,t.tri.m_b.m_x,t.tri.m_b.m_y,t.tri.m_c.m_x,t.tri.m_c.m_y);
+    SDL_SetRenderDrawColor(m_renderer, 0x0, 0x0, 0x0, 0x0 ); 
 }
 
-*/
+
 
 
 

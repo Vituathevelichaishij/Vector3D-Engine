@@ -120,6 +120,21 @@ Triangle3D::Triangle3D(Vector3D const& a, Vector3D const& b, Vector3D const& c){
     m_N.normalize();
 }
 
+Triangle3D::Triangle3D(Vector3D const& a, Vector3D const& b,Vector3D const& c, Vector3D const& N){
+    m_a=a;
+    m_b=b;
+    m_c=c;
+    m_N=N;
+    m_N.normalize();
+
+}
+
+
+
+
+
+
+
 Vector3D crossProduct(Vector3D const& a, Vector3D const& b, Vector3D const& c){
     Vector3D first={b.m_x-a.m_x,b.m_y-a.m_y,b.m_z-a.m_z};
     Vector3D second={c.m_x-a.m_x,c.m_y-a.m_y,c.m_z-a.m_z};

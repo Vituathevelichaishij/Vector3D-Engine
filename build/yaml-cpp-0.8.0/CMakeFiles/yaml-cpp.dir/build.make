@@ -573,45 +573,45 @@ yaml__cpp_OBJECTS = \
 # External object files for target yaml-cpp
 yaml__cpp_EXTERNAL_OBJECTS =
 
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/build.make
-yaml-cpp-0.8.0/libyaml-cppd.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libyaml-cppd.a"
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/build.make
+yaml-cpp-0.8.0/libyaml-cpp.a: yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\CPP\git\Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library libyaml-cpp.a"
 	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && $(CMAKE_COMMAND) -P CMakeFiles\yaml-cpp.dir\cmake_clean_target.cmake
 	cd /d D:\Codes\CPP\git\Engine\build\yaml-cpp-0.8.0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\yaml-cpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/build: yaml-cpp-0.8.0/libyaml-cppd.a
+yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/build: yaml-cpp-0.8.0/libyaml-cpp.a
 .PHONY : yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/build
 
 yaml-cpp-0.8.0/CMakeFiles/yaml-cpp.dir/clean:

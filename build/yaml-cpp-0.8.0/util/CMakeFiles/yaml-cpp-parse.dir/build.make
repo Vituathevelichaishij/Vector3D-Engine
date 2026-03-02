@@ -95,7 +95,7 @@ yaml__cpp__parse_EXTERNAL_OBJECTS =
 
 yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.obj
 yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/build.make
-yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/libyaml-cppd.a
+yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/libyaml-cpp.a
 yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/linkLibs.rsp
 yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/objects1.rsp
 yaml-cpp-0.8.0/util/parse.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-parse.dir/link.txt

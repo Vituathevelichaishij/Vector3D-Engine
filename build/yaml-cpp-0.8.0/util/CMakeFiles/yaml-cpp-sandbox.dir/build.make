@@ -95,7 +95,7 @@ yaml__cpp__sandbox_EXTERNAL_OBJECTS =
 
 yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/sandbox.cpp.obj
 yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/build.make
-yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/libyaml-cppd.a
+yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/libyaml-cpp.a
 yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/linkLibs.rsp
 yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/objects1.rsp
 yaml-cpp-0.8.0/util/sandbox.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-sandbox.dir/link.txt

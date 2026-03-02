@@ -21,18 +21,7 @@ GameObject::GameObject(YAML::Node const& obj,Scene* scene) : m_transform(Transfo
                 }
             }
 
-            if(obj[".obj"]){
-                m_transform.m_mesh.LoadObjFile(obj[".obj"].as<std::string>());
 
-            }
-            if(obj["texture"]){
-                m_transform.m_mesh.sprite=IMG_Load(obj["texture"].as<std::string>().c_str());
-
-                for(auto& pol: m_transform.m_mesh.data){
-
-                    pol.sprite=m_transform.m_mesh.sprite;
-                }
-            }
 
 
 

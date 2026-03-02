@@ -8,11 +8,18 @@ Polygon::Polygon(Triangle3D const& tr,Triangle2D const& textCor):tri(tr), text(t
 
 
 Transform::Transform(YAML::Node const& obj){
-    if(auto transf=obj["transformation"]){
-        if(transf["size"]){
-            std::vector<float> size=transf["size"].as<std::vector<float>>();
-            m_size={size[0],size[1],size[2]};
+    if(obj[".obj"]){
+        m_mesh.LoadObjFile(obj[".obj"].as<std::string>());
+    }
+    if(obj["texture"]){
+        m_mesh.sprite=IMG_Load(obj["texture"].as<std::string>().c_str());
+
+        for(auto& pol:m_mesh.data){
+
+         pol.sprite=m_mesh.sprite;
         }
+    }    
+    if(auto transf=obj["transformation"]){
         if(transf["position"]){
             std::vector<float> position=transf["position"].as<std::vector<float>>();
             m_position={position[0],position[1],position[2]};
@@ -23,6 +30,22 @@ Transform::Transform(YAML::Node const& obj){
         }
         if(transf["light"]){
             m_light=transf["light"].as<bool>();
+        }
+        if(transf["size"]){
+            std::vector<float> size=transf["size"].as<std::vector<float>>();
+            m_size={size[0],size[1],size[2]};
+            for(auto &pol : m_mesh.data){
+                pol.tri.m_a.m_x*=m_size.m_x;
+                pol.tri.m_a.m_y*=m_size.m_y;
+                pol.tri.m_a.m_z*=m_size.m_z;
+                pol.tri.m_b.m_x*=m_size.m_x;
+                pol.tri.m_b.m_y*=m_size.m_y;
+                pol.tri.m_b.m_z*=m_size.m_z;
+                pol.tri.m_c.m_x*=m_size.m_x;
+                pol.tri.m_c.m_y*=m_size.m_y;
+                pol.tri.m_c.m_z*=m_size.m_z;
+
+            }
         }
     }
     
@@ -38,71 +61,68 @@ Mesh::~Mesh(){
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 std::vector<int> parseOBJIndex(const std::string& vertexStr) {
     std::vector<int> indices(3, -1);
     
+    std::vector<std::string> parts;
     size_t start = 0;
-    size_t slash1 = vertexStr.find('/', start);
+    size_t end = 0;
     
-
-    if (slash1 != std::string::npos && slash1 > start) {
-        std::string vStr = vertexStr.substr(start, slash1 - start);
-        if (!vStr.empty()) {
-            try {
-                indices[0] = std::stoi(vStr);
-            } catch (...) {
-                indices[0] = -1;
-            }
+    while ((end = vertexStr.find('/', start)) != std::string::npos) {
+        if (end > start) {
+            parts.push_back(vertexStr.substr(start, end - start));
+        } else {
+            parts.push_back(""); 
         }
-    } else if (slash1 == std::string::npos) {
-        // Нет слэшей - только индекс вершины
-        if (!vertexStr.empty()) {
-            try {
-                indices[0] = std::stoi(vertexStr);
-            } catch (...) {
-                indices[0] = -1;
-            }
-        }
-        return indices;
+        start = end + 1;
     }
     
-
-    start = slash1 + 1;
-    size_t slash2 = vertexStr.find('/', start);
-    
-    if (slash2 != std::string::npos && slash2 > start) {
-        std::string tStr = vertexStr.substr(start, slash2 - start);
-        if (!tStr.empty()) {
-            try {
-                indices[1] = std::stoi(tStr);
-            } catch (...) {
-                indices[1] = -1;
-            }
-        }
-    } else if (slash2 == std::string::npos && start < vertexStr.size()) {
-
-        std::string tStr = vertexStr.substr(start);
-        if (!tStr.empty()) {
-            try {
-                indices[1] = std::stoi(tStr);
-            } catch (...) {
-                indices[1] = -1;
-            }
-        }
-        return indices;
+    if (start < vertexStr.length()) {
+        parts.push_back(vertexStr.substr(start));
     }
     
-
-    start = slash2 + 1;
-    if (start < vertexStr.size()) {
-        std::string nStr = vertexStr.substr(start);
-        if (!nStr.empty()) {
+    // Заполняем индексы
+    int partIndex = 0;
+    for (size_t i = 0; i < parts.size() && partIndex < 3; i++) {
+        if (!parts[i].empty()) {
             try {
-                indices[2] = std::stoi(nStr);
+                indices[partIndex] = std::stoi(parts[i]);
             } catch (...) {
-                indices[2] = -1;
+                indices[partIndex] = -1;
             }
         }
+        
+        // Переходим к следующему индексу
+        // В формате OBJ порядок всегда: вершина/текстура/нормаль
+        if (i == 0) partIndex = 1; // После вершины -> текстура
+        else if (i == 1) partIndex = 2; // После текстуры -> нормаль
     }
     
     return indices;
@@ -115,7 +135,8 @@ bool Mesh::LoadObjFile(std::string const & path){
     if(!file.is_open()) return false;
 
     std::vector<Vector3D> verts;
-    std::vector<Vector2D> texCoords;  
+    std::vector<Vector2D> texCoords;
+    std::vector<Vector3D> normals;
     std::string line;
 
     while(std::getline(file, line)){
@@ -135,10 +156,20 @@ bool Mesh::LoadObjFile(std::string const & path){
             
             verts.push_back(v);
         }
+        else if(type == "vn"){  
+            Vector3D vn;
+            ss >> vn.m_x >> vn.m_y >> vn.m_z;
+            
+            
+            float dummy;
+            while(ss >> dummy) {} 
+            
+            normals.push_back(vn);
+        }
         else if(type == "vt"){  
             Vector2D vt;
             ss >> vt.m_u >> vt.m_v;
-            
+            vt.m_v=1-vt.m_v;
            
             float w;
             if (ss >> w) {
@@ -150,80 +181,65 @@ bool Mesh::LoadObjFile(std::string const & path){
         else if (type == "f") {
             std::vector<std::string> faceTokens;
             std::string token;
-            
-
+            std::vector<MeshPoint> points;
             while (ss >> token) {
                 faceTokens.push_back(token);
             }
-            
+            proccesFace(faceTokens,points,verts,texCoords,normals);
+            if(points.size()==3){
 
-            if (faceTokens.size() >= 3) {
+                Triangle3D tri3d={points[0].verts,points[1].verts,points[2].verts,points[0].normal};
+                Triangle2D tri2d={points[0].textCor,points[1].textCor,points[2].textCor};
 
-                std::vector<int> baseIndices = parseOBJIndex(faceTokens[0]);
-                bool hasTexture = (baseIndices.size() > 1 && baseIndices[1] != -1);
-                
 
-                std::vector<std::vector<int>> allIndices;
-                for (const auto& token : faceTokens) {
-                    allIndices.push_back(parseOBJIndex(token));
-                }
-                
 
-                for (size_t i = 1; i + 1 < allIndices.size(); ++i) {
-                    const auto& idx0 = allIndices[0];
-                    const auto& idx1 = allIndices[i];
-                    const auto& idx2 = allIndices[i + 1];
-                    
-
-                    if (idx0.size() > 0 && idx0[0] != -1 &&
-                        idx1.size() > 0 && idx1[0] != -1 &&
-                        idx2.size() > 0 && idx2[0] != -1) {
-                        
-                        int v0 = idx0[0] - 1;
-                        int v1 = idx1[0] - 1;
-                        int v2 = idx2[0] - 1;
-                        
-
-                        if (v0 >= 0 && v0 < static_cast<int>(verts.size()) &&
-                            v1 >= 0 && v1 < static_cast<int>(verts.size()) &&
-                            v2 >= 0 && v2 < static_cast<int>(verts.size())) {
-                            
-                            Triangle3D tri3d = { verts[v0], verts[v1], verts[v2] };
-                            Triangle2D tri2d = { {0, 0}, {0, 0}, {0, 0} };
-                            
-
-                            if (hasTexture && idx0.size() > 1 && idx0[1] != -1 &&
-                                idx1.size() > 1 && idx1[1] != -1 &&
-                                idx2.size() > 1 && idx2[1] != -1) {
-                                
-                                int t0 = idx0[1] - 1;
-                                int t1 = idx1[1] - 1;
-                                int t2 = idx2[1] - 1;
-                                
-                                if (t0 >= 0 && t0 < static_cast<int>(texCoords.size()) &&
-                                    t1 >= 0 && t1 < static_cast<int>(texCoords.size()) &&
-                                    t2 >= 0 && t2 < static_cast<int>(texCoords.size())) {
-                                    
-
-                                    tri2d = {
-                                        { texCoords[t0].m_u, texCoords[t0].m_v },
-                                        { texCoords[t1].m_u, texCoords[t1].m_v },
-                                        { texCoords[t2].m_u, texCoords[t2].m_v }
-                                    };
-                                }
-                            }
-                            
-                            Polygon polygon(tri3d, tri2d);
-                            polygon.sprite = sprite;
-                            data.push_back(std::move(polygon));
-                        }
-                    }
-                }
+                Polygon polygon(tri3d, tri2d);
+                polygon.sprite = sprite;
+                data.push_back(std::move(polygon));
             }
+            if(points.size()==4){
+                Triangle3D tri3d={points[0].verts,points[1].verts,points[2].verts,points[0].normal};
+                Triangle2D tri2d={points[0].textCor,points[1].textCor,points[2].textCor};
+                Polygon polygon1(tri3d, tri2d);
+                polygon1.sprite = sprite;
+
+                tri3d={points[0].verts,points[2].verts,points[3].verts,points[0].normal};
+                tri2d={points[0].textCor,points[2].textCor,points[3].textCor};
+                Polygon polygon2(tri3d, tri2d);
+                polygon2.sprite = sprite;
+
+                data.push_back(std::move(polygon1));
+                data.push_back(std::move(polygon2));
+
+            }
+
         }
     }
     
 
     return true;
 }
+void Mesh::proccesFace(std::vector<std::string>& face, std::vector<MeshPoint>& points, std::vector<Vector3D>& verts, std::vector<Vector2D>& texCoords, std::vector<Vector3D>& normals){
+    std::string part;
+    for (const auto& tuple : face) {
 
+        MeshPoint point;
+        std::stringstream ss(tuple);
+
+        std::getline(ss,part,'/');
+        point.verts=verts[std::stoi(part)-1];
+
+        std::getline(ss,part,'/');
+        point.textCor=texCoords[std::stoi(part)-1];
+
+        std::getline(ss,part,'/');
+        point.normal=normals[std::stoi(part)-1];
+    
+        points.push_back(point);
+
+        
+        
+
+	}
+    
+}

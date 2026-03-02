@@ -95,7 +95,7 @@ yaml__cpp__read_EXTERNAL_OBJECTS =
 
 yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/read.cpp.obj
 yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/build.make
-yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/libyaml-cppd.a
+yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/libyaml-cpp.a
 yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/linkLibs.rsp
 yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/objects1.rsp
 yaml-cpp-0.8.0/util/read.exe: yaml-cpp-0.8.0/util/CMakeFiles/yaml-cpp-read.dir/link.txt

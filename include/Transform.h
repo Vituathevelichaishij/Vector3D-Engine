@@ -10,6 +10,7 @@ struct Polygon{
     Polygon(Triangle3D const& tr);
     Polygon(Triangle3D const& tr,float lum);
     Polygon(Triangle3D const& tr,Triangle2D const& textCor);
+    
     Triangle3D tri;
     Triangle2D text;
     SDL_Surface* sprite=nullptr;
@@ -19,11 +20,20 @@ struct Polygon{
 
 
 struct Mesh{
-    ~Mesh();
-    std::vector<Polygon> data;
-    bool Light=true;
-    bool LoadObjFile(std::string const& path);
-    SDL_Surface* sprite=nullptr;
+        ~Mesh();
+        std::vector<Polygon> data;
+        bool Light=true;
+        bool LoadObjFile(std::string const& path);
+        SDL_Surface* sprite=nullptr;
+    private: 
+        
+        struct MeshPoint{
+            Vector3D verts;
+            Vector2D textCor;
+            Vector3D normal;
+        };
+        void proccesFace(std::vector<std::string>& face, std::vector<MeshPoint>& points, std::vector<Vector3D>& verts, std::vector<Vector2D>& texCoords,std::vector<Vector3D>& normals);
+
 };
 class Transform{
     public:

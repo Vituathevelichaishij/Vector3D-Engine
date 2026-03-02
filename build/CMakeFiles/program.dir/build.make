@@ -418,7 +418,7 @@ bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/r.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/bin/components/cpp/rotation.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/generated_registry.cpp.obj
 bin/program.exe: CMakeFiles/program.dir/build.make
-bin/program.exe: yaml-cpp-0.8.0/libyaml-cppd.a
+bin/program.exe: yaml-cpp-0.8.0/libyaml-cpp.a
 bin/program.exe: CMakeFiles/program.dir/linkLibs.rsp
 bin/program.exe: CMakeFiles/program.dir/objects1.rsp
 bin/program.exe: CMakeFiles/program.dir/link.txt
