@@ -44,4 +44,5 @@ build/*
 !build/bin/**
 *.obj
 *.png
-*yaml
+*.yaml
+!config.yaml
