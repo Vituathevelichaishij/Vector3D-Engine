@@ -12,14 +12,3 @@ gameObjects:
 
 
 
-
-  - name: "Map"
-    transformation:
-      rotation: [0,180,0]
-      position: [100,0,200]
-      size: [1,1,1]
-      light: false
-    prefab: "prefab/map.yaml"
-    .obj: "obj/gsh.obj"
-    texture: "textures/gsh.png"
-
